@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to AGH FLUKA pages!
 
 Ćwiczenie polega na zrobieniu symulacji oddziaływania promienowania jonizującego z materią.
 
