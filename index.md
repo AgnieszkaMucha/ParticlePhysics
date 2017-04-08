@@ -1,7 +1,7 @@
 # Laboratorium Oddziaływania Promieniowania Jonizującego z Materią
 
 ## Cel laboratorium:
-  - I. Badania nad oddziaływaniem fotonów, ciężkich i lekkich cząstek naładowaniych i neutralnych, o niskich i wysokich energiach, z różnymi rodzajami materiałów (symulacja programem FLUKA).
+  - I. Badania oddziaływania fotonów, ciężkich i lekkich cząstek naładowaniych i neutralnych, o niskich i wysokich energiach, z różnymi rodzajami materiałów (symulacja programem FLUKA).
 
   - II. Wyznaczenie depozytów energii i odpowiedzi mikropaskowego detektora VELO ze spektrometru LHCb (symulacja w architekturze GEANT i dane rzeczywiste - praca na ntuplu w architekturze ROOT)
 
