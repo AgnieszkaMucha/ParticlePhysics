@@ -1,5 +1,4 @@
-# Laboratorium
-Oddziaływania Promieniowania Jonizującego
+# Laboratorium Oddziaływania Promieniowania Jonizującego
 # z Materią
 
 ## Cel laboratorium:
