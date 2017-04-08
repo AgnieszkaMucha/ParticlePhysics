@@ -16,7 +16,7 @@ Na podstawie przeprowadzonych analiz studenci wykonają dwa projekty:
 2. Analizę depozytów energii w detektorze VELO.
 
 ## Warunki wstępne 
-Upewnij się, że posiadasz konto na serwerze *lhcb1*, na którym zainstalowane są programy do przeprowadzenia symulacji (FLUKA) i późniejszej analizy wyników (ROOT) oraz znajdują się dane potrzebne do analizy. Sprawdź [konto na lhcb1](lhcb1.md) teraz!
+Upewnij się, że posiadasz konto na serwerze _lhcb1_, na którym zainstalowane są programy do przeprowadzenia symulacji (FLUKA) i późniejszej analizy wyników (ROOT) oraz znajdują się dane potrzebne do analizy. Sprawdź [konto na lhcb1](lhcb1.md) teraz!
 
 ## Ćwiczenia laboratoryjne I:
 1. [Zaczynamy pracę z FLUKĄ](start.md)
