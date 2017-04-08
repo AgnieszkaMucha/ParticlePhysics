@@ -8,7 +8,7 @@
 ## Wymagania dla studentów:
 Laboratorium odbywać się będzie w terminach:
 
-Studenci zapoznają się z tematem ćwiczeń i pobiorą potrzebne pliki z danymi i przykładowe programy do analizy.
+Podczas zajęć w pracowni komputerowej, studenci zapoznają się z tematem ćwiczeń i pobiorą potrzebne pliki z danymi i przykładowe programy do analizy.
 Podczas ćwiczeń studenci będą te programy modyfikować. Omówione zostaną szczegóły analizy.
 
 Na podstawie przeprowadzonych analiz studenci wykonają dwa projekty:
