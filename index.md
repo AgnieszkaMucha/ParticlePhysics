@@ -8,7 +8,7 @@
 ## Wymagania dla studentów:
 
 ## Warunki wstępne 
-Upewnij się, że posiadasz konto na serwerze *lhcb1* , na którym zainstalowane są programy do przeprowadzenia symulacji (FLUKA) i późniejszej analizy wyników (ROOT). Sprawdź [konto na lhcb1](lhcb1.md)!
+Upewnij się, że posiadasz konto na serwerze *lhcb1*, na którym zainstalowane są programy do przeprowadzenia symulacji (FLUKA) i późniejszej analizy wyników (ROOT) oraz znajdują się dane potrzebne do analizy. Sprawdź [konto na lhcb1](lhcb1.md)!
 
 ## Ćwiczenia laboratoryjne I:
 1. [Zaczynamy pracę z FLUKĄ](start.md)
