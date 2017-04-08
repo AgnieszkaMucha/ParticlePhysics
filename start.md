@@ -6,7 +6,7 @@ Zakres możliwości aplikacyjnych programu FLUKA obejmuje m. in. przyspieszanie 
 FLUKA pomaga symulować z wysoką dokładnością oddziaływania i propagację promieniowania w materii, z wykorzystaniem 60 różnych cząstek oraz odpowiadających im antycząstek, a także neutronów o energiach do energii termicznych. Program może również symulować transport fotonów spolaryzowanych (np. promieniowanie synchrotronowe) oraz fotonów optycznych. FLUKA ma możliwość śledzenia cząstek naładowanych (także w obecności pól elektrycznych i magnetycznych).
 
 ## Jak rozpocząć pracę z programem FLUKA? 
-- Ze swojego konta na _taurusie_ należy zalogować się na konto na serwerze <it> lhcb1 </it>.
+- Ze swojego konta na _taurusie_ należy zalogować się na konto na serwerze _lhcb1_.
 - Wykonać skrypt startowy: > source setlhcb.
 - stworzyć i przejść do swojego katalogu roboczego:
 - uruchomić program komendą > flair &
