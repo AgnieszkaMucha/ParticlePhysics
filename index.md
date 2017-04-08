@@ -1,4 +1,6 @@
-## Welcome to AGH FLUKA pages!
+## Laboratorium
+## Oddziaływania Promieniowania Jonizującego
+## z Materią
 
 Ćwiczenie polega na zrobieniu symulacji oddziaływania promieniowania jonizującego z materią.
 ## Warunki wstępne 
