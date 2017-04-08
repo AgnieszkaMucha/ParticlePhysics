@@ -1,11 +1,11 @@
 ## Welcome to AGH FLUKA pages!
 
-Ćwiczenie polega na zrobieniu symulacji oddziaływania promienowania jonizującego z materią.
+Ćwiczenie polega na zrobieniu symulacji oddziaływania promieniowania jonizującego z materią.
 ## Warunki wstępne 
-Upewnij się, że posiadasz konto na serwerze, na którym zainstalowane są programy do przeprowadzenia symulacji (FLUKA) i późniejszej analizy wyników (ROOT).
+Upewnij się, że posiadasz konto na serwerze *lhcb1* , na którym zainstalowane są programy do przeprowadzenia symulacji (FLUKA) i późniejszej analizy wyników (ROOT). Sprawdź to teraz! [konto na lhcb1](lhcb1.html)
 
 ## Tematy
-1. Zaczynamy pracę z FLUKA.
+1. [Zaczynamy pracę z FLUKĄ](start.html)
 2. 
 You can use the [editor on GitHub](https://github.com/AgnieszkaMucha/FLUKA/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
