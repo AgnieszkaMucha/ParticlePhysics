@@ -12,16 +12,17 @@ Podczas zajęć w pracowni komputerowej, studenci zapoznają się z tematem ćwi
 Podczas ćwiczeń studenci będą te programy modyfikować. Omówione zostaną szczegóły analizy.
 
 Na podstawie przeprowadzonych analiz studenci wykonają samodzielnie dwa projekty:
-1. Symulację oddziaływywania promieniowanie w materii programem FLUKA.
+1. Symulację oddziaływywania promieniowania z materią programem FLUKA.
 2. Analizę depozytów energii w detektorze VELO.
 
 ## Warunki wstępne 
 Upewnij się, że posiadasz konto na serwerze _lhcb1_, na którym zainstalowane są programy do przeprowadzenia symulacji (FLUKA) i późniejszej analizy wyników (ROOT) oraz znajdują się dane potrzebne do analizy. Sprawdź [konto na lhcb1](lhcb1.md) teraz!
 
 ## Ćwiczenia laboratoryjne I:
-1. [Zaczynamy pracę z FLUKĄ](start.md)
+1. [Zaczynamy pracę z FLUKĄ](Start.md)
 2. [Podstawowe estymatory](Estymatory.md)
 3. [Ratunku! Nic nie działa!](Ratunek.md)
+4. [Fluka 2 ROOT](Flot.md)
 
 ## Ćwiczenia laboratoryjne II:
 VELO 
