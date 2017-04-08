@@ -2,43 +2,12 @@
 
 Ćwiczenie polega na zrobieniu symulacji oddziaływania promieniowania jonizującego z materią.
 ## Warunki wstępne 
-Upewnij się, że posiadasz konto na serwerze *lhcb1* , na którym zainstalowane są programy do przeprowadzenia symulacji (FLUKA) i późniejszej analizy wyników (ROOT). Sprawdź to teraz! [konto na lhcb1](lhcb1.html)
+Upewnij się, że posiadasz konto na serwerze *lhcb1* , na którym zainstalowane są programy do przeprowadzenia symulacji (FLUKA) i późniejszej analizy wyników (ROOT). Sprawdź to teraz! [konto na lhcb1](lhcb1.md)
 
 ## Tematy
 1. [Zaczynamy pracę z FLUKĄ](start.md)
-2. 
-You can use the [editor on GitHub](https://github.com/AgnieszkaMucha/FLUKA/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+2. [Podstawowe estymatory](Estymators.md)
+3. Ćwiczenie 1: Zbadanie zasięgu promieniowania w różnych materiałach.
+4. Ćwiczenie 2. Projekt osłony przed promieniowaniem.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AgnieszkaMucha/FLUKA/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
