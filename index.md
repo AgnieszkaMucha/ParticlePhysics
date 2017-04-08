@@ -5,7 +5,7 @@
 Upewnij się, że posiadasz konto na serwerze *lhcb1* , na którym zainstalowane są programy do przeprowadzenia symulacji (FLUKA) i późniejszej analizy wyników (ROOT). Sprawdź to teraz! [konto na lhcb1](lhcb1.html)
 
 ## Tematy
-1. [Zaczynamy pracę z FLUKĄ](start.html)
+1. [Zaczynamy pracę z FLUKĄ](start.md)
 2. 
 You can use the [editor on GitHub](https://github.com/AgnieszkaMucha/FLUKA/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
