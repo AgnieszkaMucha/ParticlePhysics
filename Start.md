@@ -29,4 +29,3 @@ Detektor jest to region, w którym użytkownik chce obliczać wartości oczekiwa
  
 
 
-Fluka to taki fajny program
