@@ -6,7 +6,8 @@ Upewnij się, że posiadasz konto na serwerze *lhcb1* , na którym zainstalowane
 
 ## Ćwiczenia laboratoryjne
 1. [Zaczynamy pracę z FLUKĄ](start.md)
-2. [Podstawowe estymatory](Estymators.md)
+2. [Podstawowe estymatory](Estymatory.md)
+3. [Ratunku! Nic nie działa!](Ratunek.md)
 
 ## Projekty
 1. Zbadanie zasięgu promieniowania w różnych materiałach.
