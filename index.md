@@ -29,6 +29,6 @@ VELO
 
 ## Projekty
 1. Zbadanie zasięgu promieniowania w różnych materiałach (Fluka).
-2. Projekt osłony przed promieniowaniem (Fluka).
+2. Projekt osłony człowieka lub urządzeń elektronicznych przed promieniowaniem (Fluka).
 3. VELO.
 
