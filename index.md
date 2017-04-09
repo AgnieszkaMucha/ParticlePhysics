@@ -6,7 +6,7 @@
   - II. Wyznaczenie depozytów energii i odpowiedzi mikropaskowego detektora VELO ze spektrometru LHCb (symulacja w architekturze GEANT i dane rzeczywiste - praca na ntuplu w architekturze ROOT)
 
 ## Wymagania dla studentów:
-Laboratorium odbywać się będzie w terminach:
+Laboratorium odbywać się będzie w terminach: 18.05, 23.05, 25.05, 30.05, 1.06 po dwie-trzy godziny wykładowe.
 
 Podczas zajęć w pracowni komputerowej, studenci zapoznają się z tematem ćwiczeń i pobiorą potrzebne pliki z danymi i przykładowe programy do analizy.
 Podczas ćwiczeń studenci będą te programy modyfikować. Omówione zostaną szczegóły analizy.
