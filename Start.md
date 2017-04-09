@@ -11,6 +11,7 @@ FLUKA pomaga symulować z wysoką dokładnością oddziaływania i propagację p
 - Wykonać skrypt startowy: > source setlhcb.
 - Stworzyć i przejść do swojego katalogu roboczego:
 - Uruchomić program komendą > flair &
+
 Widok na konsoli powinien wyglądąć tak:
 
 Nasze pierwsze kroki postawimy robiąc symulację przejścia wiązki protonów przez beczkę z wodą.
