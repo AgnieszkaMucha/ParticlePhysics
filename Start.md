@@ -12,6 +12,7 @@ FLUKA pomaga symulować z wysoką dokładnością oddziaływania i propagację p
 - Stworzyć i przejść do swojego katalogu roboczego:
 - Uruchomić program komendą > flair &
 Widok na konsoli powinien wyglądąć tak:
+
 Nasze pierwsze kroki postawimy robiąc symulację przejścia wiązki protonów przez beczkę z wodą.
 W tym celu we Flairze wczytujemy przygotowany input _beczka.inp_ klikając w przyciski: Input->Load
 
