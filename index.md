@@ -22,7 +22,7 @@ Upewnij się, że posiadasz konto na serwerze _lhcb1_, na którym zainstalowane 
 1. [Zaczynamy pracę z FLUKĄ](Start.md)
 2. [Podstawowe estymatory](Estymatory.md)
 3. [Ratunku! Nic nie działa!](Ratunek.md)
-4. [Fluka 2 ROOT](Flot.md)
+4. [Fluka 2 ROOT](Floot.md)
 
 ## Ćwiczenia laboratoryjne II:
 VELO 
