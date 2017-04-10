@@ -7,27 +7,26 @@ Zakres możliwości aplikacyjnych programu FLUKA obejmuje m. in. przyspieszanie 
 FLUKA pomaga symulować z wysoką dokładnością oddziaływania i propagację promieniowania w materii, z wykorzystaniem 60 różnych cząstek oraz odpowiadających im antycząstek, a także neutronów o energiach do energii termicznych. Program może również symulować transport fotonów spolaryzowanych (np. promieniowanie synchrotronowe) oraz fotonów optycznych. FLUKA ma możliwość śledzenia cząstek naładowanych (także w obecności pól elektrycznych i magnetycznych). Szczegółowe informacje dotyczące programu FLUKA i FLAIR można znaleźć [tutaj](http://www.fluka.org/fluka.php).
 
 ## Jak rozpocząć pracę z programem FLUKA na WFiIS AGH? 
-- Ze swojego konta na `taurusie` należy zalogować się na konto na serwerze `lhcb1`. Problem z kontem? Sprawdź, czy masz konto na [lhcb1](lhcb1.md).
-- Wykonać skrypt startowy:
+- Ze swojego konta na `taurusie` należy zalogować się na konto zespołu na serwerze `lhcb1`. Problem z kontem? Sprawdź [lhcb1](lhcb1.md).
+- Na `lhcb` wykonać skrypt startowy:
 ```bash
 $ source setlhcb
 ```
 - Stworzyć i przejść do swojego katalogu roboczego:
-- Uruchomić program komendą:
+- Uruchomić program FLAIR komendą:
 ```bash
 $ flair &
 ```
 Nasze pierwsze kroki postawimy robiąc symulację przejścia wiązki protonów przez beczkę z wodą.
 W tym celu we Flairze wczytujemy przygotowany input `beczka.inp` klikając w przyciski: `Input->Load`
 Widok na konsoli powinien wyglądąć tak:
-
 [!["FLAIR"](Flair.png)](Flair.png)
-
+Zanim uruchomimy symulację, popatrzymy na strukturę wczytanego pliku.
 
 ## Moja pierwsza symulacja
 Praca w programie FLUKA polega na tworzeniu plików wsadowych (INPUT).
-Plik wsadowy INPUT jest tworzony w standardzie ASCII z rozszerzeniem .inp .
-Plik INPUT składa się z komend (opcji), każda z nich zawiera jedną lub więcej lini (z przyczyn historycznych nazywanych „kartami”). Poza komendami FLUKI plik wsadowy powinien także zawierać opis geometrii projektowanej symulacji.
+Plik wsadowy INPUT jest tworzony w standardzie ASCII z rozszerzeniem `.inp` .
+Plik INPUT składa się z komend (opcji), każda z nich zawiera jedną lub więcej linii (z przyczyn historycznych nazywanych „kartami”). Poza komendami FLUKI plik wsadowy powinien także zawierać opis geometrii projektowanej symulacji.
 Typowa struktura pliku INPUT:
 - tytuły i komentarze,
 - opis geometrii (bryły przestrzenne i powierzchnie, w połączeniu z przestrzenią podzieloną na regiony (obowiązkowe),
@@ -36,9 +35,11 @@ Typowa struktura pliku INPUT:
 -	definicje potrzebnych detektorów, 
 Detektor jest to region, w którym użytkownik chce obliczać wartości oczekiwane wielkości fizycznych, takich jak energia zdeponowana, dawka, fluencja, itp. Dostępne są różne typy detektorów odpowiadające różnym wielkościom i różnym algorytmom zastosowanym do oszacowania tych wartości (estymatory). Wybór detektorów jest opcjonalny, jednak należy wybrać przynajmniej jeden.
 -	definicje źródeł cząstek (obowiązkowe),
--	zdefiniowane ustawienia charakteryzujące problem, czyli np. wartości graniczne energii, efekty fizyczne nie symulowane domyślnie, cząstki wyłączone z transportu, itp. (opcjonalne),
+-	zdefiniowane ustawienia charakteryzujące problem, czyli np. wartości graniczne energii, efekty fizyczne nie symulowane domyślnie, cząstki wyłączone z transportu, itp.  (opcjonalne),
 -	inicjalizacja losowej sekwencji liczbowej (obowiązkowe, jeśli wymagane jest oszacowanie błędu statystycznego),
 -	sygnał startowy i liczba żądanych zdarzeń (obowiązkowe).
  
+# Tworzenie pliku inputowego
+Po lewej stronie okna Flaira znajduje się drzewo projektu. Widoczne są w nim następujące kategorie kart:
 
 
