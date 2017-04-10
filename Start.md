@@ -22,7 +22,7 @@ W tym celu we Flairze wczytujemy przygotowany input `beczka.inp` klikając w prz
 Widok na konsoli powinien wyglądąć tak:
 [!["FLAIR"](Flair.png)](Flair.png)
 
-Zanim uruchomimy symulację, popatrzymy na strukturę wczytanego pliku.
+Zanim uruchomimy symulację, popatrzymy na strukturę wczytanego pliku:
 
 ## Moja pierwsza symulacja
 Praca w programie FLUKA polega na tworzeniu plików wsadowych (INPUT).
@@ -41,6 +41,7 @@ Detektor jest to region, w którym użytkownik chce obliczać wartości oczekiwa
 -	sygnał startowy i liczba żądanych zdarzeń (obowiązkowe).
  
 ### Tworzenie pliku inputowego
+
 Po lewej stronie okna Flaira znajduje się drzewo projektu. Widoczne są w nim następujące kategorie kart:
 - General:	karty ogólne (TITTLE, DEFAULTS, GLOBAL, …)
 - Primary:	karty z opisem wiązki/ cząstek
