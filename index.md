@@ -29,7 +29,7 @@ Upewnij się, że posiadasz konto na serwerze _lhcb1_, na którym zainstalowane 
 VELO 
 
 ## Projekty
-1. Zbadanie zasięgu promieniowania w różnych materiałach (Fluka).
-2. Projekt osłony człowieka lub urządzeń elektronicznych przed promieniowaniem (Fluka).
+1. Zbadanie zasięgu wysokoenergetycznych promieniowania czątek naładowanych w różnych materiałach (Fluka).
+2. Oddziaływanie promieniowania ze źródeł promoeniotwórczych (alfa, beta, gamma, neutrony) z materią. (Fluka).
 3. VELO.
 
