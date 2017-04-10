@@ -4,7 +4,7 @@
 ## Cel laboratorium:
    I. Badania oddziaływania fotonów, ciężkich i lekkich cząstek naładowanych i neutralnych, o niskich i wysokich energiach, z różnymi rodzajami materiałów (symulacja programem FLUKA).
 
-   II. Wyznaczenie depozytów energii i odpowiedzi mikropaskowego detektora VELO ze spektrometru LHCb (symulacja w architekturze GEANT i dane rzeczywiste - praca na ntuplu w architekturze ROOT)
+   II. Wyznaczenie depozytów energii i odpowiedzi mikropaskowego detektora VELO ze spektrometru LHCb (symulacja w architekturze GEANT i dane rzeczywiste - praca na ntuplu w architekturze ROOT).
 
 ## Wymagania dla studentów:
 Laboratorium odbywać się będzie w terminach: 18.05, 23.05, 25.05, 30.05, 1.06, od godz. 14:40 po dwie-trzy godziny wykładowe.
@@ -17,7 +17,7 @@ Na podstawie przeprowadzonych analiz studenci wykonają samodzielnie dwa projekt
 2. Analizę depozytów energii w detektorze VELO.
 
 ## Warunki wstępne 
-Upewnij się, że posiadasz konto na serwerze _lhcb1_, na którym zainstalowane są programy do przeprowadzenia symulacji (FLUKA) i późniejszej analizy wyników (ROOT) oraz znajdują się dane potrzebne do analizy. Sprawdź [konto na lhcb1](lhcb1.md) teraz!
+Upewnij się, że posiadasz konto na serwerze `lhcb1`, na którym zainstalowane są programy do przeprowadzenia symulacji (FLUKA) i późniejszej analizy wyników (ROOT) oraz znajdują się dane potrzebne do analizy. Sprawdź [konto na lhcb1](lhcb1.md) teraz!
 
 ## Ćwiczenia laboratoryjne I:
 1. [Start-zaczynamy pracę z FLUKĄ](Start.md)
