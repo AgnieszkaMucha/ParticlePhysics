@@ -20,16 +20,17 @@ Na podstawie przeprowadzonych analiz studenci wykonają samodzielnie dwa projekt
 Upewnij się, że posiadasz konto na serwerze _lhcb1_, na którym zainstalowane są programy do przeprowadzenia symulacji (FLUKA) i późniejszej analizy wyników (ROOT) oraz znajdują się dane potrzebne do analizy. Sprawdź [konto na lhcb1](lhcb1.md) teraz!
 
 ## Ćwiczenia laboratoryjne I:
-1. [Zaczynamy pracę z FLUKĄ](Start.md)
+1. [Start-zaczynamy pracę z FLUKĄ](Start.md)
 2. [Podstawowe estymatory](Estymatory.md)
 3. [Ratunku! Nic nie działa!](Ratunek.md)
-4. [Fluka 2 ROOT](Floot.md)
 
 ## Ćwiczenia laboratoryjne II:
 VELO 
 
 ## Projekty
-1. Zbadanie zasięgu wysokoenergetycznych promieniowania czątek naładowanych w różnych materiałach (Fluka).
-2. Oddziaływanie promieniowania ze źródeł promoeniotwórczych (alfa, beta, gamma, neutrony) z materią. (Fluka).
-3. VELO.
+1. Zbadanie zasięgu wysokoenergetycznych promieniowania czątek naładowanych w różnych materiałach (Fluka), [opis](Stopping.md).
+2. Oddziaływanie promieniowania ze źródeł promieniotwórczych (alfa, beta, gamma, neutrony) z materią. (Fluka), [opis](Sources.md)
+3. VELO, [opis](VELO.md)
 
+## Dodatki
+1. [Fluka 2 ROOT](Floot.md)
