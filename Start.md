@@ -41,9 +41,14 @@ Detektor jest to region, w którym użytkownik chce obliczać wartości oczekiwa
  
 # Tworzenie pliku inputowego
 Po lewej stronie okna Flaira znajduje się drzewo projektu. Widoczne są w nim następujące kategorie kart:
----
-layout: page
-title: Setup
-permalink: /setup/
----
+-  General:	Karty ogólne (TITTLE, DEFAULTS, GLOBAL, …)
+- Primary:	Karty z opisem wiązki/ cząstek
+- Geometry:	Karty z opisem geometrii, regionów, sposobu tworzenia wykresów
+- Media:	Karty definiujące zastosowane materiały
+- Physics:	Karty definiujące właściwości fizyczne dotyczące danej symulacji
+- Transport:	Karty, które zmieniają sposób transportu cząstek w programie FLUKA
+- Biasing:	Karty definiujące obciązenie estymatorów
+- Scoring:	Karty definiujące zakres i rodzaj estymatorów
+
+
 
