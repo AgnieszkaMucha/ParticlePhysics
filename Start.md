@@ -7,7 +7,7 @@ Zakres możliwości aplikacyjnych programu FLUKA obejmuje m. in. przyspieszanie 
 FLUKA pomaga symulować z wysoką dokładnością oddziaływania i propagację promieniowania w materii, z wykorzystaniem 60 różnych cząstek oraz odpowiadających im antycząstek, a także neutronów o energiach do energii termicznych. Program może również symulować transport fotonów spolaryzowanych (np. promieniowanie synchrotronowe) oraz fotonów optycznych. FLUKA ma możliwość śledzenia cząstek naładowanych (także w obecności pól elektrycznych i magnetycznych). Szczegółowe informacje dotyczące programu FLUKA i FLAIR można znaleźć [tutaj](http://www.fluka.org/fluka.php).
 
 ## Jak rozpocząć pracę z programem FLUKA na WFiIS AGH? 
-- Ze swojego konta na _taurusie_ należy zalogować się na konto na serwerze _lhcb1_.
+- Ze swojego konta na `taurusie` należy zalogować się na konto na serwerze `lhcb1`. 
 - Wykonać skrypt startowy:
 ```bash
 $ source setlhcb
@@ -18,19 +18,16 @@ $ source setlhcb
 $ flair &
 ```
 Nasze pierwsze kroki postawimy robiąc symulację przejścia wiązki protonów przez beczkę z wodą.
-W tym celu we Flairze wczytujemy przygotowany input _beczka.inp_ klikając w przyciski: 
-```
-Input->Load
-```
+W tym celu we Flairze wczytujemy przygotowany input `beczka.inp` klikając w przyciski: `Input->Load`
 Widok na konsoli powinien wyglądąć tak:
 
 [!["FLAIR"](Flair.png)](Flair.png)
 
 
-## Moja pierwsza symulacja.
+## Moja pierwsza symulacja
 Praca w programie FLUKA polega na tworzeniu plików wsadowych (INPUT).
 Plik wsadowy INPUT jest tworzony w standardzie ASCII z rozszerzeniem .inp .
-Plik INPUT składa się z komend (opcji), każda z nich zawiera jedną lub więcej linii (z przyczyn historycznych nazywanych „kartami”). Poza komendami FLUKI plik wsadowy powinien także zawierać opis geometrii projektowanej symulacji.
+Plik INPUT składa się z komend (opcji), każda z nich zawiera jedną lub więcej lini (z przyczyn historycznych nazywanych „kartami”). Poza komendami FLUKI plik wsadowy powinien także zawierać opis geometrii projektowanej symulacji.
 Typowa struktura pliku INPUT:
 - tytuły i komentarze,
 - opis geometrii (bryły przestrzenne i powierzchnie, w połączeniu z przestrzenią podzieloną na regiony (obowiązkowe),
