@@ -48,7 +48,7 @@ Po lewej stronie okna Flaira znajduje się drzewo projektu. Widoczne są w nim n
 - Media:	karty definiujące zastosowane materiały
 - Physics:	karty definiujące właściwości fizyczne dotyczące danej symulacji
 - Transport:	karty, które zmieniają sposób transportu cząstek w programie FLUKA
-- Biasing:	karty definiujące obciązenie estymatorów
+- Biasing:	karty definiujące obciążenie estymatorów
 - Scoring:	karty definiujące zakres i rodzaj estymatorów
 
 
