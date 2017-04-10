@@ -8,10 +8,15 @@ FLUKA pomaga symulować z wysoką dokładnością oddziaływania i propagację p
 
 ## Jak rozpocząć pracę z programem FLUKA na WFiIS AGH? 
 - Ze swojego konta na _taurusie_ należy zalogować się na konto na serwerze _lhcb1_.
-- Wykonać skrypt startowy: > source setlhcb.
+- Wykonać skrypt startowy:
+```bash
+$ source setlhcb
+```
 - Stworzyć i przejść do swojego katalogu roboczego:
-- Uruchomić program komendą > flair &
-
+- Uruchomić program komendą:
+```bash
+$ flair &
+```
 Nasze pierwsze kroki postawimy robiąc symulację przejścia wiązki protonów przez beczkę z wodą.
 W tym celu we Flairze wczytujemy przygotowany input _beczka.inp_ klikając w przyciski: Input->Load
 Widok na konsoli powinien wyglądąć tak:
