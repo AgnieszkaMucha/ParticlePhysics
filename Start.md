@@ -41,5 +41,9 @@ Detektor jest to region, w którym użytkownik chce obliczać wartości oczekiwa
  
 # Tworzenie pliku inputowego
 Po lewej stronie okna Flaira znajduje się drzewo projektu. Widoczne są w nim następujące kategorie kart:
-
+---
+layout: page
+title: Setup
+permalink: /setup/
+---
 
