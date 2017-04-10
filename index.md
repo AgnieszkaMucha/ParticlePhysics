@@ -28,7 +28,7 @@ Upewnij się, że posiadasz konto na serwerze _lhcb1_, na którym zainstalowane 
 VELO 
 
 ## Projekty
-1. Zbadanie zasięgu wysokoenergetycznych promieniowania czątek naładowanych w różnych materiałach (Fluka), [opis](Stopping.md).
+1. Zbadanie zasięgu wysokoenergetycznych cząstek naładowanych w różnych materiałach (Fluka), [opis](Stopping.md).
 2. Oddziaływanie promieniowania ze źródeł promieniotwórczych (alfa, beta, gamma, neutrony) z materią. (Fluka), [opis](Sources.md).
 3. VELO, [opis](VELO.md).
 
