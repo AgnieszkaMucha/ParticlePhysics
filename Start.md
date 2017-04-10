@@ -21,6 +21,7 @@ Nasze pierwsze kroki postawimy robiąc symulację przejścia wiązki protonów p
 W tym celu we Flairze wczytujemy przygotowany input `beczka.inp` klikając w przyciski: `Input->Load`
 Widok na konsoli powinien wyglądąć tak:
 [!["FLAIR"](Flair.png)](Flair.png)
+
 Zanim uruchomimy symulację, popatrzymy na strukturę wczytanego pliku.
 
 ## Moja pierwsza symulacja
@@ -39,9 +40,9 @@ Detektor jest to region, w którym użytkownik chce obliczać wartości oczekiwa
 -	inicjalizacja losowej sekwencji liczbowej (obowiązkowe, jeśli wymagane jest oszacowanie błędu statystycznego),
 -	sygnał startowy i liczba żądanych zdarzeń (obowiązkowe).
  
-# Tworzenie pliku inputowego
+### Tworzenie pliku inputowego
 Po lewej stronie okna Flaira znajduje się drzewo projektu. Widoczne są w nim następujące kategorie kart:
--  General:	karty ogólne (TITTLE, DEFAULTS, GLOBAL, …)
+- General:	karty ogólne (TITTLE, DEFAULTS, GLOBAL, …)
 - Primary:	karty z opisem wiązki/ cząstek
 - Geometry:	karty z opisem geometrii, regionów, sposobu tworzenia wykresów
 - Media:	karty definiujące zastosowane materiały
