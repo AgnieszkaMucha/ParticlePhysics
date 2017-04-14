@@ -67,10 +67,10 @@ Widok na konsoli powinien wyglądąć tak:
 [!["FLAIR"](Images/Flair.png)](Images/Flair.png)
 
 ### STOP
-Tutaj proponujemy się zatrzymać i poeksperymentować. Zadanie na pierwsze ćwiczenia laboratoryjne polega na stworzeniu pliku inputowego, otrzymaniu kilku (pięciu) rozkładów i dyskusji wyników. 
+Tutaj proponujemy się zatrzymać i poeksperymentować. Zadanie na pierwsze ćwiczenia laboratoryjne polega na stworzeniu pliku inputowego, otrzymaniu kilku (pięciu?) rozkładów i dyskusji wyników. 
 
 ### Błędy w pliku inputowym
-Podczas tworzenia inputu, popełnimy na pewno mnóstwo błędów. Najpierw trzeba sprawdzić, czy Flair sam ich nie znalazł - zmieni kolor czcionki na czerwono, trzeba poprawić! Czasem w trakcie pisania pojawi się czerwonawe okienko sygnalizujące `Error`, patrzymy dlaczego i poprawiamy. Ale przeważnie błąd zauważymy w momencie wykonania symulacji, albo dopiero po - gdy oglądniemy wyniki. Jest to bardzo irytujące - w sytuacjach kryzysowych, zanim rzucisz klawiaturą, spojrzyj na: [Pomocy!](Ratunek.md) Fluka ma swoje ograniczenia, czasem pochodzące z fortrana, ale czasem równieź z Gnuplota, którego używa do tworzenia wykresów.
+Podczas tworzenia inputu, popełnimy na pewno szereg błędów. Najpierw trzeba sprawdzić, czy Flair sam ich nie znalazł - zmieni kolor czcionki na czerwono, trzeba poprawić! Czasem w trakcie pisania pojawi się czerwonawe okienko sygnalizujące `Error`, patrzymy dlaczego i poprawiamy. Ale przeważnie błąd zauważymy w momencie wykonania symulacji, albo dopiero po - gdy oglądniemy wyniki. Jest to bardzo irytujące - w sytuacjach kryzysowych, zanim rzucisz klawiaturą, spojrzyj na: [Pomocy!](Ratunek.md) Fluka ma swoje ograniczenia, czasem pochodzące z fortrana, ale czasem również z Gnuplota, którego używa do tworzenia wykresów.
 
 ## Wykonanie symulacji
 Po stworzeniu pliku inputowego puszczany symulację klikając:
@@ -79,7 +79,7 @@ Run->Runs->Start
 ```
 Można zuważyć, że zadanie wykonuje się w tzw. cyklach - im większa liczba cykli, tym mniejsze niepewności statystyczne. Podczas wykonania możemy śledzić status zadania:
 [!["STATUS"](Images/Flair_run.jpg)](Images/Flair_run.jpg)
-Po uzyskaniu wiadomości `Finished OK` możemy oglądnąć wyniki. Jeśli dostaniemy cokolwiek innego, np: `TIMEOUT` - mamy błąd w pliku inputowym (najczęściej: za dużo przedziałów w rozkładach 3D, brak kropki po liczbie całkowitej, niezdefiniowany materiał, region, itp). Wracamy do `Input` i zaczynamy analizę i poprawę  pliku. Może się tu zdarzyć, że `TIMEOUT` ma przyczynę systemową - brak biblioteki. Staramy się to sprawdzać, ale historia nas nauczyła, że takie zdarzenia pojawiają się nieczekiwanie. 
+Po uzyskaniu wiadomości `Finished OK` możemy oglądnąć wyniki. Jeśli dostaniemy cokolwiek innego, np: `TIMEOUT` - mamy błąd w pliku inputowym (najczęściej: za dużo przedziałów w rozkładach 3D, brak kropki po liczbie całkowitej, niezdefiniowany materiał, region, itp). Wracamy do `Input` i zaczynamy analizę i poprawę  pliku. Może się tu zdarzyć, że `TIMEOUT` ma przyczynę systemową - brak biblioteki. Staramy się to sprawdzać, ale historia nas nauczyła, że takie zdarzenia pojawiają się nieoczekiwanie. 
 
 Gdy jest `Finished OK`, kliknijmy na: `Run->Files` - zobaczymy pliki outputowe. Widać w nazwach numery _jednostek logicznych_, które zdefiniowaliśmy w pliku inputowym, zauważymy również, że Fluka zapisała wyniki OSOBNO dla każdego cyklu. Jest to pozostałość po zamierzchłych czasach, kiedy komputery liczyły wolno i często się zawieszały - w takiej sytuacji można było wykorzystać fragment skończonej symulacji. Po zastanowieniu wydaje się to logiczne. 
 
@@ -88,11 +88,11 @@ Musimy teraz połączyć wyniki. W tym celu klikamy `Run->Data->Process` i czeka
 [!["PROCESS"](Images/Flair_megre.png)](Images/Flair_megre.png)
 
 ### Błędy
-Możemy dostać tutaj  czerwonawe okienko z `Errors` zmiast zielonego z sukcesem `Data merging`. Błędy na tym etapie spowodowane są błędami w geometrii - np. obszar do `Scoringu` wykracza poza region w `Geometry` albo regiony są źle nazwane lub zdefinowane, albo coś jest źle z zakresami rozkładów. Musimy to znaleźć sami i puścić symulację od nowa. Może tutaj pojawić się błąd z `Gnuplota` - np, że ma za małą paletę barw. wtedy należy zainstalować jego inną wersję. Może się również zdarzyć, że brakuje danych na rozkładzie - wtedy Gnuplot nie ma co wyświetlić. W tej sytuacji po prostu zwiększamy liczbę `Primaries`. 
+Możemy dostać tutaj  czerwonawe okienko z `Errors` zmiast zielonego z sukcesem `Data Merging`. Błędy na tym etapie spowodowane są błędami w geometrii - np. obszar do `Scoringu` wykracza poza region w `Geometry` albo regiony są źle nazwane lub zdefinowane, albo coś jest źle z zakresami rozkładów. Musimy to znaleźć sami i puścić symulację od nowa. Może tutaj pojawić się błąd z `Gnuplota` - np, że ma za małą paletę barw. Wtedy należy zainstalować jego inną wersję. Może się również zdarzyć, że brakuje danych na rozkładzie - wtedy Gnuplot nie ma co wyświetlić. W tej sytuacji po prostu zwiększamy liczbę `Primaries`. 
 
 ## Wykonanie rozkładów
 Uff, już niedługo... <br> Klikamy `Plot->Oz` i widzimy listę stworzonych przez nas rozkładów. Feel free to click! <br>
-Proszę teraz przyjrzeć się informacjom wypisanym we Flairze i przetestować wszystkie możliwe przyciski! Fluka ma naprawdę ogromne możliwości.
+Proszę teraz przyjrzeć się informacjom wypisanym w oknie Flaira i przetestować wszystkie możliwe przyciski! Fluka ma naprawdę ogromne możliwości.
 
 [!["PLOT"](Images/Flair_plot.png)](Images/Flair_plot.png)
 
