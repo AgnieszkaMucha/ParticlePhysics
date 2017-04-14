@@ -109,7 +109,7 @@ Dzisiejsze laboratorium skończymy, gdy KAŻDY uczestnik dostanie rozkłady i om
 # Dla dociekliwych
 1. Symulację można wykonć z konsoli, bez Flaira, komendą:
 ```
-rfluka -m -r coć tam
+rfluka -M 5 beczka
 ```
 2. Proszę oglądnąć (w edytorze lub Flairze: `Run->Data->Files->Cycles->data->Viewer`) pliki z wynikami. Co w nich jest? Jakie informacje? Jak zapisane? Czy po "wyklikaniu" rysunków nie mamy ochoty zrobić ich w innym programie? <br>
 Zapraszamy zatem do konwersji wyników Fluki do ROOTa [FLOOT](Floot.md)... 
