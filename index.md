@@ -13,7 +13,7 @@ Podczas zajęć w pracowni komputerowej, studenci zapoznają się z tematem ćwi
 Podczas ćwiczeń studenci będą te programy modyfikować. Omówione zostaną szczegóły analizy.
 
 Na podstawie przeprowadzonych analiz studenci wykonają samodzielnie dwa projekty:
-1. Symulację oddziaływywania promieniowania z materią programem FLUKA.
+1. Symulację oddziaływania promieniowania z materią programem FLUKA.
 2. Analizę depozytów energii w detektorze VELO.
 
 ## Warunki wstępne 
