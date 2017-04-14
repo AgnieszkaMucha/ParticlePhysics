@@ -9,5 +9,5 @@ Fluka i Flair mają swoje ograniczenia. Trudno ich uniknąć, kiedy z leciwego, 
 4. Dodaję karty do `Scoringu`, a nie ma ich po symulacji! Zmieniam liczby binów, a Flair ma to w...
 - Zacznij od nowego, pustego katalogu lub usuń wszystkie utworzone pliki (oprócz `.inp` oczywiście). Powód taki sam, jak powyżej.
 - Rozpocznij nową sesję `Flaira`.
-5. Przy bardziej skomplikowanych problemach użyteczne jest poszukania pliku wynikowego z opisem wykonania. Flair zapisuje pliki: `input.out` i `input.err`. Poszukaj ich w katalogu roboczy, albo we Flairze: `Run->Flies`, potem w oknie kliknij dwukrotnie w nazę pliku. W ten sposób można zobaczyć błąd wynikający z braku bilioteki do wykonania lub z powodu zbyt dużej liczby binów do wypełnienia: 
-
+5. Przy bardziej skomplikowanych problemach użyteczne jest poszukania pliku wynikowego z opisem wykonania. Flair zapisuje pliki: `input.out` i `input.err`. Poszukaj ich w katalogu roboczy, albo we Flairze: `Run->Flies`, potem w oknie kliknij dwukrotnie w nazę pliku. W ten sposób można zobaczyć błąd wynikający z braku bilioteki do wykonania lub z powodu zbyt dużej liczby binów do wypełnienia, popatrz na koniec pliku: 
+[!["ERROR"](Images/I4error.png)](Images/I4error.png)
