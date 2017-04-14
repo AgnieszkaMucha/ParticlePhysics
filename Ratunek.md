@@ -5,9 +5,12 @@ Fluka i Flair mają swoje ograniczenia. Trudno ich uniknąć, kiedy z leciwego, 
 2. Nie ma mojego inputu! Wczoraj tu był! 
 - Poszukaj w innym katalogu, może w tzw. katalogu roboczym?
 3. Symulacja nie chce odpalić! Przed chwilą działała! 
+- Zamknij `Flaira`.
 - Zacznij od nowego katalogu. Przekopiuj swój input do nowego, pustego katalogu i rozpocznij symulację. Flair tworzy pewną liczbę plików tymczasowych, czasem błędnie wykonana symulacja zostawia ślad i podczas procesowania danych ten błąd się wczytuje. Dotyczy to najczęściej błędów w binowaniu rozkładów.
 4. Dodaję karty do `Scoringu`, a nie ma ich po symulacji! Zmieniam liczby binów, a Flair ma to w...
 - Zacznij od nowego, pustego katalogu lub usuń wszystkie utworzone pliki (oprócz `.inp` oczywiście). Powód taki sam, jak powyżej.
 - Rozpocznij nową sesję `Flaira`.
-5. Przy bardziej skomplikowanych problemach użyteczne jest poszukania pliku wynikowego z opisem wykonania. Flair zapisuje pliki: `input.out` i `input.err`. Poszukaj ich w katalogu roboczy, albo we Flairze: `Run->Flies`, potem w oknie kliknij dwukrotnie w nazę pliku. W ten sposób można zobaczyć błąd wynikający z braku bilioteki do wykonania lub z powodu zbyt dużej liczby binów do wypełnienia, popatrz na koniec pliku: 
+5. Zmianiam liczbę cykli, a Flair ciągle procesuje stare pliki!
+- Rada ta samo, co w 3. Bardzo dobrym zwyczajem jest sprawdzanie po wykonaniu symulacji, czy Flair procesuje aktualne wyniki (np. patrząc na godzinę wykonania). Jeżeli błąd w symulacji, nie wykonała się, a w katalogu sa stare pliki, to Flair je dołączy.
+6. Przy bardziej skomplikowanych problemach użyteczne jest poszukania pliku wynikowego z opisem wykonania. Flair zapisuje pliki: `input.out` i `input.err`. Poszukaj i wyedytuj je w katalogu roboczym, albo we Flairze: `Run->Flies`, potem w oknie kliknij dwukrotnie w nazę pliku. W ten sposób można zobaczyć błąd wynikający z braku bilioteki do wykonania lub z powodu zbyt dużej liczby binów do wypełnienia, popatrz na koniec pliku: 
 [!["ERROR"](Images/I4error.png)](Images/I4error.png)
