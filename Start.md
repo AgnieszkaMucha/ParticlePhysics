@@ -25,7 +25,7 @@ $ flair &
 Popatrzymy najpierw na niezbędne elementy pliku do wykonania symulacji:
 
 ## Moja pierwsza symulacja
-Praca w programie FLUKA polega na tworzeniu plików wsadowych (INPUT). Można go edytować w dowolnym edytorze, ale znacznie wygodniej używać do tego Flaira. Flar umożliwia stworzenie nowego pliku na podstawie wbudowanych szablonów konkretnych procesów `basic, decay, no geometry, itp` porzez:
+Praca w programie FLUKA polega na tworzeniu plików wsadowych (INPUT). Można go edytować w dowolnym edytorze, ale znacznie wygodniej używać do tego Flaira. Flair umożliwia stworzenie nowego pliku na podstawie wbudowanych szablonów symulacji: `basic, decay, no geometry, itp` porzez:
 ```
 Input->New->basic
 ```
