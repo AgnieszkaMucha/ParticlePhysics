@@ -26,6 +26,7 @@ Rozkłady uzyskane po symulacji to kolorowe wykresy 3D, o różnej zawartości. 
 - `EM-ENERGY`
 - `PROTON`, `NEUTRON`, `PHOTON`,  `ELECTRON`, `PIONS+-`, `MUONS`
 - `SiMEVNE`
+
 Paleta barw jest proporcjonalna do wartości estymowanej, a osie na wykresach pokazują zakresy binowania. <br>
 WAŻNE! We Fluce WSZYSTKIE wyniki liczbowe podawane są w odniesieniu do JEDNEJ cząstki padającego promieniowania (zwanego tu `Primaries`). Przyjrzyjmy się (dłużej) i omówmy, co znajduje się na poniższych wykresach:
 
