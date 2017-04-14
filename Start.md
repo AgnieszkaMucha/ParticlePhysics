@@ -21,7 +21,7 @@ $ flair &
 Nasze pierwsze kroki postawimy robiąc symulację przejścia wiązki protonów przez beczkę z wodą.
 W tym celu we Flairze wczytujemy przygotowany input `beczka.inp` klikając w przyciski: `Input->Load`
 Widok na konsoli powinien wyglądąć tak:
-[!["FLAIR"](Flair.png)](Flair.png)
+[!["FLAIR"](Images/Flair.png)](Images/Flair.png)
 
 Zanim uruchomimy symulację, popatrzymy na strukturę wczytanego pliku:
 
