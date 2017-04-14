@@ -1,10 +1,13 @@
 ## Ratunku! Nie działa!
 Fluka i Flair mają swoje ograniczenia. Trudno ich uniknąć, kiedy z leciwego, fortranowskiego programu robimy podstawowe narzędzie do symulacji ogromnych, skomplikowanych systemów detekcyjnych. Jeśli, pomimo uważnej edycji, wyszukania błędów opisanych w Opisie [START](Start.md), nie możesz uzyskać wyników symulacji, albo nie działa Flair, spróbuj następujących działań:
 1. Flair nie działa! 
--- Wykonaj skrypt startowy `$ source ~/setfluka`
+- Wykonaj skrypt startowy `$ source ~/setfluka`
 2. Nie ma mojego inputu! Wczoraj tu był! 
 - Poszukaj w innym katalogu, może w tzw. katalogu roboczym?
 3. Symulacja nie chce odpalić! Przed chwilą działała! 
 - Zacznij od nowego katalogu. Przekopiuj swój input do nowego, pustego katalogu i rozpocznij symulację. Flair tworzy pewną liczbę plików tymczasowych, czasem błędnie wykonana symulacja zostawia ślad i podczas procesowania danych ten błąd się wczytuje. Dotyczy to najczęściej błędów w binowaniu rozkładów.
-4. Dodaję karty do `Scoringu`, a nie ma ich po symulacji!
-- Zacznij od nowego, pustego katalogu lub usuń wszystkie utworzone pliki (oprócz `.inp` oczywiście)
+4. Dodaję karty do `Scoringu`, a nie ma ich po symulacji! Zmieniam liczby binów, a Flair ma to w...
+- Zacznij od nowego, pustego katalogu lub usuń wszystkie utworzone pliki (oprócz `.inp` oczywiście). Powód taki sam, jak powyżej.
+- Rozpocznij nową sesję `Flaira`.
+5. Przy bardziej skomplikowanych problemach użyteczne jest poszukania pliku wynikowego z opisem wykonania. Flair zapisuje pliki: `input.out` i `input.err`. Poszukaj ich w katalogu roboczy, albo we Flairze: `Run->Flies`, potem w oknie kliknij dwukrotnie w nazę pliku. W ten sposób można zobaczyć błąd wynikający z braku bilioteki do wykonania lub z powodu zbyt dużej liczby binów do wypełnienia: 
+
