@@ -69,7 +69,7 @@ Widok na konsoli powinien wyglądąć tak:
 Tutaj proponujemy się zatrzymać i poeksperymentować. Zadanie na pierwsze ćwiczenia laboratoryjne polega na stworzeniu pliku inputowego, otrzymaniu kilku (pięciu) rozkładów i dyskusji wyników. 
 
 ### Błędy w pliku inputowym
-Podczas tworzenia inputu, popełnimy a pewno mnóstwo błędów. Najpierw trzeba sprawdzić, czy Flair sam ich nie znalazł- zmieni kolor czcionki na czerwono, trzeba poprawić! Czasem w trakcie pisania pojawi się czerwonawe okienko sygnalizujące `Error`, patrzymy dlaczego i poprawiamy. Ale przeważnie błąd zauważymy w momencie wykonania symulacji, albo dopiero po - gdy oglądniemy wyniki. Jest to bardzo irytujące - w sytuacjach kryzysowych, zanim rzucisz klawiaturą, spojrzyj na: [Pomocy!](Ratunek.md) Fluka ma swoje ograniczenia, czasem pochodzące z fortrana, ale czasem równieź z Gnuplota, którego używa do tworzenia wykresów.
+Podczas tworzenia inputu, popełnimy na pewno mnóstwo błędów. Najpierw trzeba sprawdzić, czy Flair sam ich nie znalazł - zmieni kolor czcionki na czerwono, trzeba poprawić! Czasem w trakcie pisania pojawi się czerwonawe okienko sygnalizujące `Error`, patrzymy dlaczego i poprawiamy. Ale przeważnie błąd zauważymy w momencie wykonania symulacji, albo dopiero po - gdy oglądniemy wyniki. Jest to bardzo irytujące - w sytuacjach kryzysowych, zanim rzucisz klawiaturą, spojrzyj na: [Pomocy!](Ratunek.md) Fluka ma swoje ograniczenia, czasem pochodzące z fortrana, ale czasem równieź z Gnuplota, którego używa do tworzenia wykresów.
 
 ## Wykonanie symulacji
 Po stworzeniu pliku inputowego puszczany symulację klikając:
@@ -91,7 +91,7 @@ Możemy dostać tutaj  czerwonawe okienko z `Errors` zmiast zielonego z sukcesem
 
 ## Wykonanie rozkładów
 Uff, już niedługo... <br> Klikamy `Plot->Oz` i widzimy listę stworzonych przez nas rozkładów. Feel free to click! <br>
-Proszę teraz przyjrzeć się informacjom wypisanym we Flairze i przetestować wszystkie możliwe przyciski! Fluka ma naprawdę ogromne możliwości
+Proszę teraz przyjrzeć się informacjom wypisanym we Flairze i przetestować wszystkie możliwe przyciski! Fluka ma naprawdę ogromne możliwości.
 
 [!["PLOT"](Images/Flair_plot.png)](Images/Flair_plot.png)
 
@@ -101,7 +101,7 @@ Proszę teraz przyjrzeć się informacjom wypisanym we Flairze i przetestować w
 - Jeśli chcemy zrobić rozkłady w NOWEJ sesji Flaira, wczytujemy plik inputowy: `Input->Load`, a potem musimy połaczyć dane `Run->Data->Process` i zrobić rysunki: `Plot->Oz`.
 
 ## Dyskusja wyników
-Dzisiejsze laboratorium skończymy, gdy KAŻDY dostanie rozkłady i omówi je z prowadzącym. 
+Dzisiejsze laboratorium skończymy, gdy KAŻDY uczestnik dostanie rozkłady i omówi je z prowadzącym. 
 
 # Dla dociekliwych
 Proszę oglądnąć (w edytorze lub Flairze: `Run->Data->Files->Cycles->data->Viewer`) pliki z wynikami. Co w nich jest? Jakie informacje? Jak zapisane? Czy po "wyklikaniu" rysunków nie mamy ochoty zrobić ich w innym programie? <br>
