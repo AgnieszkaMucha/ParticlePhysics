@@ -1,13 +1,15 @@
 ## Co to jest FLUKA?
 FLUKA jest narzędziem ogólnego zastosowania, służącym do obliczeń transportu promieniowania i symulacji oddziaływania promieniowania z materią.
-FLUKA jest historycznym programem do projektowania osłon w reaktorach jądrowych, ale obecnie symulacje promieniowania we FLUCE przeprowadzane są wszędzie, gdzie mamay doczynienia z dużymimi strumieniami, począwszy od przestrzeni kosmicznej, a skończywszy na Eksperymentach Fizyki Wysokich Energii, a zwłaszcza w przygotowywanym na 2023 roku programie High Lumininosity Large Hadron Collider. 
-Może dziwić fakt, ale FLUKA napisana jest w języku Fortran, a użytkownik przeprowadza symulację wykorzystując przygotowane narzędzia, bez ingerencji w kod programu. Praca we Fluce odbywa się poprzez interfejs  FLAIR. Interfejs FLAIR ułatwia edycję plików wsadowych, uruchomienie kodu i wizualizację plików wynikowych. Napisany został w oparciu o standard Tkinter Pythona.
-
-Zakres możliwości aplikacyjnych programu FLUKA obejmuje m. in. przyspieszanie wiązki protonów lub elektronów, projektowanie geometrii tarczy i zastosowanych osłon, obliczenia kalorymetryczne, dozymetryczne, projektowanie detektorów, planowanie radioterapii, itd.
-FLUKA pomaga symulować z wysoką dokładnością oddziaływania i propagację promieniowania w materii, z wykorzystaniem 60 różnych cząstek oraz odpowiadających im antycząstek, a także neutronów o energiach do energii termicznych. Program może również symulować transport fotonów spolaryzowanych (np. promieniowanie synchrotronowe) oraz fotonów optycznych. FLUKA ma możliwość śledzenia cząstek naładowanych (także w obecności pól elektrycznych i magnetycznych). Szczegółowe informacje dotyczące programu FLUKA i FLAIR można znaleźć [tutaj](http://www.fluka.org/fluka.php). <br>
+FLUKA jest historycznym programem do projektowania osłon w reaktorach jądrowych, ale obecnie symulacje promieniowania we FLUCE przeprowadzane są wszędzie, gdzie mamy doczynienia z dużymimi strumieniami, począwszy od przestrzeni kosmicznej, a skończywszy na Eksperymentach Fizyki Wysokich Energii, w szczególności  w przygotowywanym na 2023 roku programie High Lumininosity Large Hadron Collider. <br>
 Przykad możliwości Fluki można zobaczyć poniżej. Na rysunkach przedstawiono oddziaływanie wiązki protonów o energii 10 GeV z wodą  i krzemowym sensorem oraz dawkę promieniowania zdeponowaną w materiale spektrometru LHCb.
 
 [!["Dawka"](Images/PR.png)](Images/PR.png)
+Może dziwić fakt, ale FLUKA napisana jest w języku Fortran, a użytkownik przeprowadza symulację wykorzystując przygotowane narzędzia, bez ingerencji w kod programu. Praca we Fluce odbywa się poprzez interfejs  FLAIR. Interfejs FLAIR ułatwia edycję plików wsadowych, uruchomienie kodu i wizualizację plików wynikowych. Napisany został w oparciu o standard Tkinter Pythona.
+
+Zakres możliwości aplikacyjnych programu FLUKA obejmuje m. in. przyspieszanie wiązki protonów lub elektronów, projektowanie geometrii tarczy i zastosowanych osłon, obliczenia kalorymetryczne, dozymetryczne, projektowanie detektorów, planowanie radioterapii, itd.
+FLUKA pomaga symulować z wysoką dokładnością oddziaływania i propagację promieniowania w materii, z wykorzystaniem 60 różnych cząstek oraz odpowiadających im antycząstek, a także neutronów o energiach od energii termicznych. Program może również symulować transport fotonów spolaryzowanych (np. promieniowanie synchrotronowe) oraz fotonów optycznych. FLUKA ma możliwość śledzenia cząstek naładowanych (także w obecności pól elektrycznych i magnetycznych). <br>
+Szczegółowe informacje dotyczące programu FLUKA i FLAIR można znaleźć [tutaj](http://www.fluka.org/fluka.php). <br>
+
 
 ## Jak rozpocząć pracę z programem FLUKA na WFiIS AGH? 
 - Ze swojego konta na `taurusie` należy zalogować się na konto zespołu na serwerze `lhcb1`. Problem z kontem? Sprawdź [lhcb1](lhcb1.md).
@@ -20,13 +22,7 @@ $ source setlhcb
 ```bash
 $ flair &
 ```
-Nasze pierwsze kroki postawimy robiąc symulację przejścia wiązki protonów przez beczkę z wodą.
-W tym celu we Flairze wczytujemy przygotowany input `beczka.inp` klikając w przyciski: `Input->Load`
-Widok na konsoli powinien wyglądąć tak:
-
-[!["FLAIR"](Images/Flair.png)](Images/Flair.png)
-
-Zanim uruchomimy symulację, popatrzymy na strukturę wczytanego pliku:
+Popatrzymy najpierw na niezbędne elementy pliku do wykonania symulacji:
 
 ## Moja pierwsza symulacja
 Praca w programie FLUKA polega na tworzeniu plików wsadowych (INPUT). Można go edytować w dowolnym edytorze, ale znacznie wygodniej używać do tego Flaira. Flar umożliwia stworzenie nowego pliku na podstawie wbudowanych szablonów konkretnych procesów `basic, decay, no geometry, itp` porzez:
@@ -61,7 +57,12 @@ Po lewej stronie okna Flaira znajduje się drzewo projektu. Widoczne są w nim n
 - `Scoring`:	karty definiujące zakres i rodzaj estymatorów. Jest to druga najważniejsza kategoria - definiujemy, jakich wyników (estymatorów parametrów fizycznych) oczekujemy od Fluki. Bardzo dużo możliwości - od depozytów energii do strumieni i fluencji cząstek. W następnym paragrafie opisane zostaną  najbardziej dla nas użystecznych estymatory. 
 
 Poszczególne karty można traktować jak pojedyncze obiekty. Można je kasować, wstawiać, kopiować, wklejać, klonować, … Pozycja karty nie ma większego znaczenia. FLAIR stara się reorganizować plik Input podczas zapisywania i przesuwa karty na odpowiednie pozycje. Karty z kategorii Geometry, powinny się znaleźć w bloku GEOBEGIN .. GEOEND.
-Aby rozpocząć edycję karty, należy wybrać kartę za pomocą strzałek góra/dół lub za pomocą myszy. Karta aktywna ma podświetlone tło w jasnożółtym kolorze i czarną obramówkę. Można "podświetlić" kilka (takich samych) kart i wtedy zmienimy wszystkie karty (uwaga, żeby nie zmienić nazw estymatorów). Uwaga! We Flairze ZAWSZE trzeba wpisywać liczby z kropką na końcu, np. `100.`, nawet liczby całkowite! To pozostałość po fortranie...
+Aby rozpocząć edycję karty, należy wybrać kartę za pomocą strzałek góra/dół lub za pomocą myszy. Karta aktywna ma podświetlone tło w jasnożółtym kolorze i czarną obramówkę. Można "podświetlić" kilka (takich samych) kart i wtedy zmienimy wszystkie karty (uwaga, żeby nie zmienić nazw estymatorów). Uwaga! We Flairze ZAWSZE trzeba wpisywać liczby z kropką na końcu, np. `100.`, nawet liczby całkowite! To pozostałość po fortranie... <bf>
+
+Nasze pierwsze kroki postawimy robiąc symulację przejścia wiązki protonów przez beczkę z wodą. Najlepiej tej plik skontuować samemu, ale na pierwszy raz możemy posłużyć się gotowym przykładem. W tym celu  we Flairze wczytujemy przygotowany input `beczka.inp` klikając w przyciski: `Input->Load`. 
+Widok na konsoli powinien wyglądąć tak:
+
+[!["FLAIR"](Images/Flair.png)](Images/Flair.png)
 
 ### STOP
 Tutaj proponujemy się zatrzymać i poeksperymentować. Zadanie na pierwsze ćwiczenia laboratoryjne polega na stworzeniu pliku inputowego, otrzymaniu kilku (pięciu) rozkładów i dyskusji wyników. 
@@ -89,7 +90,7 @@ Możemy dostać tutaj  czerwonawe okienko z `Errors` zmiast zielonego z sukcesem
 
 ## Wykonanie rozkładów
 Uff, już niedługo... <br> Klikamy `Plot->Oz` i widzimy listę stworzonych przez nas rozkładów. Feel free to click! <br>
-Prosżę teraz przyjrzeć się informacjom wypisanycm we Flairze i przetestować wszystkie możliwe przyciski!
+Proszę teraz przyjrzeć się informacjom wypisanym we Flairze i przetestować wszystkie możliwe przyciski!
 
 [!["PLOT"](Images/Flair_plot.png)](Images/Flair_plot.png)
 
