@@ -12,5 +12,5 @@ Fluka i Flair mają swoje ograniczenia. Trudno ich uniknąć, kiedy z leciwego, 
 - Rozpocznij nową sesję `Flaira`.
 5. Zmianiam liczbę cykli, a Flair ciągle procesuje stare pliki!
 - Rada ta samo, co w 3. Bardzo dobrym zwyczajem jest sprawdzanie po wykonaniu symulacji, czy Flair procesuje aktualne wyniki (np. patrząc na godzinę wykonania). Jeżeli błąd w symulacji, nie wykonała się, a w katalogu sa stare pliki, to Flair je dołączy.
-6. Przy bardziej skomplikowanych problemach użyteczne jest poszukania pliku wynikowego z opisem wykonania. Flair zapisuje pliki: `input.out` i `input.err`. Poszukaj i wyedytuj je w katalogu roboczym, albo we Flairze: `Run->Flies`, potem w oknie kliknij dwukrotnie w nazę pliku. W ten sposób można zobaczyć błąd wynikający z braku bilioteki do wykonania lub z powodu zbyt dużej liczby binów do wypełnienia, popatrz na koniec pliku: 
+6. Przy bardziej skomplikowanych problemach użyteczne jest poszukania pliku wynikowego z opisem wykonania. Flair zapisuje pliki: `input.out` i `input.err`. Poszukaj i wyedytuj je w katalogu roboczym, albo we Flairze: `Run->Flies`, potem w oknie kliknij dwukrotnie w nazwę pliku. W ten sposób można zobaczyć błąd wynikający z braku bilioteki do wykonania lub z powodu zbyt dużej liczby binów do wypełnienia, popatrz na koniec pliku: 
 [!["ERROR"](Images/I4error.png)](Images/I4error.png)
