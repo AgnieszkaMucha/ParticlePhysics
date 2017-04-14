@@ -1,7 +1,7 @@
 ## Co to jest FLUKA?
 FLUKA jest narzędziem ogólnego zastosowania, służącym do obliczeń transportu promieniowania i symulacji oddziaływania promieniowania z materią.
 FLUKA jest historycznym programem do projektowania osłon w reaktorach jądrowych, ale obecnie symulacje promieniowania we FLUCE przeprowadzane są wszędzie, gdzie mamy doczynienia z dużymimi strumieniami, począwszy od przestrzeni kosmicznej, a skończywszy na Eksperymentach Fizyki Wysokich Energii, w szczególności  w przygotowywanym na 2023 roku programie High Lumininosity Large Hadron Collider. <br>
-Przykad możliwości Fluki można zobaczyć poniżej. Na rysunkach przedstawiono oddziaływanie wiązki protonów o energii 10 GeV z wodą  i krzemowym sensorem oraz dawkę promieniowania zdeponowaną w materiale spektrometru LHCb.
+Przykad możliwości Fluki można zobaczyć poniżej. Na rysunkach przedstawiono oddziaływanie wiązki protonów o energii 10 GeV z wodą  i krzemowym sensorem (rozkład przedstawia energię zdeponowaną przez hadrony)  oraz dawkę promieniowania zdeponowaną w materiale spektrometru LHCb.
 
 [!["Dawka"](Images/PR.png)](Images/PR.png)
 Może dziwić fakt, ale FLUKA napisana jest w języku Fortran, a użytkownik przeprowadza symulację wykorzystując przygotowane narzędzia, bez ingerencji w kod programu. Praca we Fluce odbywa się poprzez interfejs  FLAIR. Interfejs FLAIR ułatwia edycję plików wsadowych, uruchomienie kodu i wizualizację plików wynikowych. Napisany został w oparciu o standard Tkinter Pythona.
