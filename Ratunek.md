@@ -17,4 +17,4 @@ Fluka i Flair mają swoje ograniczenia. Trudno ich uniknąć, kiedy z leciwego, 
 [!["ERROR"](Images/I4error.png)](Images/I4error.png)
 
 7. Dodaję nowe karty z nowymi estymatorami, a wyniku symulacji nie ma!
-- jeśli zawiodły wymienione powyżej, proste sposoby, może to oznaczać, że dla tego właśnie estymatora potrzebne są datdatkowe karty. W tej sytuacji odsyłamy do tutorialów: [Fluka](http://www.fluka.org/fluka.php)
+- jeśli zawiodły wymienione powyżej, proste sposoby, może to oznaczać, że dla tego właśnie estymatora potrzebne są dadatkowe karty. W tej sytuacji odsyłamy do tutorialów: [Fluka](http://www.fluka.org/fluka.php). 
