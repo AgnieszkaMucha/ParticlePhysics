@@ -13,7 +13,7 @@ Podczas zajęć w pracowni komputerowej, studenci zapoznają się z tematem ćwi
 Podczas ćwiczeń studenci będą te programy modyfikować. Omówione zostaną szczegóły analizy.
 
 Na podstawie przeprowadzonych analiz studenci wykonają samodzielnie dwa projekty:
-1. Symulację oddziaływania promieniowania z materią programem FLUKA.
+1. Symulację oddziaływania promieniowania z materią programem FLUKA (dwa tematy do wyboru).
 2. Analizę depozytów energii w detektorze VELO.
 
 ## Warunki wstępne 
@@ -28,9 +28,9 @@ Upewnij się, że posiadasz konto na serwerze `lhcb1`, na którym zainstalowane 
 VELO 
 
 ## Projekty
-1. Zbadanie zasięgu wysokoenergetycznych cząstek naładowanych w różnych materiałach (Fluka), [opis](Stopping.md).
-2. Oddziaływanie promieniowania ze znanych źródeł promieniotwórczych (alfa, beta, gamma, neutrony) z materią, projekt osłony. (Fluka), [opis](Sources.md).
-3. VELO, [opis](VELO.md).
+1.  a) Zbadanie zasięgu wysokoenergetycznych cząstek naładowanych w różnych materiałach (Fluka), [opis](Stopping.md). <br>
+    b) Oddziaływanie promieniowania ze znanych źródeł promieniotwórczych (alfa, beta, gamma, neutrony) z materią, projekt osłony. (Fluka), [opis](Sources.md).
+2. VELO, [opis](VELO.md).
 
 ## Dodatki
 1. [Fluka 2 ROOT](Floot.md)
