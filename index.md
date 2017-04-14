@@ -26,7 +26,7 @@ Upewnij się, że posiadasz konto na serwerze `lhcb1`, na którym zainstalowane 
 
 ## Ćwiczenia laboratoryjne II:
 1. [ROOT - praktyczne wprowadzenie](Root.md)
-2. [VELO] 
+2. [VELO](Velo.md) 
 
 ## Projekty
 1.  a) Zbadanie zasięgu wysokoenergetycznych cząstek naładowanych w różnych materiałach (Fluka), [opis](Stopping.md). <br>
