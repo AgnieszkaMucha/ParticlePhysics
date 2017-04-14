@@ -14,6 +14,6 @@ Fluka i Flair mają swoje ograniczenia. Trudno ich uniknąć, kiedy z leciwego, 
 - Rada ta sama, co w 3. Bardzo dobrym zwyczajem jest sprawdzanie po wykonaniu symulacji, czy Flair procesuje aktualne wyniki (np. patrząc na godzinę wykonania). Jeżeli był niezauważony błąd w symulacji, wykonała się raz lub nie wykonała się, a w katalogu są stare pliki, to Flair je dołączy.
 6. Przy bardziej skomplikowanych problemach użyteczne jest poszukania pliku wynikowego z opisem wykonania. Flair zapisuje pliki: `input.out` i `input.err`. Poszukaj i wyedytuj je w katalogu roboczym, albo we Flairze: `Run->Flies`, potem w oknie kliknij dwukrotnie w nazwę pliku. W ten sposób można zobaczyć błąd wynikający z braku biblioteki do wykonania lub z powodu zbyt dużej liczby binów do wypełnienia, popatrz na koniec pliku: 
 
-[!["ERROR"](Images/I4error.png)](Images/I4error.png)
+   [!["ERROR"](Images/I4error.png)](Images/I4error.png)
 7. Dodaję nowe karty z nowymi estymatorami, a wyniku symulacji ich ma!
 - jeśli zawiodły wymienione powyżej, proste sposoby, może to oznaczać, że dla tego właśnie estymatora potrzebne są dadatkowe karty. W tej sytuacji odsyłamy do tutorialów: [Fluka](http://www.fluka.org/fluka.php). 
