@@ -59,7 +59,7 @@ W tych trzech ostatnich kartach można podać modele fizyczne oddziaływań, kt�
 
 Poszczególne karty można traktować jak pojedyncze obiekty. Można je kasować, wstawiać, kopiować, wklejać, klonować, … Pozycja karty nie ma większego znaczenia. FLAIR stara się reorganizować plik Input podczas zapisywania i przesuwa karty na odpowiednie pozycje. Karty z kategorii Geometry, powinny się znaleźć w bloku GEOBEGIN .. GEOEND.
 Aby rozpocząć edycję karty, należy wybrać kartę za pomocą strzałek góra/dół lub za pomocą myszy. Karta aktywna ma podświetlone tło w jasnożółtym kolorze i czarną obramówkę. Można "podświetlić" kilka (takich samych) kart i wtedy zmienimy wszystkie karty (uwaga, żeby nie zmienić nazw estymatorów). <br>
-Uwaga! We Flairze ZAWSZE trzeba wpisywać liczby z kropką dzisiętną na końcu, np. `100.`, nawet liczby całkowite! To pozostałość po fortranie... <br.
+Uwaga! We Flairze ZAWSZE trzeba wpisywać liczby z kropką dziesiętną na końcu, np. `100.`, nawet liczby całkowite! To pozostałość po fortranie... <br>.
 
 Nasze pierwsze kroki postawimy robiąc symulację przejścia wiązki protonów przez beczkę z wodą. Najlepiej tej plik skonstruować samemu, ale na pierwszy raz możemy posłużyć się gotowym przykładem. W tym celu  we Flairze wczytujemy przygotowany input `beczka.inp` klikając w przyciski: `Input->Load`. 
 Widok na konsoli powinien wyglądąć tak:
