@@ -4,7 +4,8 @@ FLUKA jest historycznym programem do projektowania osłon w reaktorach jądrowyc
 Może dziwić fakt, ale FLUKA napisana jest w języku Fortran, a użytkownik przeprowadza symulację wykorzystując przygotowane narzędzia, bez ingerencji w kod programu. Praca we Fluce odbywa się poprzez interfejs  FLAIR. Interfejs FLAIR ułatwia edycję plików wsadowych, uruchomienie kodu i wizualizację plików wynikowych. Napisany został w oparciu o standard Tkinter Pythona.
 
 Zakres możliwości aplikacyjnych programu FLUKA obejmuje m. in. przyspieszanie wiązki protonów lub elektronów, projektowanie geometrii tarczy i zastosowanych osłon, obliczenia kalorymetryczne, dozymetryczne, projektowanie detektorów, planowanie radioterapii, itd.
-FLUKA pomaga symulować z wysoką dokładnością oddziaływania i propagację promieniowania w materii, z wykorzystaniem 60 różnych cząstek oraz odpowiadających im antycząstek, a także neutronów o energiach do energii termicznych. Program może również symulować transport fotonów spolaryzowanych (np. promieniowanie synchrotronowe) oraz fotonów optycznych. FLUKA ma możliwość śledzenia cząstek naładowanych (także w obecności pól elektrycznych i magnetycznych). Szczegółowe informacje dotyczące programu FLUKA i FLAIR można znaleźć [tutaj](http://www.fluka.org/fluka.php).
+FLUKA pomaga symulować z wysoką dokładnością oddziaływania i propagację promieniowania w materii, z wykorzystaniem 60 różnych cząstek oraz odpowiadających im antycząstek, a także neutronów o energiach do energii termicznych. Program może również symulować transport fotonów spolaryzowanych (np. promieniowanie synchrotronowe) oraz fotonów optycznych. FLUKA ma możliwość śledzenia cząstek naładowanych (także w obecności pól elektrycznych i magnetycznych). Szczegółowe informacje dotyczące programu FLUKA i FLAIR można znaleźć [tutaj](http://www.fluka.org/fluka.php). Przykad możliwości Fluki można zobaczyć poniżej. Na rusynkach przedstawiono dawkę promieniowania zdeponowaną w spektrometrze LHCb i oddziaływanie wiązki protonów o energii 10 GeV z wodą, w której umiesczony został krzemowy sensor.
+[!["Dose"](Dose.png)](Dose.png)
 
 ## Jak rozpocząć pracę z programem FLUKA na WFiIS AGH? 
 - Ze swojego konta na `taurusie` należy zalogować się na konto zespołu na serwerze `lhcb1`. Problem z kontem? Sprawdź [lhcb1](lhcb1.md).
@@ -25,7 +26,12 @@ Widok na konsoli powinien wyglądąć tak:
 Zanim uruchomimy symulację, popatrzymy na strukturę wczytanego pliku:
 
 ## Moja pierwsza symulacja
-Praca w programie FLUKA polega na tworzeniu plików wsadowych (INPUT).
+Praca w programie FLUKA polega na tworzeniu plików wsadowych (INPUT). Można go edytować w dowolnym edytoreze, ale znacznie wygodniej używać do tego Flaira. Flar umożliwia stworzenie nowego pliku na podstawie wbudowanych szablonów konkretnych procesów (basic, decay, no geometry, itp) porzez:
+```
+Input->New->basic
+```
+W ten sposób dostajemy podpowiedź, z czego powinien się składać plik inputowy i możemy go dostosować do własnego problemu.
+
 Plik wsadowy INPUT jest tworzony w standardzie ASCII z rozszerzeniem `.inp` .
 Plik INPUT składa się z komend (opcji), każda z nich zawiera jedną lub więcej linii (z przyczyn historycznych nazywanych „kartami”). Poza komendami FLUKI plik wsadowy powinien także zawierać opis geometrii projektowanej symulacji.
 Typowa struktura pliku INPUT:
@@ -52,5 +58,19 @@ Po lewej stronie okna Flaira znajduje się drzewo projektu. Widoczne są w nim n
 - Biasing:	karty definiujące obciążenie estymatorów
 - Scoring:	karty definiujące zakres i rodzaj estymatorów
 
-
+Poszczególne karty można traktować jak pojedyncze obiekty. Można je kasować, wstawiać, kopiować, wklejać, klonować, … Pozycja karty nie ma większego znaczenia. FLAIR stara się reorganizować plik Input podczas zapisywania i przesuwa karty na odpowiednie pozycje. Karty z kategorii Geometry, powinny się znaleźć w bloku GEOBEGIN .. GEOEND.
+Aby rozpocząć edycję karty, należy wybrać kartę za pomocą strzałek góra/dół lub za pomocą myszy. Karta aktywna ma podświetlone tło w jasnożółtym kolorze i czarną obramówkę.
+Będziemy uzupełniać karty z kolejnych kategorii, jedna po drugiej:
+-	General
+karty tej kategorii można pominąć. Mają wprowadzone wartości domyślne. Jeśli nie – można wpisać tytuł.
+-	Primary
+tutaj zdefiniujemy parametry źródła promieniowania - typ, kształt, pęd, energia, rozmycie. Określimy rodzaj - fotony, protony, itd. 
+- Geometry
+to jedna z najważniejszych kategorii - z dostępnych figur geometrycznych (kula, sfera, prostopadłościan, walec, płaszczyzny, i.in.), wykorzystując logiczne operatory sumowania, odejmowania, budujemy naszą rzeczywistość - detektor, osłony, człowieka, itp.
+- Media 
+tutaj określamy, z czego składają się zbudowane powyżej obiekty - można wykorzystać bazę z zdefinowanymi we Fluce materiałami (woda, miedź, powietrze, itp), można stworzyć swój składnik podając skłąd chemiczny (np. papier).
+- Physics, Transport, Biasing 
+tutaj można podać modele fizyczne oddziaływań, które chcemy, aby znalazły się w transporcie cząstek. Domyślnie Fluka używa aktualnych modeli i teorii, można to zmienić w wyjątkowych zastosowaniach.
+- Scoring
+druga najważniejsza kategoria - definiujemy, jakich wyników (estymatorów parametrów fizycznych) oczekujemy od Fluki. Bardzo dużo możliwości - od depozytów energii do strumieni i fluencji cząstek. W następnym paragrafie opisane zostaną kilka najbardziej dla nas użystecznych estymatorów. 
 
