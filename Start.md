@@ -74,3 +74,4 @@ tutaj można podać modele fizyczne oddziaływań, które chcemy, aby znalazły 
 - Scoring
 druga najważniejsza kategoria - definiujemy, jakich wyników (estymatorów parametrów fizycznych) oczekujemy od Fluki. Bardzo dużo możliwości - od depozytów energii do strumieni i fluencji cząstek. W następnym paragrafie opisane zostaną kilka najbardziej dla nas użystecznych estymatorów. 
 
+
