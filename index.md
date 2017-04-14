@@ -25,7 +25,8 @@ Upewnij się, że posiadasz konto na serwerze `lhcb1`, na którym zainstalowane 
 3. [Ratunku! Nic nie działa!](Ratunek.md)
 
 ## Ćwiczenia laboratoryjne II:
-VELO 
+1. [ROOT - praktyczne wprowadzenie](Root.md)
+2. [VELO] 
 
 ## Projekty
 1.  a) Zbadanie zasięgu wysokoenergetycznych cząstek naładowanych w różnych materiałach (Fluka), [opis](Stopping.md). <br>
