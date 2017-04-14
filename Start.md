@@ -80,14 +80,14 @@ Po uzyskaniu wiadomości `Finished ok` możemy oglądnąć wyniki. Jeśli dostan
 Kliknijmy na: `Run->Files` - zobaczymy pliki outputowe. Widać w nazwach numery _jednostek logicznych_, które zdefiniowaliśmy w pliku inputowym, zauważymy również, że Fluka zapisała wyniki OSOBNO dla każdego cyklu. Jest to pozostałość po zamierzchłych czasach, kiedy komputery liczyły wolno i często się zawieszały - w takiej sytuacji można było wykorzystać fragment skończonej symulacji. Po zastanowieniu wydaje się to logiczne. 
 
 Musimy teraz połączyć wyniki. W tym celu klikamy `Run->Data->Process` i czekamy na zielone okienko informujące, ile i jakie pliki outputowe są łączone. Widok powinien być taki"
-[!["PROCESS"](Images/Flair_merge.jpg)](Images/Flair_merge.jpg)
+[!["PROCESS"](Images/Flair_merge.png)](Images/Flair_merge.png)
 
 ### Błędy
 Możemy dostać tutaj  czerwonawe okienko z `Errors` zmiast zielonego, które mówi, że jest ok. Błędy na tym etapie spowodowane są błędami w geometrii - np. obszar do `Scoringu` wykracza poza region w `Geometry` albo regiony są źle nazwane lub zdefinowane, albo coś jest źle z zakresami rozkładów. Musimy to znaleźć sami i puścić symulację od nowa. Może tutaj pojawić się błąd z `Gnuplota` - np, że ma za małą paletę barw. wtedy należy zainstalować jego inną wersję. Może się również zdarzyć, że brakuje danych na rozkładzie - wtedy Gnuplot nie ma co wyświetlić. W tej sytuacji po prostu zwiększamy liczbę `Primaries`. 
 
 ## Wykonanie rozkładów
 Uff, już niedługo... Klikamy `Plot->Oz` i widzimy listę stworzonych przez nas rozkładów. Feel free to click!
-[!["PLOT"](Images/Flair_plot.jpg)](Images/Flair_plot.png)
+[!["PLOT"](Images/Flair_plot.png)](Images/Flair_plot.png)
 
 
 ### wskazówki
