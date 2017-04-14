@@ -49,7 +49,6 @@ Detektor jest to region, w którym użytkownik chce obliczać wartości oczekiwa
 -	sygnał startowy i liczba żądanych zdarzeń (obowiązkowe).
  
 ## Tworzenie pliku inputowego
-
 Po lewej stronie okna Flaira znajduje się drzewo projektu. Widoczne są w nim następujące kategorie kart:
 - `General`:	karty ogólne (TITTLE, DEFAULTS, GLOBAL, …). Mają wprowadzone wartości domyślne. Jeśli nie – można wpisać tytuł.
 - `Primary`:	karty z opisem wiązki i cząstek pierwotnych (tzw. _primaries_). Tutaj zdefiniujemy parametry źródła promieniowania - typ, kształt, pęd, energię, rozmycie. Określimy rodzaj - fotony, protony, itd. Określamy też liczbę cząstek pierwotnych, liczba ta ma ogromny wpływ na czas wykonania zadania.
@@ -61,10 +60,10 @@ Po lewej stronie okna Flaira znajduje się drzewo projektu. Widoczne są w nim n
 - `Scoring`:	karty definiujące zakres i rodzaj estymatorów. Jest to druga najważniejsza kategoria - definiujemy, jakich wyników (estymatorów parametrów fizycznych) oczekujemy od Fluki. Bardzo dużo możliwości - od depozytów energii do strumieni i fluencji cząstek. W następnym paragrafie opisane zostaną  najbardziej dla nas użystecznych estymatory. 
 
 Poszczególne karty można traktować jak pojedyncze obiekty. Można je kasować, wstawiać, kopiować, wklejać, klonować, … Pozycja karty nie ma większego znaczenia. FLAIR stara się reorganizować plik Input podczas zapisywania i przesuwa karty na odpowiednie pozycje. Karty z kategorii Geometry, powinny się znaleźć w bloku GEOBEGIN .. GEOEND.
-Aby rozpocząć edycję karty, należy wybrać kartę za pomocą strzałek góra/dół lub za pomocą myszy. Karta aktywna ma podświetlone tło w jasnożółtym kolorze i czarną obramówkę. Można "podświetlić" kilka (takich samych) kart i wtedy zmienimy wszystkie karty (uwaga, żeby nie zmienić nazw estymatorów). Tutaj proponujemy się zatrzymać i poeksperymentować. Uwaga! We Flairze ZAWSZE trzeba wpisywać liczby z kropką na końcu '100.', nawet liczby całkowite! To pozostałość po fortranie...
+Aby rozpocząć edycję karty, należy wybrać kartę za pomocą strzałek góra/dół lub za pomocą myszy. Karta aktywna ma podświetlone tło w jasnożółtym kolorze i czarną obramówkę. Można "podświetlić" kilka (takich samych) kart i wtedy zmienimy wszystkie karty (uwaga, żeby nie zmienić nazw estymatorów). Tutaj proponujemy się zatrzymać i poeksperymentować. Uwaga! We Flairze ZAWSZE trzeba wpisywać liczby z kropką na końcu `100.`, nawet liczby całkowite! To pozostałość po fortranie...
 
 ### Błędy w pliku inputowym
-Najpierw trzeba sprawdzić, czy Flair sam nie znalazł błędu - zmieni kolor czcionki na czerwono, czasem pojawi się czeronawe okienko sygnalizujące 'Error". Można obejrzeć geometrię problemu, ale przeważnie błąd zauważymy w momencie wykonania symulacji, albo po - gdy oglądniemy wyniki. W sytuacjach kryzysowych spojrzyj na: Fluka ma swoje ograniczenia, czasem pochodzące z fortrana, ale czasem równieź z Gnuplota, którego używa do tworzenia wykresów.
+Najpierw trzeba sprawdzić, czy Flair sam nie znalazł błędu - zmieni kolor czcionki na czerwono, czasem pojawi się czeronawe okienko sygnalizujące `Error`. Można obejrzeć geometrię problemu, ale przeważnie błąd zauważymy w momencie wykonania symulacji, albo po - gdy oglądniemy wyniki. W sytuacjach kryzysowych spojrzyj na: Fluka ma swoje ograniczenia, czasem pochodzące z fortrana, ale czasem równieź z Gnuplota, którego używa do tworzenia wykresów.
 
 ## Wykonanie symulacji
 
