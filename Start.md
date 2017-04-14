@@ -70,7 +70,7 @@ Widok na konsoli powinien wyglądąć tak:
 Tutaj proponujemy się zatrzymać i poeksperymentować. Zadanie na pierwsze ćwiczenia laboratoryjne polega na stworzeniu pliku inputowego, otrzymaniu kilku (pięciu?) rozkładów i dyskusji wyników. 
 
 ### Błędy w pliku inputowym
-Podczas tworzenia inputu, popełnimy na pewno szereg błędów. Najpierw trzeba sprawdzić, czy Flair sam ich nie znalazł - zmieni kolor czcionki na czerwono, trzeba poprawić! Czasem w trakcie pisania pojawi się czerwonawe okienko sygnalizujące `Error`, patrzymy dlaczego i poprawiamy. Ale przeważnie błąd zauważymy w momencie wykonania symulacji, albo dopiero po - gdy oglądniemy wyniki. Jest to bardzo irytujące - w sytuacjach kryzysowych, zanim rzucisz klawiaturą, spojrzyj na: [Pomocy!](Ratunek.md) Fluka ma swoje ograniczenia, czasem wynikające z jej fortranowskiego pochodzenia, ale czasem również z Gnuplota, którego używa do tworzenia wykresów.
+Podczas tworzenia inputu, popełnimy na pewno szereg błędów. Najpierw trzeba sprawdzić, czy Flair sam ich nie znalazł - zmieni kolor czcionki na czerwono, trzeba poprawić! Czasem w trakcie pisania pojawi się czerwonawe okienko sygnalizujące `Error`, patrzymy dlaczego i poprawiamy. Ale przeważnie błąd zauważymy w momencie wykonania symulacji, albo dopiero po - gdy oglądniemy wyniki. Jest to bardzo irytujące - w sytuacjach kryzysowych, zanim rzucisz klawiaturą, spojrzyj na: [Pomocy!](Ratunek.md) Fluka ma swoje ograniczenia, czasem wynikające z jej fortranowskiego pochodzenia, ale czasem również z Gnuplota, którego Flair używa do tworzenia wykresów.
 
 ## Wykonanie symulacji
 Po stworzeniu pliku inputowego puszczany symulację klikając:
