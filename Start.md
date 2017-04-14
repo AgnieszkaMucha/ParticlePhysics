@@ -50,15 +50,15 @@ Detektor jest to region, w którym użytkownik chce obliczać wartości oczekiwa
 
 Po lewej stronie okna Flaira znajduje się drzewo projektu. Widoczne są w nim następujące kategorie kart:
 - `General`:	karty ogólne (TITTLE, DEFAULTS, GLOBAL, …). Mają wprowadzone wartości domyślne. Jeśli nie – można wpisać tytuł.
-- `Primary`:	karty z opisem wiązki/ cząstek. Tutaj zdefiniujemy parametry źródła promieniowania - typ, kształt, pęd, energia, rozmycie. Określimy rodzaj - fotony, protony, itd. 
-- `Geometry`:	karty z opisem geometrii, regionów. To jedna z najważniejszych kategorii - z dostępnych figur geometrycznych (kula, sfera, prostopadłościan, walec, płaszczyzny, i.in.), wykorzystując logiczne operatory sumowania, odejmowania, budujemy naszą rzeczywistość - detektor, osłony, człowieka, itp.
-- `Media`:	karty definiujące zastosowane materiały. Tutaj określamy, z czego składają się zbudowane powyżej obiekty - można wykorzystać bazę z zdefinowanymi we Fluce materiałami (woda, miedź, powietrze, itp), można stworzyć swój składnik podając skład chemiczny (np. papier).
-- `Physics`:	karty definiujące właściwości fizyczne dotyczące danej symulacji
-- `Transport`:	karty, które zmieniają sposób transportu cząstek w programie FLUKA
-- `Biasing:`	karty definiujące obciążenie estymatorów. W tych trzech ostatnich kartach można podać modele fizyczne oddziaływań, które chcemy, aby znalazły się w transporcie cząstek. Domyślnie Fluka używa aktualnych modeli i teorii, można to zmienić w wyjątkowych zastosowaniach, ale na początki lepiej tu niz nie zmieniać, o fizykę we Fluce dbają znakomici naukowcy z różnych dziedzin, zajmujący się fizyką w BAAARDZO szerokim zakresie energetycznym.
+- `Primary`:	karty z opisem wiązki i cząstek pierwotnych (tzw. _primaries_). Tutaj zdefiniujemy parametry źródła promieniowania - typ, kształt, pęd, energię, rozmycie. Określimy rodzaj - fotony, protony, itd. 
+- `Geometry`:	karty z opisem geometrii, regionów, w któych badamy promieniowanie. To jedna z najważniejszych kategorii - z dostępnych figur geometrycznych (kula, sfera, prostopadłościan, walec, płaszczyzny, i.in.), wykorzystując logiczne operatory sumowania, odejmowania, budujemy naszą rzeczywistość - detektor, osłony, człowieka, itp.
+- `Media`:	karty definiujące zastosowane materiały. Tutaj określamy, z czego składają się zbudowane powyżej obiekty - można wykorzystać bazę ze zdefinowanymi we Fluce materiałami (woda, miedź, powietrze, itp), można stworzyć swój składnik podając skład chemiczny (np. papier).
+- `Physics`:	karty definiujące właściwości fizyczne dotyczące danej symulacji.
+- `Transport`:	karty, które zmieniają sposób transportu cząstek w programie FLUKA.
+- `Biasing:`	karty definiujące obciążenie estymatorów. W tych trzech ostatnich kartach można podać modele fizyczne oddziaływań, które chcemy, aby znalazły się w transporcie cząstek. Domyślnie Fluka używa aktualnych modeli i teorii, można to zmienić w wyjątkowych zastosowaniach, ale na początku lepiej tu nic nie zmieniać, o fizykę we Fluce dbają znakomici naukowcy z różnych dziedzin, zajmujący się fizyką w BAAARDZO szerokim zakresie energetycznym.
 - `Scoring`:	karty definiujące zakres i rodzaj estymatorów. Jest to druga najważniejsza kategoria - definiujemy, jakich wyników (estymatorów parametrów fizycznych) oczekujemy od Fluki. Bardzo dużo możliwości - od depozytów energii do strumieni i fluencji cząstek. W następnym paragrafie opisane zostaną  najbardziej dla nas użystecznych estymatory. 
 
 Poszczególne karty można traktować jak pojedyncze obiekty. Można je kasować, wstawiać, kopiować, wklejać, klonować, … Pozycja karty nie ma większego znaczenia. FLAIR stara się reorganizować plik Input podczas zapisywania i przesuwa karty na odpowiednie pozycje. Karty z kategorii Geometry, powinny się znaleźć w bloku GEOBEGIN .. GEOEND.
-Aby rozpocząć edycję karty, należy wybrać kartę za pomocą strzałek góra/dół lub za pomocą myszy. Karta aktywna ma podświetlone tło w jasnożółtym kolorze i czarną obramówkę. Można "podświetlić" kilka (takich samych) kart i wtedy zmienimy wszystkie karty (uwaga, żeby nie zmienić nazw estymatorów). Tutaj proponuję się zatrzymać i poeksperymentować.
+Aby rozpocząć edycję karty, należy wybrać kartę za pomocą strzałek góra/dół lub za pomocą myszy. Karta aktywna ma podświetlone tło w jasnożółtym kolorze i czarną obramówkę. Można "podświetlić" kilka (takich samych) kart i wtedy zmienimy wszystkie karty (uwaga, żeby nie zmienić nazw estymatorów). Tutaj proponujemy się zatrzymać i poeksperymentować.
 
 
