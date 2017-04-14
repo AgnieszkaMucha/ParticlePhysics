@@ -50,7 +50,7 @@ Detektor jest to region, w którym użytkownik chce obliczać wartości oczekiwa
 
 Po lewej stronie okna Flaira znajduje się drzewo projektu. Widoczne są w nim następujące kategorie kart:
 - `General`:	karty ogólne (TITTLE, DEFAULTS, GLOBAL, …). Mają wprowadzone wartości domyślne. Jeśli nie – można wpisać tytuł.
-- `Primary`:	karty z opisem wiązki i cząstek pierwotnych (tzw. _primaries_). Tutaj zdefiniujemy parametry źródła promieniowania - typ, kształt, pęd, energię, rozmycie. Określimy rodzaj - fotony, protony, itd. 
+- `Primary`:	karty z opisem wiązki i cząstek pierwotnych (tzw. _primaries_). Tutaj zdefiniujemy parametry źródła promieniowania - typ, kształt, pęd, energię, rozmycie. Określimy rodzaj - fotony, protony, itd. Określamy też liczbę cząstek pierwotnych, liczba ta ma ogromny wpływ na czas wykonania zadania.
 - `Geometry`:	karty z opisem geometrii, regionów, w któych badamy promieniowanie. To jedna z najważniejszych kategorii - z dostępnych figur geometrycznych (kula, sfera, prostopadłościan, walec, płaszczyzny, i.in.), wykorzystując logiczne operatory sumowania, odejmowania, budujemy naszą rzeczywistość - detektor, osłony, człowieka, itp.
 - `Media`:	karty definiujące zastosowane materiały. Tutaj określamy, z czego składają się zbudowane powyżej obiekty - można wykorzystać bazę ze zdefinowanymi we Fluce materiałami (woda, miedź, powietrze, itp), można stworzyć swój składnik podając skład chemiczny (np. papier).
 - `Physics`:	karty definiujące właściwości fizyczne dotyczące danej symulacji.
