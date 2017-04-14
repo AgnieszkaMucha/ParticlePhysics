@@ -65,9 +65,15 @@ Aby rozpocząć edycję karty, należy wybrać kartę za pomocą strzałek góra
 Tutaj proponujemy się zatrzymać i poeksperymentować. 
 
 ### Błędy w pliku inputowym
-Najpierw trzeba sprawdzić, czy Flair sam nie znalazł błędu - zmieni kolor czcionki na czerwono, czasem pojawi się czeronawe okienko sygnalizujące `Error`. Można obejrzeć geometrię problemu, ale przeważnie błąd zauważymy w momencie wykonania symulacji, albo po - gdy oglądniemy wyniki. W sytuacjach kryzysowych spojrzyj na: [Pomocy!](Ratunek.md). Fluka ma swoje ograniczenia, czasem pochodzące z fortrana, ale czasem równieź z Gnuplota, którego używa do tworzenia wykresów.
+Najpierw trzeba sprawdzić, czy Flair sam nie znalazł błędu - zmieni kolor czcionki na czerwono, czasem pojawi się czerwonawe okienko sygnalizujące `Error`. Można obejrzeć geometrię problemu, ale przeważnie błąd zauważymy w momencie wykonania symulacji, albo dopiero po - gdy oglądniemy wyniki. W sytuacjach kryzysowych spojrzyj na: [Pomocy!](Ratunek.md). Fluka ma swoje ograniczenia, czasem pochodzące z fortrana, ale czasem równieź z Gnuplota, którego używa do tworzenia wykresów.
 
 ## Wykonanie symulacji
+Po stworzeniu pliku inputowego puszczany symulację klikając:
+```
+Run->Runs->Start
+```
+Można zuważyć, że zadanie wykonuje się w tzw. cyklach - im większa liczba cykli, tym mniejsze niepewności statystyczne. Podczas wykonania możemy śledzić status zadania:
+(Images/Flair_run.png)](Images/Flair_run.png)
 
 
 
