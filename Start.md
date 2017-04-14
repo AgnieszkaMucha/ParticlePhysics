@@ -88,19 +88,20 @@ Musimy teraz połączyć wyniki. W tym celu klikamy `Run->Data->Process` i czeka
 Możemy dostać tutaj  czerwonawe okienko z `Errors` zmiast zielonego z sukcesem `Data merging`. Błędy na tym etapie spowodowane są błędami w geometrii - np. obszar do `Scoringu` wykracza poza region w `Geometry` albo regiony są źle nazwane lub zdefinowane, albo coś jest źle z zakresami rozkładów. Musimy to znaleźć sami i puścić symulację od nowa. Może tutaj pojawić się błąd z `Gnuplota` - np, że ma za małą paletę barw. wtedy należy zainstalować jego inną wersję. Może się również zdarzyć, że brakuje danych na rozkładzie - wtedy Gnuplot nie ma co wyświetlić. W tej sytuacji po prostu zwiększamy liczbę `Primaries`. 
 
 ## Wykonanie rozkładów
-Uff, już niedługo... Klikamy `Plot->Oz` i widzimy listę stworzonych przez nas rozkładów. Feel free to click!
+Uff, już niedługo... <br> Klikamy `Plot->Oz` i widzimy listę stworzonych przez nas rozkładów. Feel free to click! Prosżę teraz przyjrzeć się informacjom wypisanycm we Flairze i przetestować wszystkie możliwe przyciski!
+
 [!["PLOT"](Images/Flair_plot.png)](Images/Flair_plot.png)
 
 
-### wskazówki
-
-
-Jeśli chcemy zrobić rozkłady w NOWEJ sesji Flaira, wczytujemy plik inputowy: `Input->Load`, a potem musimy połaczyć dane `Run->Data->Process` i zrobić rysunki: `Plot->Oz`.
+### Wskazówki praktyczne
+- Kilka rysunków na jednej konsoli można zrobić zwiększająć licznk w przycisku `Display`.
+- Jeśli chcemy zrobić rozkłady w NOWEJ sesji Flaira, wczytujemy plik inputowy: `Input->Load`, a potem musimy połaczyć dane `Run->Data->Process` i zrobić rysunki: `Plot->Oz`.
 
 ## Dyskusja wyników
+Dzisiejsze laboratorium skończymy, gdy KAŻDY dostanie rozkłady i omówi je z prowadzącym. 
 
 # Dla dociekliwych
-Proszę oglądnąć (w edytorze lub Flairze) pliki z wynikami. Co w nich jest? Jakie informacje? Jak zapisane? Czy po "wyklikaniu" rysunków nie mamy ochoty zrobić ich w innym programie?
+Proszę oglądnąć (w edytorze lub Flairze) pliki z wynikami. Co w nich jest? Jakie informacje? Jak zapisane? Czy po "wyklikaniu" rysunków nie mamy ochoty zrobić ich w innym programie? Zapraszamy zatem do konwersji wyników Fluki do ROOTa [FLOOT](FLOOT.md)... 
 
 
 
