@@ -89,11 +89,11 @@ Musimy teraz połączyć wyniki. W tym celu klikamy `Run->Data->Process` i czeka
 [!["PROCESS"](Images/Flair_megre.png)](Images/Flair_megre.png)
 
 ### Błędy po wykonaniu symulacji
-Chociaż symulacja skończyła się prawidłowo, możemy przy procesowaniu wyników dostać znowu  czerwonawe okienko z `Errors` zmiast zielonego z sukcesem `Data Merging`. Błędy na tym etapie spowodowane są błędami w geometrii - np. obszar do `Scoringu` wykracza poza region w `Geometry` albo regiony są źle nazwane lub zdefinowane, albo coś jest źle z zakresami rozkładów. Musimy to znaleźć sami i puścić symulację od nowa. Może tutaj pojawić się błąd z `Gnuplota` - np, że ma za małą paletę barw. Wtedy należy zainstalować jego inną wersję. Może się również zdarzyć, że brakuje danych na rozkładzie - wtedy Gnuplot nie ma co wyświetlić. W tej sytuacji po prostu zwiększamy liczbę `Primaries`. 
+Chociaż symulacja skończyła się prawidłowo, możemy przy procesowaniu wyników dostać znowu  czerwonawe okienko z `Errors` zmiast zielonego z sukcesem `Data Merging`. Błędy na tym etapie spowodowane są błędami w geometrii - np. obszar do `Scoringu` wykracza poza region w `Geometry` albo regiony są źle nazwane lub zdefinowane, albo coś jest źle z zakresami rozkładów. Musimy to znaleźć sami i puścić symulację od nowa. Może tutaj pojawić się błąd z `Gnuplota` - np, że ma za małą paletę barw. Wtedy administrator powinien zainstalować jego inną wersję. Może się również zdarzyć, że brakuje danych na rozkładzie - wtedy Gnuplot nie ma co wyświetlić. W tej sytuacji po prostu zwiększamy liczbę `Primaries`. 
 
 ## Wykonanie rozkładów
 Uff, już niedługo... <br> Klikamy `Plot->Oz` i widzimy listę stworzonych przez nas rozkładów. Feel free to click! <br>
-Proszę teraz przyjrzeć się informacjom wypisanym w oknie Flaira i przetestować wszystkie możliwe przyciski! Fluka ma naprawdę ogromne możliwości.
+Proszę teraz przyjrzeć się informacjom wypisanym w oknie Flaira i przetestować wszystkie możliwe przyciski! Fluka ma naprawdę ogromne możliwości...
 
 [!["PLOT"](Images/Flair_plot.png)](Images/Flair_plot.png)
 
