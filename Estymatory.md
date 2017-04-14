@@ -2,7 +2,10 @@
 ## Estymatory we Fluce
 Obliczenia trasportu cząstek we Fluce umożliwiają wyznaczenie estymatorów szeregu parametrów, np. zdeponowanej energii, dawki, strumienia czy fluencji. Estymatory te obliczane są na kilka sposobów, szczegóły można znaleźć na stronie [FLUKI](http://www.fluka.org/fluka.php?id=man_onl).
 
-W naszych ćwiczeniach posłużymy się jednym z nich: `USRBIN`. Pokazuje on np. depozyty energii w trójwymiarowej siatce, niezależnie od geometrii regionów. Fluka używa jednostek: cm, GeV. <br>
+### Metoda estymacji we FLUCE
+to do later!
+
+W naszych ćwiczeniach posłużymy się jednym z estymatorów: `USRBIN`. Pokazuje on np. depozyty energii w trójwymiarowej siatce, niezależnie od geometrii regionów. Fluka używa jednostek: cm, GeV. <br>
 Użycie karty estymatora `USRBIN` wymaga:
 - Wyboru współrzędnych - kartezjańskich, cylndrycznych, sferycznych.
 - W zależności od rodzaju współrzędnych - podania ich zakresu (tu uwaga - zakres nie może być szerszy niż wymiary geometryczne całego obiektu).
@@ -15,9 +18,9 @@ Przykład użycia `USRBIN` jest poniżej:
 
 [!["USRBIN"](Images/USRBIN.png)](Images/USRBIN.png)
 
-Rozkłady uzyskane po symulacji są niezwykle widowiskowe, ale przede wszystkim powinniśmy wiedzieć, co się na nich znajduje. W naszych zastosowaniach wykorzystamy estymatory następujących zmiennych: _(dopisać opis)_
+Rozkłady uzyskane po symulacji to kolorowe rozkłądy 3D, przede wszystkim powinniśmy wiedzieć, co się na nich znajduje. W naszych zastosowaniach wykorzystamy estymatory następujących zmiennych: _(dopisać opis)_
 - `DOSE`
 - `HAD_CHAR`
 - `EM-ENERGY`
 - `PROTON`, `NEUTRON`, `PHOTON`,  `ELECTRON`, `PIONS+-`, `MUONS`
-- `SiMEVNE'
+- `SiMEVNE`
