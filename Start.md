@@ -73,7 +73,7 @@ Po stworzeniu pliku inputowego puszczany symulację klikając:
 Run->Runs->Start
 ```
 Można zuważyć, że zadanie wykonuje się w tzw. cyklach - im większa liczba cykli, tym mniejsze niepewności statystyczne. Podczas wykonania możemy śledzić status zadania:
-[!["FLAIR"](Images/Flair_run.png)](Images/Flair_run.png)
+[!["STATUS"](Images/Flair_run.jpg)](Images/Flair_run.jpg)
 
 
 
