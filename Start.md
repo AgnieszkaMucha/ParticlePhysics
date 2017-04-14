@@ -89,7 +89,8 @@ Musimy teraz połączyć wyniki. W tym celu klikamy `Run->Data->Process` i czeka
 [!["PROCESS"](Images/Flair_megre.png)](Images/Flair_megre.png)
 
 ### Błędy po wykonaniu symulacji
-Chociaż symulacja skończyła się prawidłowo, możemy przy procesowaniu wyników dostać znowu  czerwonawe okienko z `Errors` zmiast zielonego z sukcesem `Data Merging`. Błędy na tym etapie spowodowane są błędami w geometrii - np. obszar do `Scoringu` wykracza poza region w `Geometry` albo regiony są źle nazwane lub zdefinowane, albo coś jest źle z zakresami rozkładów. Musimy to znaleźć sami i puścić symulację od nowa. Może tutaj pojawić się błąd z `Gnuplota` - np, że ma za małą paletę barw. Wtedy administrator powinien zainstalować jego inną wersję. Może się również zdarzyć, że brakuje danych na rozkładzie - wtedy Gnuplot nie ma co wyświetlić. W tej sytuacji po prostu zwiększamy liczbę `Primaries`. 
+Chociaż symulacja skończyła się prawidłowo, możemy przy procesowaniu wyników dostać znowu  czerwonawe okienko z `Errors` zmiast zielonego z sukcesem `Data Merging`. Błędy na tym etapie spowodowane są błędami w geometrii - np. obszar do `Scoringu` wykracza poza region w `Geometry` albo regiony są źle nazwane lub zdefinowane, albo coś jest źle z zakresami rozkładów. Musimy to znaleźć sami i puścić symulację od nowa. Może tutaj pojawić się błąd z `Gnuplota` - np, że ma za małą paletę barw. Wtedy administrator powinien zainstalować jego inną wersję. Może się również zdarzyć, że brakuje danych na rozkładzie - wtedy Gnuplot nie ma co wyświetlić. W tej sytuacji po prostu zwiększamy liczbę `Primaries`. <BR>
+Gdy symulacja skończy się szybko i dostaniemy na końcu uspokajające potwierdzenie `Finisked OK` możemy nie zauważyć, że w rzeczywistości nic się nie wykonało. Na skutek niezauważonych błędów w `Inpucie`, symulacja się zakończyła bez wyników, a zauważyć to można patrząc na `Run->Files` - w oknie będzie tylko numer jednego cyklu zamiast np. pięciu. Znowu wraamy do inputu i szukamy blędu... 
 
 ## Wykonanie rozkładów
 Uff, już niedługo... <br> Klikamy `Plot->Oz` i widzimy listę stworzonych przez nas rozkładów. Feel free to click! <br>
@@ -106,7 +107,11 @@ Proszę teraz przyjrzeć się informacjom wypisanym w oknie Flaira i przetestowa
 Dzisiejsze laboratorium skończymy, gdy KAŻDY uczestnik dostanie rozkłady i omówi je z prowadzącym. 
 
 # Dla dociekliwych
-Proszę oglądnąć (w edytorze lub Flairze: `Run->Data->Files->Cycles->data->Viewer`) pliki z wynikami. Co w nich jest? Jakie informacje? Jak zapisane? Czy po "wyklikaniu" rysunków nie mamy ochoty zrobić ich w innym programie? <br>
+1. Symulację można wykonć z konsoli, bez Flaira, komendą:
+```
+rfluka -m -r coć tam
+```
+2. Proszę oglądnąć (w edytorze lub Flairze: `Run->Data->Files->Cycles->data->Viewer`) pliki z wynikami. Co w nich jest? Jakie informacje? Jak zapisane? Czy po "wyklikaniu" rysunków nie mamy ochoty zrobić ich w innym programie? <br>
 Zapraszamy zatem do konwersji wyników Fluki do ROOTa [FLOOT](Floot.md)... 
 
 
