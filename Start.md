@@ -62,7 +62,8 @@ Po lewej stronie okna Flaira znajduje się drzewo projektu. Widoczne są w nim n
 Poszczególne karty można traktować jak pojedyncze obiekty. Można je kasować, wstawiać, kopiować, wklejać, klonować, … Pozycja karty nie ma większego znaczenia. FLAIR stara się reorganizować plik Input podczas zapisywania i przesuwa karty na odpowiednie pozycje. Karty z kategorii Geometry, powinny się znaleźć w bloku GEOBEGIN .. GEOEND.
 Aby rozpocząć edycję karty, należy wybrać kartę za pomocą strzałek góra/dół lub za pomocą myszy. Karta aktywna ma podświetlone tło w jasnożółtym kolorze i czarną obramówkę. Można "podświetlić" kilka (takich samych) kart i wtedy zmienimy wszystkie karty (uwaga, żeby nie zmienić nazw estymatorów). Uwaga! We Flairze ZAWSZE trzeba wpisywać liczby z kropką na końcu `100.`, nawet liczby całkowite! To pozostałość po fortranie...
 
-Tutaj proponujemy się zatrzymać i poeksperymentować. 
+### STOP
+Tutaj proponujemy się zatrzymać i poeksperymentować. Zadanie na pierwsze ćwiczenia laboratoryjne polega na stworzeniu pliku inputowego, otrzymaniu kilku (pięciu) rozkładów i dyskusji wyników. 
 
 ### Błędy w pliku inputowym
 Najpierw trzeba sprawdzić, czy Flair sam nie znalazł błędu - zmieni kolor czcionki na czerwono, czasem pojawi się czerwonawe okienko sygnalizujące `Error`. Można obejrzeć geometrię problemu, ale przeważnie błąd zauważymy w momencie wykonania symulacji, albo dopiero po - gdy oglądniemy wyniki. W sytuacjach kryzysowych spojrzyj na: [Pomocy!](Ratunek.md). Fluka ma swoje ograniczenia, czasem pochodzące z fortrana, ale czasem równieź z Gnuplota, którego używa do tworzenia wykresów.
@@ -74,6 +75,9 @@ Run->Runs->Start
 ```
 Można zuważyć, że zadanie wykonuje się w tzw. cyklach - im większa liczba cykli, tym mniejsze niepewności statystyczne. Podczas wykonania możemy śledzić status zadania:
 [!["STATUS"](Images/Flair_run.jpg)](Images/Flair_run.jpg)
+Po uzyskaniu wiadomości `Finished ok` możemy oglądnąć wyniki. Kliknijmy na: `Run->Files` - zobaczymy pliki outputowe. Widać w nazwach numery _jednostek logicznych_, które zdefiniowaliśmy w pliku inputowym, zauważymy również, że Fluka zapisała wyniki OSOBNO dla każdego cyklu. Jest to pozostałość po zamierzchłych czasach, kiedy komputery liczyły wolno i często się zawieszały - w takiej sytuacji można było wykorzystać fragment zrobionej symulacji. Po zastanowieniu wydaje się to jednak logiczne. W każdym razie musimy teraz połczyć wyniki. W tym celu klikamy `Run->Data->Process` i czekamy na zielone okienko informujące, ile i jakie pliki outputowe są łączone. 
+
+
 
 
 
