@@ -4,8 +4,8 @@ Obliczenia trasportu cząstek we Fluce umożliwiają wyznaczenie estymatorów sz
 
 W naszych ćwiczeniach posłużymy się jednym z nich: `USRBIN`. Pokazuje on np. depozyty energii w trójwymiarowej siatce, niezależnie od geometrii regionów. Fluka używa jednostek: cm, GeV. <br>
 Użycie karty estymatora `USRBIN` wymaga:
-- wyboru współrzędnych - kartezjańskich, cylndrycznych, sferycznych,
-- w zależności od rodzaju współrzędnych - podaniaich zakresu (tu uwaga - zakres nie może być szerszy niż wymiary geometryczne całego obiektu).
+- Wyboru współrzędnych - kartezjańskich, cylndrycznych, sferycznych.
+- W zależności od rodzaju współrzędnych - podania ich zakresu (tu uwaga - zakres nie może być szerszy niż wymiary geometryczne całego obiektu).
 - Rodzaju wybranego estymatora. Jest tu cała lista. Pole do testów. Najlepiej wpisać sobie kilka kart ze `USRBIN` z estymatorami różnych parametrów.
 - Numeru logicznego, najlepiej z rozwijanej listy, bo niektóre numery są zarezerwowane dla fortrana.
 - Nazwy "detektora" - tak we Fluce nazywamy nasz estymator. Ta nazwa powinna być znacząca. 
@@ -14,3 +14,5 @@ Użycie karty estymatora `USRBIN` wymaga:
 Przykład użycia `USRBIN` jest poniżej:
 
 [!["USRBIN"](Images/USRBIN.png)](Images/USRBIN.png)
+
+Rozkłady uzyskane po symulacji są niezwykle widowiskowe, ale przede wszystkim powinniśmy wiedzieć, co się na nich znajduje. 
