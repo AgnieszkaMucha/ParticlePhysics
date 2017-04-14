@@ -63,7 +63,7 @@ Poszczególne karty można traktować jak pojedyncze obiekty. Można je kasować
 Aby rozpocząć edycję karty, należy wybrać kartę za pomocą strzałek góra/dół lub za pomocą myszy. Karta aktywna ma podświetlone tło w jasnożółtym kolorze i czarną obramówkę. Można "podświetlić" kilka (takich samych) kart i wtedy zmienimy wszystkie karty (uwaga, żeby nie zmienić nazw estymatorów). Tutaj proponujemy się zatrzymać i poeksperymentować. Uwaga! We Flairze ZAWSZE trzeba wpisywać liczby z kropką na końcu `100.`, nawet liczby całkowite! To pozostałość po fortranie...
 
 ### Błędy w pliku inputowym
-Najpierw trzeba sprawdzić, czy Flair sam nie znalazł błędu - zmieni kolor czcionki na czerwono, czasem pojawi się czeronawe okienko sygnalizujące `Error`. Można obejrzeć geometrię problemu, ale przeważnie błąd zauważymy w momencie wykonania symulacji, albo po - gdy oglądniemy wyniki. W sytuacjach kryzysowych spojrzyj na: Fluka ma swoje ograniczenia, czasem pochodzące z fortrana, ale czasem równieź z Gnuplota, którego używa do tworzenia wykresów.
+Najpierw trzeba sprawdzić, czy Flair sam nie znalazł błędu - zmieni kolor czcionki na czerwono, czasem pojawi się czeronawe okienko sygnalizujące `Error`. Można obejrzeć geometrię problemu, ale przeważnie błąd zauważymy w momencie wykonania symulacji, albo po - gdy oglądniemy wyniki. W sytuacjach kryzysowych spojrzyj na: [Ratunek](Ratunek.md). Fluka ma swoje ograniczenia, czasem pochodzące z fortrana, ale czasem równieź z Gnuplota, którego używa do tworzenia wykresów.
 
 ## Wykonanie symulacji
 
