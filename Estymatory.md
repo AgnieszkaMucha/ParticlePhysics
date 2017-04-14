@@ -5,6 +5,7 @@ Obliczenia trasportu cząstek we Fluce umożliwiają wyznaczenie estymatorów sz
 ### Metoda estymacji we FLUCE
 to do later!
 
+## `USRBIN`
 W naszych ćwiczeniach posłużymy się jednym z estymatorów: `USRBIN`. Pokazuje on np. depozyty energii w trójwymiarowej siatce, niezależnie od geometrii regionów. Fluka używa jednostek: cm, GeV. <br>
 Użycie karty estymatora `USRBIN` wymaga:
 - Wyboru współrzędnych - kartezjańskich, cylndrycznych, sferycznych.
@@ -19,9 +20,12 @@ Przykład definiowania `USRBIN`:
 
 [!["USRBIN"](Images/USRBIN.png)](Images/USRBIN.png)
 
-Rozkłady uzyskane po symulacji to kolorowe rozkłądy 3D, przede wszystkim powinniśmy wiedzieć, co się na nich znajduje. W naszych zastosowaniach wykorzystamy estymatory następujących zmiennych: _(dopisać opis)_
+Rozkłady uzyskane po symulacji to kolorowe wykresy 3D, o różnej zawartości. W naszych zastosowaniach wykorzystamy estymatory następujących zmiennych: _(dopisać opis)_
 - `DOSE`
 - `HAD_CHAR`
 - `EM-ENERGY`
 - `PROTON`, `NEUTRON`, `PHOTON`,  `ELECTRON`, `PIONS+-`, `MUONS`
 - `SiMEVNE`
+Paleta barw jest proporcjonalna do wartości estymowanej, a osie na wykresach pokazują zakresy binowania. <br>
+WAŻNE! We Fluce WSZYSTKIE wyniki liczbowe podawane są w odniesieniu do JEDNEJ cząstki padającego promieniowania (zwanego tu `Primaries`). Przyjrzyjmy się (dłużej) i omówmy, co znajduje się na poniższych wykresach:
+
