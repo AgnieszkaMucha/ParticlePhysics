@@ -57,9 +57,10 @@ Po lewej stronie okna Flaira znajduje się drzewo projektu. Widoczne są w nim n
 - `Scoring`:	karty definiujące zakres i rodzaj estymatorów. Jest to druga najważniejsza kategoria - definiujemy, jakich wyników (estymatorów parametrów fizycznych) oczekujemy od Fluki. Bardzo dużo możliwości - od depozytów energii do strumieni i fluencji cząstek. W następnym paragrafie opisane zostaną  najbardziej dla nas użystecznych estymatory. 
 
 Poszczególne karty można traktować jak pojedyncze obiekty. Można je kasować, wstawiać, kopiować, wklejać, klonować, … Pozycja karty nie ma większego znaczenia. FLAIR stara się reorganizować plik Input podczas zapisywania i przesuwa karty na odpowiednie pozycje. Karty z kategorii Geometry, powinny się znaleźć w bloku GEOBEGIN .. GEOEND.
-Aby rozpocząć edycję karty, należy wybrać kartę za pomocą strzałek góra/dół lub za pomocą myszy. Karta aktywna ma podświetlone tło w jasnożółtym kolorze i czarną obramówkę. Można "podświetlić" kilka (takich samych) kart i wtedy zmienimy wszystkie karty (uwaga, żeby nie zmienić nazw estymatorów). Uwaga! We Flairze ZAWSZE trzeba wpisywać liczby z kropką na końcu, np. `100.`, nawet liczby całkowite! To pozostałość po fortranie... <bf>
+Aby rozpocząć edycję karty, należy wybrać kartę za pomocą strzałek góra/dół lub za pomocą myszy. Karta aktywna ma podświetlone tło w jasnożółtym kolorze i czarną obramówkę. Można "podświetlić" kilka (takich samych) kart i wtedy zmienimy wszystkie karty (uwaga, żeby nie zmienić nazw estymatorów). <br>
+Uwaga! We Flairze ZAWSZE trzeba wpisywać liczby z kropką dzisiętną na końcu, np. `100.`, nawet liczby całkowite! To pozostałość po fortranie... <br.
 
-Nasze pierwsze kroki postawimy robiąc symulację przejścia wiązki protonów przez beczkę z wodą. Najlepiej tej plik skontuować samemu, ale na pierwszy raz możemy posłużyć się gotowym przykładem. W tym celu  we Flairze wczytujemy przygotowany input `beczka.inp` klikając w przyciski: `Input->Load`. 
+Nasze pierwsze kroki postawimy robiąc symulację przejścia wiązki protonów przez beczkę z wodą. Najlepiej tej plik skonstruować samemu, ale na pierwszy raz możemy posłużyć się gotowym przykładem. W tym celu  we Flairze wczytujemy przygotowany input `beczka.inp` klikając w przyciski: `Input->Load`. 
 Widok na konsoli powinien wyglądąć tak:
 
 [!["FLAIR"](Images/Flair.png)](Images/Flair.png)
@@ -68,7 +69,7 @@ Widok na konsoli powinien wyglądąć tak:
 Tutaj proponujemy się zatrzymać i poeksperymentować. Zadanie na pierwsze ćwiczenia laboratoryjne polega na stworzeniu pliku inputowego, otrzymaniu kilku (pięciu) rozkładów i dyskusji wyników. 
 
 ### Błędy w pliku inputowym
-Najpierw trzeba sprawdzić, czy Flair sam nie znalazł błędu - zmieni kolor czcionki na czerwono (trzeba poprawić!), czasem pojawi się czerwonawe okienko sygnalizujące `Error`. Ale przeważnie błąd zauważymy w momencie wykonania symulacji, albo dopiero po - gdy oglądniemy wyniki. W sytuacjach kryzysowych, zanim rzucisz klawiaturą, spojrzyj na: [Pomocy!](Ratunek.md) Fluka ma swoje ograniczenia, czasem pochodzące z fortrana, ale czasem równieź z Gnuplota, którego używa do tworzenia wykresów.
+Podczas tworzenia inputu, popełnimy a pewno mnóstwo błędów. Najpierw trzeba sprawdzić, czy Flair sam ich nie znalazł- zmieni kolor czcionki na czerwono, trzeba poprawić! Czasem w trakcie pisania pojawi się czerwonawe okienko sygnalizujące `Error`, patrzymy dlaczego i poprawiamy. Ale przeważnie błąd zauważymy w momencie wykonania symulacji, albo dopiero po - gdy oglądniemy wyniki. Jest to bardzo irytujące - w sytuacjach kryzysowych, zanim rzucisz klawiaturą, spojrzyj na: [Pomocy!](Ratunek.md) Fluka ma swoje ograniczenia, czasem pochodzące z fortrana, ale czasem równieź z Gnuplota, którego używa do tworzenia wykresów.
 
 ## Wykonanie symulacji
 Po stworzeniu pliku inputowego puszczany symulację klikając:
@@ -77,7 +78,7 @@ Run->Runs->Start
 ```
 Można zuważyć, że zadanie wykonuje się w tzw. cyklach - im większa liczba cykli, tym mniejsze niepewności statystyczne. Podczas wykonania możemy śledzić status zadania:
 [!["STATUS"](Images/Flair_run.jpg)](Images/Flair_run.jpg)
-Po uzyskaniu wiadomości `Finished OK` możemy oglądnąć wyniki. Jeśli dostaniemy cokolwiek innego, np: `TIMEOUT` - mamy błąd w pliku inputowym (najczęściej: za dużo przedziałów w rozkładach 3D, brak kropki po liczbie całkowitej, niezdefiniowany materiał, region, itp). Wracamy do `Input` i zaczynamy analizę  pliku. Może się tu zdarzyć, że `TIMEOUT` ma przyczynę systemową - brak biblioteki. Staramy się to sprawdzać, ale historia nas nauczyła, że takie zdarzenia pojawiają się nieczekiwanie. 
+Po uzyskaniu wiadomości `Finished OK` możemy oglądnąć wyniki. Jeśli dostaniemy cokolwiek innego, np: `TIMEOUT` - mamy błąd w pliku inputowym (najczęściej: za dużo przedziałów w rozkładach 3D, brak kropki po liczbie całkowitej, niezdefiniowany materiał, region, itp). Wracamy do `Input` i zaczynamy analizę i poprawę  pliku. Może się tu zdarzyć, że `TIMEOUT` ma przyczynę systemową - brak biblioteki. Staramy się to sprawdzać, ale historia nas nauczyła, że takie zdarzenia pojawiają się nieczekiwanie. 
 
 Gdy jest `Finished OK`, kliknijmy na: `Run->Files` - zobaczymy pliki outputowe. Widać w nazwach numery _jednostek logicznych_, które zdefiniowaliśmy w pliku inputowym, zauważymy również, że Fluka zapisała wyniki OSOBNO dla każdego cyklu. Jest to pozostałość po zamierzchłych czasach, kiedy komputery liczyły wolno i często się zawieszały - w takiej sytuacji można było wykorzystać fragment skończonej symulacji. Po zastanowieniu wydaje się to logiczne. 
 
@@ -90,20 +91,21 @@ Możemy dostać tutaj  czerwonawe okienko z `Errors` zmiast zielonego z sukcesem
 
 ## Wykonanie rozkładów
 Uff, już niedługo... <br> Klikamy `Plot->Oz` i widzimy listę stworzonych przez nas rozkładów. Feel free to click! <br>
-Proszę teraz przyjrzeć się informacjom wypisanym we Flairze i przetestować wszystkie możliwe przyciski!
+Proszę teraz przyjrzeć się informacjom wypisanym we Flairze i przetestować wszystkie możliwe przyciski! Fluka ma naprawdę ogromne możliwości
 
 [!["PLOT"](Images/Flair_plot.png)](Images/Flair_plot.png)
 
 
 ### Wskazówki praktyczne
-- Kilka rysunków na jednej konsoli można zrobić zwiększająć licznk w przycisku `Display`.
+- Kilka rysunków na jednej konsoli można zrobić zwiększająć licznik w przycisku `Display`.
 - Jeśli chcemy zrobić rozkłady w NOWEJ sesji Flaira, wczytujemy plik inputowy: `Input->Load`, a potem musimy połaczyć dane `Run->Data->Process` i zrobić rysunki: `Plot->Oz`.
 
 ## Dyskusja wyników
 Dzisiejsze laboratorium skończymy, gdy KAŻDY dostanie rozkłady i omówi je z prowadzącym. 
 
 # Dla dociekliwych
-Proszę oglądnąć (w edytorze lub Flairze) pliki z wynikami. Co w nich jest? Jakie informacje? Jak zapisane? Czy po "wyklikaniu" rysunków nie mamy ochoty zrobić ich w innym programie? Zapraszamy zatem do konwersji wyników Fluki do ROOTa [FLOOT](FLOOT.md)... 
+Proszę oglądnąć (w edytorze lub Flairze: `Run->Data->Files->Cycles->data->Viewer`) pliki z wynikami. Co w nich jest? Jakie informacje? Jak zapisane? Czy po "wyklikaniu" rysunków nie mamy ochoty zrobić ich w innym programie? <br>
+Zapraszamy zatem do konwersji wyników Fluki do ROOTa [FLOOT](FLOOT.md)... 
 
 
 
