@@ -34,8 +34,13 @@ W naszych zastosowaniach wykorzystamy estymatory następujących zmiennych:
 - `SiMEVNE` - fluencja neutronów ekwiwalantnych (fluencja ważona funkcją zniszczeń),  [part/cm2]
 - `BEMPART` - energia zdeponowana TYLKO przez promieniowanie pierwotne (primaries), [GeV/cm3]
 
-Na wykresach, paleta barw jest proporcjonalna do wartości estymowanej (energii lub fluencji), a osie na wykresach pokazują geometryczne zakresy binowania. Wykresy dwuwymiarowe w binach zawierają ŚREDNIĄ z trzeciego wymiaru.<br>
+Na wykresach, paleta barw jest proporcjonalna do wartości estymowanej (energii lub fluencji), a osie na wykresach pokazują geometryczne zakresy binowania. Wykresy dwuwymiarowe w binach zawierają uśrednioną wartość z trzeciego wymiaru.<br>
 WAŻNE! We Fluce WSZYSTKIE wyniki liczbowe podawane są w odniesieniu do JEDNEJ cząstki padającego promieniowania (zwanej tu `Primary`). W rzeczywistym procesie znana jest liczba padających cząstek - w wiązce lub pochodzących ze źródła promieniotwórczego, wynik symulacji we Fluce należy zatem pomnożyć przez odpowiedni czynnik skalujący (można to zrobić we Flairze).
 
-Na poniższych wykresach przedstawiono wynik kilku powyższych estymatorów (wiązka 500-MeVowych protonów uderza w zbiornik z wodą):
-[!["P_500MeV"](Images/Beka_en.png)](Images/Beka_en.png)
+Na poniższych wykresach przedstawiono wynik kilku powyższych estymatorów (wiązka 500-MeVowych protonów uderza w zbiornik z wodą). Warto zwrócić uwagę na:
+- osie i jednostki: na każdym rozkładzie te same kolory oznaczają inną wartość,
+- najwięcej energii deponują hadrony
+
+[!["P_300MeV"](Images/Beka_300MeV.png)](Images/Beka_300MeV.png)
+[!["P_300MeV"](Images/Stop_300MeV.png)](Images/Stop_300MeV.png)
+
