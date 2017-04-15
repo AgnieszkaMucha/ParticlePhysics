@@ -26,13 +26,14 @@ Karta `USRBIN` podaje rozkłady przestrzenne depozytów energii i całkowitej fl
 W naszych zastosowaniach wykorzystamy estymatory następujących zmiennych:
 - `ENERGY` - całkowita zdeponowana energia, [GeV/cm3]
 - `EM-ENERGY` - energia promieniowania elektromagnetycznego (elektrony, fotony), [GeV/cm3]
+- `BEMPART` - energia zdeponowana TYLKO przez promieniowanie pierwotne (primaries), [GeV/cm3]
 - `DOSE` - dawka promieniowania, [GeV/g], aby wynik był w [Gy]=[GeV/g]x1.602e-7
 - `HAD_CHAR` - fluencja naładowanych hadronów, [part/cm2]
 - `HADGT20M` - fluencja wysokoenergetycznych hadronów, [part/cm2]
 - `PROTON`, `NEUTRON`, `PHOTON`,  `ELECTRON`, `PIONS+-`, `MUONS` - fluencja wymienionych cząstek, [part/cm2]
 - `NIEL-DEP` - niejonizacyjne straty energii, [GeV/cm3]
 - `SiMEVNE` - fluencja neutronów ekwiwalantnych (fluencja ważona funkcją zniszczeń),  [part/cm2]
-- `BEMPART` - energia zdeponowana TYLKO przez promieniowanie pierwotne (primaries), [GeV/cm3]
+
 
 Na wykresach, paleta barw jest proporcjonalna do wartości estymowanej (energii lub fluencji), a osie na wykresach pokazują geometryczne zakresy binowania. Wykresy dwuwymiarowe w binach zawierają uśrednioną wartość z trzeciego wymiaru.<br>
 WAŻNE! We Fluce WSZYSTKIE wyniki liczbowe podawane są w odniesieniu do JEDNEJ cząstki padającego promieniowania (zwanej tu `Primary`). W rzeczywistym procesie znana jest liczba padających cząstek - w wiązce lub pochodzących ze źródła promieniotwórczego, wynik symulacji we Fluce należy zatem pomnożyć przez odpowiedni czynnik skalujący (można to zrobić we Flairze).
