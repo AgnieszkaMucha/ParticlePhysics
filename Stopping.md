@@ -18,7 +18,7 @@ Energię należy dobrać samemu, z zakresu od 100 MeV do 100 GeV w sześciu dowo
 
 ### Opracowanie ćwiczenia:
 Dokonaj porównania wyników:
-- jakie są różnice w oddziaływaniu poszczególnych czątek? 
+- jakie są różnice w oddziaływaniu poszczególnych cząstek? 
 - jakie cząstki wtórne powstały?
 Wyznacz zasięg promieniowania:
 - zrzutuj rozkłady 2D na 1D, skomentuj wynik.
