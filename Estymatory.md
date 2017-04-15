@@ -22,7 +22,7 @@ Przykład definiowania `USRBIN`:
 
 [!["USRBIN"](Images/USRBIN.png)](Images/USRBIN.png)
 
-Karta `USRBIN` podaje rozkłady przestrzenne depozytów energii i całkowitej fluencji w formie kolorowych map 3D, o zawartości wybranej przez użytkownika, znormalizowane do objętości komórki ograniczonej podanym rozmiarem binów. <br>
+Karta `USRBIN` podaje rozkłady przestrzenne depozytów energii i całkowitej fluencji w formie kolorowych map 3D, o zawartości wybranej przez użytkownika, znormalizowanych do objętości komórki ograniczonej podanym rozmiarem binów. <br>
 W naszych zastosowaniach wykorzystamy estymatory następujących zmiennych:
 - `ENERGY` - całkowita zdeponowana energia, [GeV/cm3]
 - `EM-ENERGY` - energia promieniowania elektromagnetycznego (elektrony, fotony), [GeV/cm3]
