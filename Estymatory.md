@@ -40,7 +40,7 @@ WAŻNE! We Fluce WSZYSTKIE wyniki liczbowe podawane są w odniesieniu do JEDNEJ 
 Na poniższych wykresach przedstawiono wynik kilku powyższych estymatorów (wiązka 300-MeVowych protonów uderza w zbiornik z wodą). Warto zwrócić uwagę na:
 - osie i jednostki: na każdym rozkładzie te same kolory oznaczają inną wartość, na rozkładach górnych jest zdeponowana energia, na dolnych fluencja, czyli liczba cząstek na powierzchnię (gęstość śladów),
 - najwięcej energii deponują hadrony, energia elektromagnetyczna jest znacznie mniejsza,
-- w wyniku oddziaływania proton-woda wyprodukowały się nowe cząstki - ne tym rozkładzie piony. Przy tych energiach jest ich dość mało. Proszę porównać rozkłądy fluencji pionów i mionów przy energiach rzędu GeV.
+- w wyniku oddziaływania proton-woda wyprodukowały się nowe cząstki - ne tym rozkładzie piony. Przy tych energiach jest ich dość mało. Proszę porównać rozkłady fluencji pionów i mionów przy energiach rzędu GeV.
 
 [!["P_300MeV"](Images/Beka_300MeV.png)](Images/Beka_300MeV.png)
 
