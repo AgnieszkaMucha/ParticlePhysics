@@ -2,13 +2,13 @@
 ## Estymatory we Fluce
 Rzeczywisty eksperyment przeprowadzamy w celu uzyskania konkretnych parametrów - energii zdeponowanej w pewnej objetości, policzenia produktów w zderzeniu, często w funkcji energii padającego promieniowania. Jak mamy czas i fundusze - eksperyment przeprowadzamy kilkakrotnie, a wyniki uśredniamy według zasad statystyki. 
 
-Zamast przeprowadzenia rzeczywistego doświadczenia możemy zrobić jego symulację. O ile doświadczenie polegające na rzucie monetą jest dość łatwe do przewidzenia, to symulacje oddziaływania promieniwania z materią oparte są o metody Monte Carlo. Można bardzo ogólnie powiedzieć, że różnica jest w liczbie i stopniu pochodnych w równaniach... Ale ciągle dążymy do tego samego - na podstawie wielu eksperymentów (w MC opisanych równaniami) liczymy takie same parametry, jak w rzeczywistym ekspermencie. Jeżeli w danych rzeczywistych mówimy o wynikach - to w symulacji - o zmiennej losowej. A estymatory są to FUNKCJE zmiennych losowych. Najprostszym z nich jest średnia. Robiąc pomiar mówimy, że np. neutron stracił (2.0+-0.1) MeV/mm, a robiąc symulację powiemy raczej: estymator strat energii dla mionu wynosi (2.0+-0.1) MeV/mm. 
+Zamast przeprowadzenia rzeczywistego doświadczenia możemy zrobić jego symulację. O ile doświadczenie polegające na rzucie monetą jest dość łatwe do przewidzenia, to symulacje oddziaływania promieniwania z materią oparte są o metody Monte Carlo. Można bardzo ogólnie powiedzieć, że różnica jest w liczbie i stopniu pochodnych w równaniach... Ale ciągle dążymy do tego samego - na podstawie wielu eksperymentów (w MC opisanych równaniami) liczymy takie same parametry, jak w rzeczywistym ekspermencie. Jeżeli w danych rzeczywistych mówimy o wynikach - to w symulacji - o zmiennej losowej. A estymatory są to FUNKCJE zmiennych losowych. Najprostszym z nich jest średnia. Robiąc pomiar mówimy, że np. neutron stracił (2.0+-0.1) MeV/mm, a robiąc symulację powiemy raczej: estymator strat energii dla nutronu wynosi (2.0+-0.1) MeV/mm. 
 
 Obliczenia trasportu cząstek we Fluce umożliwiają wyznaczenie estymatorów szeregu parametrów, np. zdeponowanej energii, dawki, strumienia czy fluencji. Estymatory te są wbudowane i obliczane  na kilka sposobów, szczegóły można znaleźć na stronie [FLUKI](http://www.fluka.org/fluka.php?id=man_onl).
 
 
 ## `USRBIN`
-W naszych ćwiczeniach posłużymy się jednym z estymatorów: `USRBIN`. Pokazuje on np. depozyty energii w trójwymiarowej siatce, niezależnie od geometrii regionów. Fluka używa jednostek: cm, GeV. <br>
+W naszych ćwiczeniach posłużymy się jednym z estymatorów: `USRBIN`. Pokazuje on estymatory np. depozytów energii w trójwymiarowej siatce, niezależnie od geometrii regionów. Fluka używa jednostek: cm, GeV. <br>
 Użycie karty estymatora `USRBIN` wymaga:
 - Wyboru współrzędnych - kartezjańskich, cylndrycznych, sferycznych.
 - W zależności od rodzaju współrzędnych - podania ich zakresu (tu uwaga - zakres nie może być szerszy niż wymiary geometryczne całego obiektu).
@@ -23,11 +23,12 @@ Przykład definiowania `USRBIN`:
 [!["USRBIN"](Images/USRBIN.png)](Images/USRBIN.png)
 
 Rozkłady uzyskane po symulacji to kolorowe wykresy 3D, o różnej zawartości. W naszych zastosowaniach wykorzystamy estymatory następujących zmiennych: _(dopisać opis)_
-- `DOSE`
-- `HAD_CHAR`
-- `EM-ENERGY`
-- `PROTON`, `NEUTRON`, `PHOTON`,  `ELECTRON`, `PIONS+-`, `MUONS`
-- `SiMEVNE`
+- `ENERGY` - zdeponowana energia, [GeV/(cm3 primary)
+- `DOSE` - dawka promieniowania, 
+- `HAD_CHAR` - fluencja naładowanych hadronów, [part/(cm2 primary)]
+- `EM-ENERGY` - energia promieniowania elektromagnetycznego, [GeV/(cm3 primary)]
+- `PROTON`, `NEUTRON`, `PHOTON`,  `ELECTRON`, `PIONS+-`, `MUONS` - fluencja podanych cząstek, [part/(cm2 primary)]
+- `SiMEVNE` - fluencja neutronów ekwiwalantnych,  [part/(cm2 primary)]
 
 Paleta barw jest proporcjonalna do wartości estymowanej, a osie na wykresach pokazują geometryczne zakresy binowania. <br>
 WAŻNE! We Fluce WSZYSTKIE wyniki liczbowe podawane są w odniesieniu do JEDNEJ cząstki padającego promieniowania (zwanego tu `Primaries`). <br>
