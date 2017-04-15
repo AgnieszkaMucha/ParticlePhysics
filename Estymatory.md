@@ -37,10 +37,12 @@ W naszych zastosowaniach wykorzystamy estymatory następujących zmiennych:
 Na wykresach, paleta barw jest proporcjonalna do wartości estymowanej (energii lub fluencji), a osie na wykresach pokazują geometryczne zakresy binowania. Wykresy dwuwymiarowe w binach zawierają uśrednioną wartość z trzeciego wymiaru.<br>
 WAŻNE! We Fluce WSZYSTKIE wyniki liczbowe podawane są w odniesieniu do JEDNEJ cząstki padającego promieniowania (zwanej tu `Primary`). W rzeczywistym procesie znana jest liczba padających cząstek - w wiązce lub pochodzących ze źródła promieniotwórczego, wynik symulacji we Fluce należy zatem pomnożyć przez odpowiedni czynnik skalujący (można to zrobić we Flairze).
 
-Na poniższych wykresach przedstawiono wynik kilku powyższych estymatorów (wiązka 500-MeVowych protonów uderza w zbiornik z wodą). Warto zwrócić uwagę na:
-- osie i jednostki: na każdym rozkładzie te same kolory oznaczają inną wartość,
-- najwięcej energii deponują hadrony
-
+Na poniższych wykresach przedstawiono wynik kilku powyższych estymatorów (wiązka 300-MeVowych protonów uderza w zbiornik z wodą). Warto zwrócić uwagę na:
+- osie i jednostki: na każdym rozkładzie te same kolory oznaczają inną wartość, na rozkładach górnych jest zdeponowana energia, na dolnych fluencja, czyli liczba cząstek na powierzchnię (gęstość śladów),
+- najwięcej energii deponują hadrony, energia elektromagnetyczna jest znacznie mniejsza,
+- w wyniku oddziaływania proton-woda wyprodukowały się nowe cząstki - ne tym rozkładzie piony. Przy tych energiach jest ich dość mało. Proszę porównać rozkłądy fluencji pionów i mionów przy energiach rzędu GeV.
 [!["P_300MeV"](Images/Beka_300MeV.png)](Images/Beka_300MeV.png)
+
+Następne wykresy zawierają przestrzenny rozkłąd energii zdeponowanej przez pierwotne protony i dawkę otrzymaną przez materiał zbiornika. Pod kolorowymi mapami znajdują się projekcje tych rozkładów. Zapraszam do dyskusji!
 [!["P_300MeV"](Images/Stop_300MeV.png)](Images/Stop_300MeV.png)
 
