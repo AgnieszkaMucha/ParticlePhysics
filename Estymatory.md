@@ -27,7 +27,7 @@ Rozkłady uzyskane po symulacji to kolorowe wykresy 3D, o różnej zawartości. 
 - `DOSE` - dawka promieniowania, [GeV/g]
 - `HAD_CHAR` - fluencja naładowanych hadronów, [part/cm2]
 - `EM-ENERGY` - energia promieniowania elektromagnetycznego, [GeV/cm3]
-- `PROTON`, `NEUTRON`, `PHOTON`,  `ELECTRON`, `PIONS+-`, `MUONS` - fluencja podanych cząstek, [part/cm2]
+- `PROTON`, `NEUTRON`, `PHOTON`,  `ELECTRON`, `PIONS+-`, `MUONS` - fluencja wymienionych cząstek, [part/cm2]
 - `SiMEVNE` - fluencja neutronów ekwiwalantnych,  [part/cm2]
 
 Na wykresach, paleta barw jest proporcjonalna do wartości estymowanej, a osie na wykresach pokazują geometryczne zakresy binowania. <br>
