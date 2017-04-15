@@ -41,8 +41,10 @@ Na poniższych wykresach przedstawiono wynik kilku powyższych estymatorów (wi�
 - osie i jednostki: na każdym rozkładzie te same kolory oznaczają inną wartość, na rozkładach górnych jest zdeponowana energia, na dolnych fluencja, czyli liczba cząstek na powierzchnię (gęstość śladów),
 - najwięcej energii deponują hadrony, energia elektromagnetyczna jest znacznie mniejsza,
 - w wyniku oddziaływania proton-woda wyprodukowały się nowe cząstki - ne tym rozkładzie piony. Przy tych energiach jest ich dość mało. Proszę porównać rozkłądy fluencji pionów i mionów przy energiach rzędu GeV.
+
 [!["P_300MeV"](Images/Beka_300MeV.png)](Images/Beka_300MeV.png)
 
 Następne wykresy zawierają przestrzenny rozkłąd energii zdeponowanej przez pierwotne protony i dawkę otrzymaną przez materiał zbiornika. Pod kolorowymi mapami znajdują się projekcje tych rozkładów. Zapraszam do dyskusji!
+
 [!["S_300MeV"](Images/Stop_300MeV.png)](Images/Stop_300MeV.png)
 
