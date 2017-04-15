@@ -13,7 +13,7 @@ Energię należy dobrać samodzielnie, z zakresu od 100 MeV do 100 GeV w sześci
 2. Wykonaj symulację:
 - dla wybranej wiązki cząstek: jednej ciężkiej i jednej lekkiej. 
 - Zbiornik wypełnij dwoma rodzajami materiałów: lekkim (np. powietrze, woda) i ciężkim (ołów, żelazo, beton). 
-- Wybierz do scoringu estymatory: całkowitej zdeponowanej energii, energii promieniowania elektromagnetycznego, energii zdeponoanej przez promieniowanie pierwotne i dawki. 
+- Wybierz do scoringu estymatory: całkowitej zdeponowanej energii, energii promieniowania elektromagnetycznego, energii zdeponowanej przez promieniowanie pierwotne i dawki. 
 - Liczba cząstek w wiązce nie powinna być mniejsza niż 10 tysięcy.
 
 ### Opracowanie ćwiczenia:
@@ -23,6 +23,8 @@ Dokonaj porównania wyników:
 - od czego zależą straty jonizacyjne?
 Wyznacz zasięg promieniowania:
 - zrzutuj rozkłady 2D na 1D, skomentuj wynik.
+- jeśli to możliwe wyznacz: zasięg, drogę radiacyjną, 
+- gdyby wiązka uderzała przez godzinę, jaka dawka zdeponuje się w materiale?
 
 ### Ćwiczenia dodatkowe:
 1. Beam dump dla LHC:
