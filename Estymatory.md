@@ -8,10 +8,10 @@ Obliczenia trasportu cząstek we Fluce umożliwiają wyznaczenie estymatorów sz
 
 
 ## `USRBIN`
-W naszych ćwiczeniach posłużymy się jednym z estymatorów: `USRBIN`. Pokazuje on estymatory np. depozytów energii w trójwymiarowej siatce, niezależnie od geometrii regionów. Fluka używa jednostek: cm,g, GeV. <br>
+W naszych ćwiczeniach posłużymy się jednym z estymatorów: `USRBIN`. Pokazuje on estymatory np. depozytów energii i całowitej fluencji w trójwymiarowej siatce przestrzennej, niezależnie od geometrii regionów. Fluka używa jednostek: cm,g, GeV. <br>
 Użycie karty estymatora `USRBIN` wymaga:
 - Wyboru współrzędnych - kartezjańskich, cylndrycznych, sferycznych.
-- W zależności od rodzaju współrzędnych - podania ich zakresu (tu uwaga - zakres nie może być szerszy niż wymiary geometryczne całego obiektu).
+- W zależności od rodzaju współrzędnych - podania ich zakresu (tu uwaga - zakres dla depozytów energii nie może być szerszy niż wymiary geometryczne całego obiektu, fluencja może być obliczona nawet dla próżni).
 - Wybrania parametru do estymacji. Jest tu cała lista, zachęcamy do testów. Najlepiej wpisać sobie kilka kart ze `USRBIN` z estymatorami różnych parametrów.
 - Określenia numeru logicznego, najlepiej z rozwijanej listy, bo niektóre numery są zarezerwowane dla fortrana.
 - Zdefiniowanie nazwy "detektora" - tak we Fluce nazywamy nasz estymator. Ta nazwa powinna być znacząca i może mieć do 8 znaków.
@@ -22,7 +22,8 @@ Przykład definiowania `USRBIN`:
 
 [!["USRBIN"](Images/USRBIN.png)](Images/USRBIN.png)
 
-Rozkłady uzyskane po symulacji to kolorowe wykresy 3D, o różnej zawartości. W naszych zastosowaniach wykorzystamy estymatory następujących zmiennych: _(dopisać opis)_
+Karta `USRBIN` podaje rozkłady przestrzenne depozytów energii i całkowitej fluencji w formie kolorowych map 3D, o zawartości wybranej przez użytkownika, znormalizowane do objętości komórki ograniczonej podanym rozmiarem binów. <br>
+W naszych zastosowaniach wykorzystamy estymatory następujących zmiennych:
 - `ENERGY` - zdeponowana energia, [GeV/cm3]
 - `DOSE` - dawka promieniowania, [GeV/g]
 - `HAD_CHAR` - fluencja naładowanych hadronów, [part/cm2]
@@ -31,7 +32,7 @@ Rozkłady uzyskane po symulacji to kolorowe wykresy 3D, o różnej zawartości. 
 - `SiMEVNE` - fluencja neutronów ekwiwalantnych,  [part/cm2]
 
 Na wykresach, paleta barw jest proporcjonalna do wartości estymowanej, a osie na wykresach pokazują geometryczne zakresy binowania. <br>
-WAŻNE! We Fluce WSZYSTKIE wyniki liczbowe podawane są w odniesieniu do JEDNEJ cząstki padającego promieniowania (zwanej tu `Primary`). W rzeczywistym procesie znana jest liczba padających cząstek - w wiązce lub pochodzących ze źródła promieniotwórczego, wynik symulacji we Fluce należy pomnożyć przez odpowiedni czynnik skalujący (można to zrobić we Flairze)
+WAŻNE! We Fluce WSZYSTKIE wyniki liczbowe podawane są w odniesieniu do JEDNEJ cząstki padającego promieniowania (zwanej tu `Primary`). W rzeczywistym procesie znana jest liczba padających cząstek - w wiązce lub pochodzących ze źródła promieniotwórczego, wynik symulacji we Fluce należy zatem pomnożyć przez odpowiedni czynnik skalujący (można to zrobić we Flairze).
 
 Przyjrzyjmy się (dłużej) i omówmy, co znajduje się na poniższych wykresach:
 
