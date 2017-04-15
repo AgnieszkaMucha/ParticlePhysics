@@ -21,6 +21,7 @@ Dokonaj porównania wyników:
 - jakie są różnice w oddziaływaniu poszczególnych cząstek? 
 - jakie cząstki wtórne powstały?
 - od czego zależą straty jonizacyjne?
+- Przedstaw sprawozdanie z najbardziej znaczącymi wynikami.
 Wyznacz zasięg promieniowania:
 - zrzutuj rozkłady 2D na 1D, skomentuj wynik.
 - jeśli to możliwe wyznacz: zasięg, drogę radiacyjną, 
