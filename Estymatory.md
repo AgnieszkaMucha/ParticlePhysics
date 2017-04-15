@@ -37,5 +37,5 @@ W naszych zastosowaniach wykorzystamy estymatory następujących zmiennych:
 Na wykresach, paleta barw jest proporcjonalna do wartości estymowanej (energii lub fluencji), a osie na wykresach pokazują geometryczne zakresy binowania. Wykresy dwuwymiarowe w binach zawierają ŚREDNIĄ z trzeciego wymiaru.<br>
 WAŻNE! We Fluce WSZYSTKIE wyniki liczbowe podawane są w odniesieniu do JEDNEJ cząstki padającego promieniowania (zwanej tu `Primary`). W rzeczywistym procesie znana jest liczba padających cząstek - w wiązce lub pochodzących ze źródła promieniotwórczego, wynik symulacji we Fluce należy zatem pomnożyć przez odpowiedni czynnik skalujący (można to zrobić we Flairze).
 
-Przyjrzyjmy się (dłużej) i omówmy, co znajduje się na poniższych wykresach:
+Na poniższych wykresach przedstawiono wynik kilku powyższych estymatorów (wiązka 500-MeVowych protonów uderza w zbiornik z wodą):
 [!["P_500MeV"](Images/Beka_en.png)](Images/Beka_en.png)
