@@ -118,6 +118,7 @@ rfluka -M 5 beczka
 ```
 2. Proszę oglądnąć (w edytorze lub Flairze: `Run->Data->Files->Cycles->data->Viewer`) pliki z wynikami. Co w nich jest? Jakie informacje? Jak zapisane? Czy po "wyklikaniu" rysunków nie mamy ochoty zrobić ich w innym programie? <br>
 Zapraszamy zatem do konwersji wyników Fluki do ROOTa [FLOOT](Floot.md)... 
+3. Użytkownik Fluki nie może zmieniać źródeł (nawet oglądnąć), ale ma dostęp do wszystkich generowanych zmiennych, nawet tych, które nie są widoczne w standardowym processingu. Do takich należą np. parametry wygenerownych cząstek wstórnych czy parametry śladów. Informacje o nich znajdują się w fortranowskich tablicach, zwanych COOMMONami i zdolny użytkownik może z nich zrobić rozkłady, patrz [tutaj](https://indico.cern.ch/event/489973/contributions/2000440/attachments/1272042/1972478/09_AdvancedUserRoutines2016.pdf).
 
 
 
