@@ -35,5 +35,5 @@ Wyznacz zasięg promieniowania:
 - proszę dodać do zbiornika z wodą 3 cienkie (0.5cm) płaszczyzny z krzemu, ustawione prostopadle do osi, w równych odległościach. Wyznacz w nich depozyty energii (w płaczczyźnie _xy_) pochodzące od wiązki protonów o energii 10 GeV. Liczba protonów w wiązce powinna być mała, np 10.
 
 ### Ciekawe linki:
-[Symulacja śladu elektronów w materii](http://www.slac.stanford.edu/~rfc/egs/advtool.html)
-[Symulacje dla jonów](http://www.srim.org/#SRIM)
+- [Symulacja śladu elektronów w materii](http://www.slac.stanford.edu/~rfc/egs/advtool.html)
+- [Symulacje dla jonów](http://www.srim.org/#SRIM)
