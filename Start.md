@@ -106,6 +106,7 @@ Proszę teraz przyjrzeć się informacjom wypisanym w oknie Flaira i przetestowa
 ### Wskazówki praktyczne
 - Kilka rysunków na jednej konsoli można zrobić zwiększająć licznik w przycisku `Display`.
 - Jeśli chcemy zrobić rozkłady w NOWEJ sesji Flaira, wczytujemy plik inputowy: `Input->Load`, a potem musimy połaczyć dane `Run->Data->Process` i zrobić rysunki: `Plot->Oz`.
+- Jeśli dokonaliśmy zmian w inpucie (np. energii), a po wykonaniu symulacji dostaliśmy dokładnie takie same rozkłądy, jak w poprzednim zadaniu, nie zawsze oznacza to, że oddziaływnie jest dokładnie takie samo. Raczej Flair wziął do procesowania wyników poprzednie pliki... Najlepiej po dokonaniu zmian w inpucie otworzyć nową sesję Flaira. Jeszcze lepiej - przed wykonaniem nowej symulacji usunąć wszystkie stare pliki.
 
 ## Dyskusja wyników
 Dzisiejsze laboratorium skończymy, gdy KAŻDY uczestnik dostanie rozkłady i omówi je z prowadzącym. 
