@@ -45,7 +45,7 @@ Na poniższych wykresach przedstawiono wynik kilku powyższych estymatorów (wi�
 
 [!["P_300MeV"](Images/Beka_300MeV.png)](Images/Beka_300MeV.png)
 
-Następne wykresy zawierają przestrzenny rozkład energii zdeponowanej przez pierwotne protony i dawkę otrzymaną przez materiał zbiornika. Pod kolorowymi mapami znajdują się projekcje tych rozkładów. Zapraszam do dyskusji!
+Następne wykresy zawierają przestrzenny rozkład energii zdeponowanej przez pierwotne protony i dawkę otrzymaną przez materiał zbiornika. Pod kolorowymi mapami znajdują się projekcje tych rozkładów. Zapraszam do dyskusji! To są główne rozkłady potrzebne w ćwiczeniach.
 
 [!["S_300MeV"](Images/Stop_300MeV.png)](Images/Stop_300MeV.png)
 
