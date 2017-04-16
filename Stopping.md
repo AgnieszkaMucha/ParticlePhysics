@@ -8,7 +8,7 @@ Badanie oddziaływania promieniowania o wysokich energiach z materią, określen
 ### Wykonanie ćwiczenia:
 1. Napisz plik inputowy do FLUKI. Szybki starter do puszczenia symulacji jest [tutaj](https://agnieszkamucha.github.io/OPJzM/Start.md).
  Oddziaływanie będzie badane w prostopadłościanie wypełnionym lekkimi i ciężkimi materiałami. Rozmiary należy tak dobrać, aby widoczny był zasięg promieniowania (można poszukać w tablicach). Źródłem będzie wiązka:
-- Protonów lub neutronów (cząstki ciężkie).
+- Protonów, jonów (złota, olowiu, węgla) lub neutronów (cząstki ciężkie).
 - Elektronów lub fotonów (cząstki lekkie).
 Energię należy dobrać samodzielnie, z zakresu od 100 MeV do 100 GeV w sześciu dowolnych, ale dających znaczące wyniki, krokach. 
 2. Wykonaj symulację:
