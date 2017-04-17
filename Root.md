@@ -6,5 +6,5 @@ Strona ROOTa: [home](https://root.cern.ch/)
 
 ### Tutorials:
 - Tyle informacji wystarczy: [Starter](https://agnieszkamucha.github.io/OPJzM/Files/ROOT_Tutorial_Bose.pdf)
-- Cały kurs, dużo przykładów: [Kurs](https://www.nevis.columbia.edu/~seligman/root-class/)
+- Cały kurs, naprawdę dużo przykładów, również `.py`: [Kurs](https://www.nevis.columbia.edu/~seligman/root-class/), [przykłady](https://www.nevis.columbia.edu/~seligman/root-class/files/)
 - Kursy CERNowskie: [Primers](https://root.cern.ch/root/htmldoc/guides/primer/ROOTPrimer.html)
