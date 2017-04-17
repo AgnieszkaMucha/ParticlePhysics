@@ -2,7 +2,7 @@
 ## ROOT - Data Analysis Framework
 Na temat ROOTa wygłoszono już tyle wykładów, że wystarczy je po prostu przeglądnąć i spróbować. <BR>
 
-Strona [ROOTa:](https://root.cern.ch/)
+Strona ROOTa: [home](https://root.cern.ch/)
 
 ### Tutorials:
 - Tyle informacji wystarczy: [Starter](https://agnieszkamucha.github.io/OPJzM/Files/ROOT_Tutorial_Bose.pdf)
