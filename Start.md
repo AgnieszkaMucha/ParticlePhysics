@@ -94,7 +94,7 @@ Chociaż symulacja skończyła się prawidłowo, możemy przy procesowaniu wynik
 
 Może tutaj pojawić się błąd z `Gnuplota` - np, że ma za małą paletę barw. Wtedy administrator powinien zainstalować jego inną wersję. Może się również zdarzyć, że brakuje danych na rozkładzie - wtedy Gnuplot nie ma co wyświetlić. W tej sytuacji po prostu zwiększamy liczbę `Primaries`. 
 
-Gdy symulacja skończy się szybko i dostaniemy na końcu uspokajające potwierdzenie `Finisked OK`, możemy nie zauważyć, że w rzeczywistości nic się nie wykonało. Na skutek niezauważonych błędów w `Inpucie`, symulacja się zakończyła bez wyników, ale zauważyć to można dopiero patrząc na `Run->Files` - w oknie będzie tylko numer jednego cyklu zamiast np. pięciu. Znowu wracamy do inputu i szukamy blędu... 
+Gdy symulacja skończy się szybko i dostaniemy na końcu uspokajające potwierdzenie `Finished OK`, możemy nie zauważyć, że w rzeczywistości nic się nie wykonało. Na skutek niezauważonych błędów w `Inpucie`, symulacja się zakończyła bez wyników, ale zauważyć to można dopiero patrząc na `Run->Files` - w oknie będzie tylko numer jednego cyklu zamiast np. pięciu. Znowu wracamy do inputu i szukamy blędu... 
 
 ## Wykonanie rozkładów
 Uff, już niedługo... <br> Klikamy `Plot->Oz` i widzimy listę stworzonych przez nas rozkładów. Feel free to click! <br>
@@ -105,8 +105,8 @@ Proszę teraz przyjrzeć się informacjom wypisanym w oknie Flaira i przetestowa
 
 ### Wskazówki praktyczne
 - Kilka rysunków na jednej konsoli można zrobić zwiększająć licznik w przycisku `Display`.
-- Jeśli chcemy zrobić rozkłady w NOWEJ sesji Flaira, wczytujemy plik inputowy: `Input->Load`, a potem musimy połaczyć dane `Run->Data->Process` i zrobić rysunki: `Plot->Oz`.
-- Jeśli dokonaliśmy zmian w inpucie (np. energii), a po wykonaniu symulacji dostaliśmy dokładnie takie same rozkłądy, jak w poprzednim zadaniu, nie zawsze oznacza to, że oddziaływnie jest dokładnie takie samo. Raczej Flair wziął do procesowania wyników poprzednie pliki... Najlepiej po dokonaniu zmian w inpucie otworzyć nową sesję Flaira. Jeszcze lepiej - przed wykonaniem nowej symulacji usunąć wszystkie stare pliki.
+- Jeśli chcemy zrobić rozkłady ze zrobionej wcześniej symulacji, ale w NOWEJ sesji Flaira, wczytujemy plik inputowy: `Input->Load`, a potem musimy połaczyć dane `Run->Data->Process` i zrobić rysunki: `Plot->Oz`.
+- Jeśli dokonaliśmy zmian w inpucie (np. energii), a po wykonaniu symulacji dostaliśmy dokładnie takie same rozkłady, jak w poprzednim zadaniu, nie zawsze oznacza to, że oddziaływnie jest dokładnie takie samo. Raczej Flair wziął do procesowania wyników poprzednie pliki... Najlepiej po dokonaniu zmian w inpucie otworzyć nową sesję Flaira. Jeszcze lepiej - przed wykonaniem nowej symulacji usunąć wszystkie stare pliki. Można też za każdym razem puszczać Flukę w nowym katalogu. Ale ileż można mieć katalogów, żeby się nie pogubić?
 
 ## Dyskusja wyników
 Dzisiejsze laboratorium skończymy, gdy KAŻDY uczestnik dostanie rozkłady i omówi je z prowadzącym. 
