@@ -94,7 +94,7 @@ Chociaż symulacja skończyła się prawidłowo, możemy przy procesowaniu wynik
 
 Może tutaj pojawić się błąd z `Gnuplota` - np, że ma za małą paletę barw. Wtedy administrator powinien zainstalować jego inną wersję. Może się również zdarzyć, że brakuje danych na rozkładzie - wtedy Gnuplot nie ma co wyświetlić. W tej sytuacji po prostu zwiększamy liczbę `Primaries`. 
 
-Gdy symulacja skończy się szybko i dostaniemy na końcu uspokajające potwierdzenie `Finished OK`, możemy nie zauważyć, że w rzeczywistości nic się nie wykonało. Na skutek niezauważonych błędów w `Inpucie`, symulacja się zakończyła bez wyników, ale zauważyć to można dopiero patrząc na `Run->Files` - w oknie będzie tylko numer jednego cyklu zamiast np. pięciu. Znowu wracamy do inputu i szukamy blędu... 
+Gdy symulacja skończy się szybko i dostaniemy na końcu uspokajające potwierdzenie `Finished OK`, możemy nie zauważyć, że w rzeczywistości nic się nie wykonało. Na skutek niezauważonych błędów w `Inpucie`, symulacja się zakończyła bez wyników, ale zauważyć to można dopiero patrząc na `Run->Files` - w oknie będzie tylko numer jednego cyklu zamiast np. pięciu. Albo będzą wyniki wszystkich cykli, ale poprzedniej symulacji. Wtedy znowu wracamy do inputu i szukamy blędu... 
 
 ## Wykonanie rozkładów
 Uff, już niedługo... <br> Klikamy `Plot->Oz` i widzimy listę stworzonych przez nas rozkładów. Feel free to click! <br>
