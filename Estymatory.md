@@ -1,4 +1,4 @@
-#### [HOME](https://agnieszkamucha.github.io/OPJzM/)
+#### [HOME OPJzM](https://agnieszkamucha.github.io/OPJzM/)
 ## Estymatory we Fluce
 Rzeczywisty eksperyment przeprowadzamy w celu uzyskania konkretnych parametrów - energii zdeponowanej w pewnej objetości, policzenia produktów w zderzeniu, często w funkcji energii padającego promieniowania. Jak mamy czas i fundusze - eksperyment przeprowadzamy kilkakrotnie, a wyniki uśredniamy według zasad statystyki. 
 
