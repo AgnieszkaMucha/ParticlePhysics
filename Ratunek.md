@@ -1,6 +1,6 @@
 ### [HOME OPJzM](https://agnieszkamucha.github.io/OPJzM/) 
 
-FLUKA: | [START](https://agnieszkamucha.github.io/OPJzM/Start.md) | [Primary](https://agnieszkamucha.github.io/OPJzM/Primary) | [Geometry](https://agnieszkamucha.github.io/OPJzM/Geometry.md) | [Estymatory](https://agnieszkamucha.github.io/OPJzM/Estymatory.md) | [Problemy](https://agnieszkamucha.github.io/OPJzM/Ratunek.md)
+FLUKA: | [START](Start.md) | [Primary](Primary) | [Geometry](Geometry.md) | [Estymatory](Estymatory.md) | [Problemy](Ratunek.md)
 ------------- |------------- | ------------ | ------------- | ------------ | -------------
 VELO | ROOT | | | |
 
