@@ -89,9 +89,9 @@ Wartość domyślna 1/√π cm (tj. fluencja Φ=1 cm^(-2))
 - `WHAT(2) - WHAT(6)` wartości nieużywane
 - `SDUM` Type:	wybrać: `FLOOD` 
 
-```
-START - Parametry startowe symulacji 
-```
+# START 
+ Parametry startowe symulacji 
+
 Ustala liczbę zdarzeń pierwotnych (PRIMARIES) wziętą do symulacji w pojedynczym uruchomieniu (RUN) programu. <br>
 Tu wpisujemy jedynie wartość WHAT(1) (zaleca się rozpoczynanie pracy od liczby zdarzeń = 10000). Pozostałe wartości można pominąć.
 - `WHAT(1)` No.: 
