@@ -109,3 +109,4 @@ wykonywana (On) lub nie (Off) kopia jądra pamięci
 	- every history: każde zdarzenie
 
 
+
