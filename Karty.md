@@ -76,13 +76,30 @@ Wartość domyślna 1.0
 4. Dla SDUM = CART-VOL: komenda definiuje przestrzenne źródło o kształcie powłoki kartezjańskiej. Krawędzie zewnętrzne i wewnętrzne są równoległe do odpowiednich osi `(X,Y,Z)`.  Środek `(x,y,z)` zewnętrznego i wewnętrznego prostopadłościanu, jak również kierunek biegu cząstek muszą być zdefiniowane przez dodatkową kartę `BEAMPOS`. Kątowy rozkład biegu cząstek (lub jego brak) jest definiowany na karcie `BEAM`.
 - `WHAT(1)`, `WHAT(2)`, `WHAT(3)`, `WHAT(4)`, `WHAT(5)`, `WHAT(6)`: długości boków, odpowiednio: Xin- `x` wewnętrznego, Xout- `x` zewnętrznego i dalej Yin, Yout, Zin, Zout:  prostopadłościanu definiującego powłokę wyrażona w cm (wpisujemy wartość > 0.0, wpisana wartość 0.0 jest ignorowana, wartość < 0.0 jest resetowana do wartości domyślnej = 1.).
 - SDUM Type:	wybrać: CART-VOL.
-5. Dla SDUM = FLOOD: komenda definiuje rozkład promieniowania na powierzchni sferycznej. Środek `(x,y,z)` , jak również kierunek biegu cząstek muszą być zdefiniowane przez dodatkową kartę `BEAMPOS` z wartością `SDUM = POSITIVE` lub `NEGATIVE`. `FLOOD` (WYPEŁNIENIE) oznacza sferyczną produkcję jednorodnej, izotropowej fluencji. Wartość fluencji Φ=1/(πR^2 ) 〖cm〗^(-2).
+5. Dla SDUM = FLOOD: komenda definiuje rozkład promieniowania na powierzchni sferycznej. Środek `(x,y,z)` , jak również kierunek biegu cząstek muszą być zdefiniowane przez dodatkową kartę `BEAMPOS` z wartością `SDUM = POSITIVE` lub `NEGATIVE`. `FLOOD` (WYPEŁNIENIE) oznacza sferyczną produkcję jednorodnej, izotropowej fluencji. Wartość fluencji Φ=1/(πR^2 ) cm^(-2).
 - `WHAT(1)` R: 
 promień sfery, do której weszły cząstki promieniowania, wyrażony w cm (wpisujemy wartość > 0.0, wpisana wartość 0.0 jest ignorowana, wartość < 0.0 jest resetowana do wartości domyślnej).
-Wartość domyślna 1/√π cm (tj. fluencja Φ=1〖cm〗^(-2))
+Wartość domyślna 1/√π cm (tj. fluencja Φ=1 cm^(-2))
+- `WHAT(2) - WHAT(6)` wartości nieużywane
+- `SDUM` Type:	wybrać: `FLOOD` 
 
-
-
-
+```
+START - Parametry startowe symulacji 
+```
+Ustala liczbę zdarzeń pierwotnych (PRIMARIES) wziętą do symulacji w pojedynczym uruchomieniu (RUN) programu. <br>
+Tu wpisujemy jedynie wartość WHAT(1) (zaleca się rozpoczynanie pracy od liczby zdarzeń = 10000). Pozostałe wartości można pominąć.
+- `WHAT(1)` No.: 
+maksymalna liczba zdarzeń pierwotnych symulowanych w pojedynczym uruchomieniu.
+Wartość domyślna 5000.0
+- `WHAT(2)' wartość nieużywana
+- `WHAT(3)` Time: 
+czas pozostawiony do zakończenia symulacji wyrażony w s 
+Wartość domyślna 80.0
+- `WHAT(4)` Core: 
+wykonywana (On) lub nie (Off) kopia jądra pamięci
+- `WHAT(5) - WHAT(6)` wartości nieużywane
+- `SDUM` Report: wybrać raportowanie: 
+	- default: domyślnie
+	- every history: każde zdarzenie
 
 
