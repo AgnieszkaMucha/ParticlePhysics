@@ -17,6 +17,7 @@ Dodawanie komentarza do karty: Kliknąć prawym przyciskiem myszy → Insert com
 
 
 ## Przydatne kształty geometryczne:
+
 kod |	opis
 --------------------|---------------
 RPP |	Prostopadłościan o krawędziach równoległych do osi układu współrzędnych, wyznaczony przez współrzędne: Xmin, Xmax, Ymin, Ymax, Zmin, Zmax
