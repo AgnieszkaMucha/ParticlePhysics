@@ -1,4 +1,5 @@
-#### [HOME OPJzM](https://agnieszkamucha.github.io/OPJzM/)
+#### [HOME OPJzM](https://agnieszkamucha.github.io/OPJzM/)  [FLUKA-START](https://agnieszkamucha.github.io/OPJzM/Start.md/)
+ [FLUKA-Geometria](https://agnieszkamucha.github.io/OPJzM/Geometry.md) 
 ## Kategoria `PRIMARY'
 W niej definiowane są parametry żródła promienowania - rodzaj, pęd lub energię, kształt. Określamy również liczbę wychodzących czątek i _seed_ symulacji:
 
@@ -74,7 +75,7 @@ Wartość domyślna 1.0
 - `WHAT(5)` - `WHAT(6)` wartości nieużywane
 - `SDUM` Type:	wybrać: `CYLI-VOL`.
 4. Dla SDUM = CART-VOL: komenda definiuje przestrzenne źródło o kształcie powłoki kartezjańskiej. Krawędzie zewnętrzne i wewnętrzne są równoległe do odpowiednich osi `(X,Y,Z)`.  Środek `(x,y,z)` zewnętrznego i wewnętrznego prostopadłościanu, jak również kierunek biegu cząstek muszą być zdefiniowane przez dodatkową kartę `BEAMPOS`. Kątowy rozkład biegu cząstek (lub jego brak) jest definiowany na karcie `BEAM`.
-- `WHAT(1)`, `WHAT(2)`, `WHAT(3)`, `WHAT(4)`, `WHAT(5)`, `WHAT(6)`: długości boków, odpowiednio: Xin- `x` wewnętrznego, Xout- `x` zewnętrznego i dalej Yin, Yout, Zin, Zout:  prostopadłościanu definiującego powłokę wyrażona w cm (wpisujemy wartość > 0.0, wpisana wartość 0.0 jest ignorowana, wartość < 0.0 jest resetowana do wartości domyślnej = 1.).
+- `WHAT(1)`, `WHAT(2)`, `WHAT(3)`, `WHAT(4)`, `WHAT(5)`, `WHAT(6)`: długości boków, odpowiednio: Xin- `x` wewnętrznego, Xout- `x` zewnętrznego i dalej Yin, Yout, Zin, Zout,  prostopadłościanu definiującego powłokę, wyrażona w cm (wpisujemy wartość > 0.0, wpisana wartość 0.0 jest ignorowana, wartość < 0.0 jest resetowana do wartości domyślnej = 1.).
 - SDUM Type:	wybrać: CART-VOL.
 5. Dla SDUM = FLOOD: komenda definiuje rozkład promieniowania na powierzchni sferycznej. Środek `(x,y,z)` , jak również kierunek biegu cząstek muszą być zdefiniowane przez dodatkową kartę `BEAMPOS` z wartością `SDUM = POSITIVE` lub `NEGATIVE`. `FLOOD` (WYPEŁNIENIE) oznacza sferyczną produkcję jednorodnej, izotropowej fluencji. Wartość fluencji Φ=1/(πR^2 ) cm^(-2).
 - `WHAT(1)` R: 
