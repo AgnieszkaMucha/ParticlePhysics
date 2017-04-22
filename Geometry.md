@@ -6,7 +6,8 @@ VELO | ROOT | | | |
 
 ## Kategoria **GEOMETRY**
 
-Rozpoczynamy budowanie geometrii. Karta `GEOBEGIN` pozostaje niezmieniona. Szablon domyślnie generuje geometrię składającą się z dwóch olbrzymich koncentrycznych sfer o nazwach **blkbody** i **void** (obowiązkowe – nie usuwać, można zmienić im kształt) oraz tarczy cylindrycznej o nazwie `target`. 
+Rozpoczynamy budowanie geometrii. <br>
+Karta `GEOBEGIN` pozostaje niezmieniona. Szablon domyślnie generuje geometrię składającą się z dwóch olbrzymich koncentrycznych sfer o nazwach **blkbody** i **void** (obowiązkowe – nie usuwać, można zmienić im kształt) oraz tarczy cylindrycznej o nazwie `target`. 
 Możemy zamienić tarczę na tarczę o innym kształcie poleceniem:
 `Card → Change → Geometry → Bodies → Wybór kształtu`, lub dodać dodatkowy kształt geometryczny (dodać jego kartę) poleceniem:
 `Card → Add → Geometry → Bodies → Wybór kształtu`. 
