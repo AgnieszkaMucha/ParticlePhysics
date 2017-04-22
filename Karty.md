@@ -3,9 +3,9 @@
 W niej definiowane są parametry żródła promienowania - rodzaj, pęd lub energię, kształt. Określamy również liczbę wychodzących czątek i _seed_ symulacji:
 
 [!["Primary"](Images/primary.jpg)](Images/primary.jpg)
-`
+```
 `BEAM` 
-`
+```
 definiuje wielkości charakteryzujące wiązkę: typ cząstek, energię lub pęd, rozbieżność i profil wiązki.<BR>
 Poszczególne pola, w których definiuje się parametry źródła nazywane są we Fluce `What[N]`, _N_ jest to numer parametru, w oryginalnym inpucie Fluki (bez Flaira) był to numer zarezerwowanego 8-znakowego pola, w którym umieszczało się liczbową lub znakową wartość parametru do symulacji. Obecnie Flair podpowiada w rozwijanej liście możliwe paramery i  możemy dokonać następujących ustaleń:
 [!["Beam"](Images/beam.jpg)](Images/beam.jpg)
