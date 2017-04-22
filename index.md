@@ -23,7 +23,7 @@ Upewnij się, że posiadasz konto na serwerze `lhcb1`, na którym zainstalowane 
 1. [Start-zaczynamy pracę z FLUKĄ](Start.md)
 2. [Podstawowe estymatory](Estymatory.md)
 3. Szczególowy opis kategorii kart FLUKI: 
-   - [`PRIMARy`](Primary.md)
+   - [`PRIMARY`](Primary.md)
    - [`GEOMETRY`](Geometry.md)
 4. [Ratunku! Nic nie działa!](Ratunek.md)
 
