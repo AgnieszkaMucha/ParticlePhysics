@@ -40,6 +40,8 @@ symbol |	opis
 `+`	| suma
 OR	| przecięcie (część wspólna)
 
+Definiowanie obszarów geometrii musi być zakończone kartą `END`.
+
 ### KATEGORIA MEDIA
 
 [!["Media"](Images/media.png)](Images/media.png)
