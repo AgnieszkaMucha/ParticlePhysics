@@ -41,3 +41,4 @@ OR	| przecięcie (część wspólna)
 ### KATEGORIA MEDIA
 
 [!["Media"](Images/media.png)](Images/media.png)
+
