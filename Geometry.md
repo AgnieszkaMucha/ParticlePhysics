@@ -18,8 +18,7 @@ Dodawanie komentarza do karty: Kliknąć prawym przyciskiem myszy → Insert com
 kod |	opis
 --------------------|---------------
 RPP |	Prostopadłościan o krawędziach równoległych do osi układu współrzędnych, wyznaczony przez współrzędne: Xmin, Xmax, Ymin, Ymax, Zmin, Zmax
-BOX	| Prostopadłościan o dowolnej orientacji w przestrzeni. Używanie kształtu BOX jest na ogół niezalecane. Można go zastąpić kombinacją płaszczyzn nieskończonych, PLA, XYP, XZP, YZP, które są łatwiejsze do zdefiniowania; x, y, z: współrzędne wierzchołka; 
-H1x, H1y, H1z: współrzędne wektora odpowiadającego wysokości; H2x, H2y, H2z: współrzędne wektora odpowiadającego szerokości H3x, H3y, H3z: współrzędne wektora odpowiadającego długości. Wektory 1, 2 i 3 muszą być wzajemnie prostopadłe.
+BOX	| Prostopadłościan o dowolnej orientacji w przestrzeni. Używanie kształtu BOX jest na ogół niezalecane. Można go zastąpić kombinacją płaszczyzn nieskończonych, PLA, XYP, XZP, YZP, które są łatwiejsze do zdefiniowania; x, y, z: współrzędne wierzchołka; H1x, H1y, H1z: współrzędne wektora odpowiadającego wysokości; H2x, H2y, H2z: współrzędne wektora odpowiadającego szerokości H3x, H3y, H3z: współrzędne wektora odpowiadającego długości. Wektory 1, 2 i 3 muszą być wzajemnie prostopadłe.
 SPH	| Sfera definiowana przez 4 liczby: x, y, z: współrzędne środka R: promień 
 RCC	| Walec kołowy prosty, o dowolnej orientacji w przestrzeni, definiowany przez 7 liczb: x, y, z: współrzędne środka jednej z podstaw kołowych Hx, Hy, Hz: współrzędne wektora odpowiadającego wysokości walca skierowanego ku drugiej podstawie
 R: promień walca 
