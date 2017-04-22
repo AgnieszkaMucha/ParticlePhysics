@@ -1,5 +1,8 @@
-#### [HOME OPJzM](https://agnieszkamucha.github.io/OPJzM/)  [FLUKA-START](https://agnieszkamucha.github.io/OPJzM/Start.md/)
- [FLUKA-Geometria](https://agnieszkamucha.github.io/OPJzM/Geometry.md) 
+#### [HOME OPJzM](https://agnieszkamucha.github.io/OPJzM/) 
+###[FLUKA-START](https://agnieszkamucha.github.io/OPJzM/Start.md/)
+###[FLUKA-Geometria](https://agnieszkamucha.github.io/OPJzM/Geometry.md) 
+###[FLUKA-Estymatory](https://agnieszkamucha.github.io/OPJzM/Estymatory.md)
+
 ## Kategoria `PRIMARY'
 W niej definiowane są parametry żródła promienowania - rodzaj, pęd lub energię, kształt. Określamy również liczbę wychodzących czątek i _seed_ symulacji:
 
