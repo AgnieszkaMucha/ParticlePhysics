@@ -47,7 +47,7 @@ Detektor jest to region, w którym użytkownik chce obliczać wartości oczekiwa
 -	sygnał startowy i liczba żądanych zdarzeń (obowiązkowe).
  
 ## Tworzenie pliku inputowego
-Po lewej stronie okna Flaira znajduje się drzewo projektu. Widoczne są w nim następujące kategorie kart:
+Po lewej stronie okna Flaira znajduje się drzewo projektu. Widoczne są w nim następujące kategorie kart, szczegółowo opisane [tutaj](Karty.md):
 - `General`:	karty ogólne (TITTLE, DEFAULTS, GLOBAL, …). Mają wprowadzone wartości domyślne. Jeśli nie – można wpisać tytuł.
 - `Primary`:	karty z opisem wiązki i cząstek pierwotnych (tzw. _primaries_). Tutaj zdefiniujemy parametry źródła promieniowania - typ, kształt, pęd, energię, rozmycie. Określimy rodzaj - fotony, protony, itd. Określamy też liczbę cząstek pierwotnych, liczba ta ma ogromny wpływ na czas wykonania zadania.
 - `Geometry`:	karty z opisem geometrii, regionów, w któych badamy promieniowanie. To jedna z najważniejszych kategorii - z dostępnych figur geometrycznych (kula, sfera, prostopadłościan, walec, płaszczyzny, i.in.), wykorzystując logiczne operatory sumowania, odejmowania, budujemy `Regiony`, czyli naszą rzeczywistość - detektor, osłony, człowieka, itp.
