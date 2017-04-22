@@ -34,8 +34,8 @@ Każdy obszar geometrii jest opisany jako kombinacja logiczna jednego lub więce
 
 symbol |	opis
 --------------------|---------------
--	| różnica
-+	| suma
+`-`	| różnica
+`+`	| suma
 OR	| przecięcie (część wspólna)
 
 ### KATEGORIA MEDIA
