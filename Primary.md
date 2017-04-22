@@ -50,9 +50,9 @@ Wartość domyślna dla pędu to 200.0 GeV/c  (?)
 	- `NEUTRON`	neutron <br>
 	- `BEAMPART`	cząstki bezpośrednie/wiązka padająca 
 
-```
-BEAMPOS - Definiuje położenie wiązki.  
-```
+#BEAMPOS
+Definiuje położenie wiązki.  
+
 Domyślnie (opcja BEAMPOS nie jest wymagana) wiązka wychodzi  z punktu `(0.,0.,0.)` i biegnie w dodatnim kierunku osi Z.<br>
 Wartości `WHAT` zależą od wybranej wartości `SDUM`:<BR>
 1. Dla SDUM = POSITIVE lub NEGATIVE:
