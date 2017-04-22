@@ -4,9 +4,9 @@ W niej definiowane są parametry żródła promienowania - rodzaj, pęd lub ener
 
 [!["Primary"](Images/primary.jpg)](Images/primary.jpg)
 ```
-BEAM 
+BEAM - Definiuje wielkości charakteryzujące wiązkę: typ cząstek, energię lub pęd, rozbieżność i profil wiązki.
 ```
-Definiuje wielkości charakteryzujące wiązkę: typ cząstek, energię lub pęd, rozbieżność i profil wiązki.<BR>
+
 Poszczególne pola, w których definiuje się parametry źródła nazywane są we Fluce `What[N]` lub `SDUM`, `N` jest to numer parametru, w oryginalnym inpucie Fluki (bez Flaira) był to numer zarezerwowanego 8-znakowego pola, w którym umieszczało się liczbową lub znakową wartość parametru do symulacji. Obecnie Flair podpowiada w rozwijanej liście możliwe paramery i  możemy dokonać następujących ustaleń:
 
 [!["Beam"](Images/beam.jpg)](Images/beam.jpg)
@@ -45,9 +45,8 @@ Wartość domyślna dla pędu to 200.0 GeV/c  (?)
 `BEAMPART`	cząstki bezpośrednie/wiązka padająca 
 
 ```
-BEAMPOS 
+BEAMPOS - Definiuje położenie wiązki.  
 ```
-Definiuje położenie wiązki. <br>
 Domyślnie (opcja BEAMPOS nie jest wymagana) wiązka wychodzi  z punktu `(0.,0.,0.)` i biegnie w dodatnim kierunku osi Z.<br>
 Wartości `WHAT` zależą od wybranej wartości `SDUM`:<BR>
 1. Dla SDUM = POSITIVE lub NEGATIVE:
@@ -56,14 +55,13 @@ Wartości `WHAT` zależą od wybranej wartości `SDUM`:<BR>
 - `SDUM`: Type:	wybrać: 
 	- NEGATIVE: cosinusy kierunkowe mają wartości ujemne (bieg wiązki w kierunku ujemnych wartości osi Z).	
 	- POSITIVE: cosinusy kierunkowe mają wartości dodatnie (bieg wiązki w kierunku dodatnich wartości osi Z).	
-2. Dla SDUM = SPHE-VOL:
+2. Dla SDUM = SPHE-VOL: komenda definiuje przestrzenne źródło o kształcie powłoki sferycznej. Środek `(x,y,z)` zewnętrznej i wewnętrznej sfery, jak również kierunek biegu cząstek muszą być zdefiniowane przez dodatkową kartę `BEAMPOS`. Kątowy rozkład biegu cząstek (lub jego brak) jest definiowany na karcie `BEAM`.
 - `WHAT(1)`: Rin: 
 promień wewnętrznej sfery definiującej powłokę wyrażony w cm (wpisujemy wartość ≥ 0.0, wpisana wartość < 0.0 jest resetowana do wartości domyślnej= 0.).
 - `WHAT(2)`: Rout: 
 promień zewnętrznej sfery definiującej powłokę wyrażony w cm (wpisujemy wartość > 0.0, wpisana wartość 0.0 jest ignorowana, wartość < 0.0 jest resetowana do wartości domyślnej).
-- `SDUM`  Type:	wybrać: 
-	- SPHE-VOL: komenda definiuje przestrzenne źródło o kształcie powłoki sferycznej. Środek `(x,y,z)` zewnętrznej i wewnętrznej sfery, jak również kierunek biegu cząstek muszą być zdefiniowane przez dodatkową kartę `BEAMPOS`. Kątowy rozkład biegu cząstek (lub jego brak) jest definiowany na karcie `BEAM`.
-3. Dla SDUM = CYLI-VOL:
+- `SDUM`  Type:	wybrać: `SPHE-VOL` 
+3. Dla SDUM = CYLI-VOL: komenda definiuje przestrzenne źródło o kształcie powłoki cylindrycznej. Wysokości zarówno walca zewnętrznego, jak i wewnętrznego są równoległe do osi Z. Środek `(x,y,z)` zewnętrznego i wewnętrznego walca, jak również kierunek biegu cząstek muszą być zdefiniowane przez dodatkową kartę `BEAMPOS`. Kątowy rozkład biegu cząstek (lub jego brak) jest definiowany na karcie `BEAM`. 
 - `WHAT(1)`: Rin: 
 promień wewnętrznego walca definiującego powłokę wyrażony w cm (wpisujemy wartość ≥ 0.0, wpisana wartość mniejsza od 0.0 jest resetowana do wartości domyślnej 0.).	
 - `WHAT(2)`: Rout: 
@@ -74,8 +72,7 @@ wysokość wewnętrznego walca definiującego powłokę wyrażony w cm (wpisujem
 promień zewnętrznego walca definiującego powłokę wyrażony w cm (wpisujemy wartość > 0.0, wpisana wartość 0.0 jest ignorowana, wartość < 0.0 jest resetowana do wartości domyślnej).
 Wartość domyślna 1.0
 - `WHAT(5)` - `WHAT(6)` wartości nieużywane
-- `SDUM` Type:	wybrać: 
-	- CYLI-VOL: komenda definiuje przestrzenne źródło o kształcie powłoki cylindrycznej. Wysokości zarówno walca zewnętrznego, jak i wewnętrznego są równoległe do osi Z. Środek `(x,y,z)` zewnętrznego i wewnętrznego walca, jak również kierunek biegu cząstek muszą być zdefiniowane przez dodatkową kartę `BEAMPOS`. Kątowy rozkład biegu cząstek (lub jego brak) jest definiowany na karcie `BEAM`. 
+- `SDUM` Type:	wybrać: `CYLI-VOL`.
 
 
 
