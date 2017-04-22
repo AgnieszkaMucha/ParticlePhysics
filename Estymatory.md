@@ -1,4 +1,9 @@
-#### [HOME OPJzM](https://agnieszkamucha.github.io/OPJzM/)
+### [HOME OPJzM](https://agnieszkamucha.github.io/OPJzM/) 
+
+FLUKA: | [START](https://agnieszkamucha.github.io/OPJzM/Start.md/) | [Primary](https://agnieszkamucha.github.io/OPJzM) | [Geometry](https://agnieszkamucha.github.io/OPJzM/Geometry.md) | [Estymatory](https://agnieszkamucha.github.io/OPJzM/Estymatory.md) | [Problemy](https://agnieszkamucha.github.io/OPJzM/Ratunek.md)
+------------- |------------- | ------------ | ------------- | ------------ | -------------
+VELO | ROOT | | | |
+
 ## Estymatory we Fluce
 Rzeczywisty eksperyment przeprowadzamy w celu uzyskania konkretnych parametrów - energii zdeponowanej w pewnej objetości, policzenia produktów w zderzeniu, często w funkcji energii padającego promieniowania. Jak mamy czas i fundusze - eksperyment przeprowadzamy kilkakrotnie, a wyniki uśredniamy według zasad statystyki. 
 
