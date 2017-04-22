@@ -2,7 +2,7 @@
 
 FLUKA: | [START](Start.md) | [Primary](Primary.md) | [Geometry](Geometry.md) | [Estymatory](Estymatory.md) | [Problemy](Ratunek.md)
 ------------- |------------- | ------------ | ------------- | ------------ | -------------
-VELO | ROOT | | | |
+[ROOT](Root.md) | [Projekt VELO](Velo.md) |[Projekt "Zasięg"](Stopping.md) |[Projekt "Źródła"](Sources.md) |[Wyniki studentów](Wyniki2017.md) |
 
 ## Ratunku! Nie działa!
 Fluka i Flair mają swoje ograniczenia. Trudno ich uniknąć, kiedy z leciwego, fortranowskiego programu robimy podstawowe narzędzie do symulacji ogromnych, skomplikowanych systemów detekcyjnych. Jeśli, pomimo uważnej edycji, wyszukania błędów opisanych w rozdziale [Start-zaczynamy pracę z FLUKĄ](Start.md), nie możesz uzyskać wyników symulacji, albo nie działa Flair, spróbuj następujących działań:
