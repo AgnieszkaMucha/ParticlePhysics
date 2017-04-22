@@ -1,6 +1,6 @@
 ### [HOME OPJzM](https://agnieszkamucha.github.io/OPJzM/) 
 
-FLUKA: | [START](https://agnieszkamucha.github.io/OPJzM/Start.md/) | [Primary](https://agnieszkamucha.github.io/OPJzM/Primary.md) | [Geometry](https://agnieszkamucha.github.io/OPJzM/Geometry.md) | [Estymatory](https://agnieszkamucha.github.io/OPJzM/Estymatory.md) | [Problemy](https://agnieszkamucha.github.io/OPJzM/Ratunek.md)
+FLUKA: | [START](Start.md/) | [Primary](Primary.md) | [Geometry](Geometry.md) | [Estymatory](Estymatory.md) | [Problemy](Ratunek.md)
 ------------- |------------- | ------------ | ------------- | ------------ | -------------
 VELO | ROOT | | | |
 
@@ -10,6 +10,7 @@ FLUKA jest historycznym programem do projektowania osłon w reaktorach jądrowyc
 Przykad możliwości Fluki można zobaczyć poniżej. Na rysunkach przedstawiono oddziaływanie wiązki protonów o energii 10 GeV z wodą  i krzemowym sensorem (rozkład przedstawia energię zdeponowaną przez hadrony)  oraz dawkę promieniowania zdeponowaną w materiale spektrometru LHCb.
 
 [!["Dawka"](Images/PR.png)(Images/PR.png)
+
 Może dziwić fakt, ale FLUKA napisana jest w języku Fortran, a użytkownik przeprowadza symulację wykorzystując przygotowane narzędzia, bez ingerencji w kod programu. Praca we Fluce odbywa się poprzez interfejs  FLAIR. Interfejs FLAIR ułatwia edycję plików wsadowych, uruchomienie kodu i wizualizację plików wynikowych. Napisany został w oparciu o standard Tkinter Pythona.
 
 Zakres możliwości aplikacyjnych programu FLUKA obejmuje m. in. przyspieszanie wiązki protonów lub elektronów, projektowanie geometrii tarczy i zastosowanych osłon, obliczenia kalorymetryczne, dozymetryczne, projektowanie detektorów, planowanie radioterapii, itd.
