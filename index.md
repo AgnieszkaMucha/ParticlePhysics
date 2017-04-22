@@ -22,7 +22,8 @@ Upewnij się, że posiadasz konto na serwerze `lhcb1`, na którym zainstalowane 
 ## Ćwiczenia laboratoryjne I:
 1. [Start-zaczynamy pracę z FLUKĄ](Start.md)
 2. [Podstawowe estymatory](Estymatory.md)
-3. [Ratunku! Nic nie działa!](Ratunek.md)
+3. [Szczególowy opis kart FLUKI](Karty.md)
+4. [Ratunku! Nic nie działa!](Ratunek.md)
 
 ## Ćwiczenia laboratoryjne II:
 1. [ROOT - praktyczne wprowadzenie](Root.md)
