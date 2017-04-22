@@ -3,7 +3,7 @@
 FLUKA: | [START](https://agnieszkamucha.github.io/OPJzM/Start.md/) | [Primary](https://agnieszkamucha.github.io/OPJzM) | [Geometry](https://agnieszkamucha.github.io/OPJzM/Geometry.md) | [Estymatory](https://agnieszkamucha.github.io/OPJzM/Estymatory.md) | [Problemy](https://agnieszkamucha.github.io/OPJzM/Ratunek.md)
 ------------- |------------- | ------------ | ------------- | ------------ | -------------
 VELO | ROOT | | | |
-## Kategoria **GEOMETRYY**
+## Kategoria **GEOMETRY**
 
 Rozpoczynamy budowanie geometrii. Karta `GEOBEGIN` pozostaje niezmieniona. Szablon domyślnie generuje geometrię składającą się z dwóch olbrzymich koncentrycznych sfer o nazwach **blkbody** i **void** (obowiązkowe – nie usuwać, można zmienić im kształt) oraz tarczy cylindrycznej o nazwie `target`. 
 Możemy zamienić tarczę na tarczę o innym kształcie poleceniem:
@@ -23,5 +23,21 @@ SPH	| Sfera definiowana przez 4 liczby: x, y, z: współrzędne środka R: promi
 RCC	| Walec kołowy prosty, o dowolnej orientacji w przestrzeni, definiowany przez 7 liczb: x, y, z: współrzędne środka jednej z podstaw kołowych Hx, Hy, Hz: współrzędne wektora odpowiadającego wysokości walca skierowanego ku drugiej podstawie; R: promień walca 
 REC	| Walec eliptyczny prosty, o dowolnej orientacji w przestrzeni, definiowany przez 12 liczb: x, y, z: współrzędne środka jednej z podstaw eliptycznych, Hx, Hy, Hz: współrzędne wektora odpowiadającego wysokości walca skierowanego ku drugiej podstawie; R1x, R1y, R1z: odpowiednie półosi małe podstawy eliptycznej walca, R1x, R1y, R1z: odpowiednie półosi wielkie podstawy eliptycznej walca
 
-Ważne jest, by poszczególne kształty (BODIES) nie dotykały się (nie posiadały wspólnych płaszczyzn)!
-Definiowanie kształtów geometrycznych musi być zakończone kartą END.
+Ważne jest, by poszczególne kształty **(BODIES)** nie dotykały się (nie posiadały wspólnych płaszczyzn)!
+Definiowanie kształtów geometrycznych musi być zakończone kartą `END`.
+
+Przystąpimy teraz do tworzenia obszarów (**REGION**s) geometrii. W dalszych krokach będzie można przypisać każdemu obszarowi materiał, którym jest wypełniony.
+
+[!["Geometry"](Images/regions.png)](Images/regions.png)
+
+Każdy obszar geometrii jest opisany jako kombinacja logiczna jednego lub więcej kształtów geometrycznych. Wykorzystuje się w tym celu trzy symbole operacji algebry boolowskiej:
+
+symbol |	opis
+--------------------|---------------
+-	| różnica
++	| suma
+OR	| przecięcie (część wspólna)
+
+### KATEGORIA MEDIA
+
+[!["Media"](Images/media.png)](Images/media.png)
