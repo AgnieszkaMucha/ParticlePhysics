@@ -1,6 +1,6 @@
 ### [HOME OPJzM](https://agnieszkamucha.github.io/OPJzM/) 
 
-FLUKA: | [START](https://agnieszkamucha.github.io/OPJzM/Start.md/) | [Primary](https://agnieszkamucha.github.io/OPJzM) | [Geometry](https://agnieszkamucha.github.io/OPJzM/Geometry.md) | [Estymatory](https://agnieszkamucha.github.io/OPJzM/Estymatory.md) | [Problemy](https://agnieszkamucha.github.io/OPJzM/Ratunek.md)
+FLUKA: | [START](https://agnieszkamucha.github.io/OPJzM/Start.md/) | [Primary](https://agnieszkamucha.github.io/OPJzM/Primary.md) | [Geometry](https://agnieszkamucha.github.io/OPJzM/Geometry.md) | [Estymatory](https://agnieszkamucha.github.io/OPJzM/Estymatory.md) | [Problemy](https://agnieszkamucha.github.io/OPJzM/Ratunek.md)
 ------------- |------------- | ------------ | ------------- | ------------ | -------------
 VELO | ROOT | | | |
 
@@ -9,7 +9,7 @@ FLUKA jest narzędziem ogólnego zastosowania, służącym do obliczeń transpor
 FLUKA jest historycznym programem do projektowania osłon w reaktorach jądrowych, ale obecnie symulacje promieniowania we FLUCE przeprowadzane są wszędzie, gdzie mamy doczynienia z dużymimi strumieniami, począwszy od przestrzeni kosmicznej, a skończywszy na Eksperymentach Fizyki Wysokich Energii, w szczególności  w przygotowywanym na 2023 roku programie High Lumininosity Large Hadron Collider. <br>
 Przykad możliwości Fluki można zobaczyć poniżej. Na rysunkach przedstawiono oddziaływanie wiązki protonów o energii 10 GeV z wodą  i krzemowym sensorem (rozkład przedstawia energię zdeponowaną przez hadrony)  oraz dawkę promieniowania zdeponowaną w materiale spektrometru LHCb.
 
-[!["Dawka"](Images/PR.png)](Images/PR.png)
+[!["Dawka"](Images/PR.png)(Images/PR.png)
 Może dziwić fakt, ale FLUKA napisana jest w języku Fortran, a użytkownik przeprowadza symulację wykorzystując przygotowane narzędzia, bez ingerencji w kod programu. Praca we Fluce odbywa się poprzez interfejs  FLAIR. Interfejs FLAIR ułatwia edycję plików wsadowych, uruchomienie kodu i wizualizację plików wynikowych. Napisany został w oparciu o standard Tkinter Pythona.
 
 Zakres możliwości aplikacyjnych programu FLUKA obejmuje m. in. przyspieszanie wiązki protonów lub elektronów, projektowanie geometrii tarczy i zastosowanych osłon, obliczenia kalorymetryczne, dozymetryczne, projektowanie detektorów, planowanie radioterapii, itd.
@@ -52,7 +52,7 @@ Detektor jest to region, w którym użytkownik chce obliczać wartości oczekiwa
 -	sygnał startowy i liczba żądanych zdarzeń (obowiązkowe).
  
 ## Tworzenie pliku inputowego
-Po lewej stronie okna Flaira znajduje się drzewo projektu. Widoczne są w nim następujące kategorie kart, szczegółowo opisane [tutaj](Karty.md):
+Po lewej stronie okna Flaira znajduje się drzewo projektu. Widoczne są w nim następujące kategorie kart, szczegółowo opisane [tutaj](Primary.md):
 - `General`:	karty ogólne (TITTLE, DEFAULTS, GLOBAL, …). Mają wprowadzone wartości domyślne. Jeśli nie – można wpisać tytuł.
 - `Primary`:	karty z opisem wiązki i cząstek pierwotnych (tzw. _primaries_). Tutaj zdefiniujemy parametry źródła promieniowania - typ, kształt, pęd, energię, rozmycie. Określimy rodzaj - fotony, protony, itd. Określamy też liczbę cząstek pierwotnych, liczba ta ma ogromny wpływ na czas wykonania zadania.
 - `Geometry`:	karty z opisem geometrii, regionów, w któych badamy promieniowanie. To jedna z najważniejszych kategorii - z dostępnych figur geometrycznych (kula, sfera, prostopadłościan, walec, płaszczyzny, i.in.), wykorzystując logiczne operatory sumowania, odejmowania, budujemy `Regiony`, czyli naszą rzeczywistość - detektor, osłony, człowieka, itp.
