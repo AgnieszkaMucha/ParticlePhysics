@@ -55,7 +55,7 @@ Definiuje położenie wiązki.
 
 Domyślnie (opcja BEAMPOS nie jest wymagana) wiązka wychodzi  z punktu `(0.,0.,0.)` i biegnie w dodatnim kierunku osi Z.<br>
 Wartości `WHAT` zależą od wybranej wartości `SDUM`:<BR>
-1. Dla SDUM = POSITIVE lub NEGATIVE:
+1. Dla **SDUM = POSITIVE lub NEGATIVE**:
 - `WHAT(1)`, `WHAT(2)`, `WHAT(3)` : współrzędne `(x,y,z)` punktu źródłowego wiązki. 
 - `WHAT(4)`, `WHAT(5)`: cosinusy kierunkowe wiązki względem osi X i Y. 
 - `SDUM`: Type:	wybrać: 
