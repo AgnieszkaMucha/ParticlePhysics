@@ -1,8 +1,7 @@
 ### [HOME OPJzM](https://agnieszkamucha.github.io/OPJzM/) 
-FLUKA: | [START](https://agnieszkamucha.github.io/OPJzM/Start.md/) |
-[Primary](https://agnieszkamucha.github.io/OPJzM) | [Geometry](https://agnieszkamucha.github.io/OPJzM/Geometry.md) |
-[Estymatory](https://agnieszkamucha.github.io/OPJzM/Estymatory.md) | [Problemy](https://agnieszkamucha.github.io/OPJzM/Ratunek.md)
+FLUKA: | [START](https://agnieszkamucha.github.io/OPJzM/Start.md/) | [Primary](https://agnieszkamucha.github.io/OPJzM) | [Geometry](https://agnieszkamucha.github.io/OPJzM/Geometry.md) | [Estymatory](https://agnieszkamucha.github.io/OPJzM/Estymatory.md) | [Problemy](https://agnieszkamucha.github.io/OPJzM/Ratunek.md)
 ------------- |------------- | ------------ | ------------- | ------------ | -------------
+
 ## Kategoria **`PRIMARY`**
 W niej definiowane są parametry żródła promienowania - rodzaj, pęd lub energię, kształt. Określamy również liczbę wychodzących czątek i _seed_ symulacji:
 
@@ -39,8 +38,8 @@ Wartość domyślna dla pędu to 200.0 GeV/c  (?)
 
 `WHAT(6)` Wartość ignorowana
 
-`SDUM` Part:	wybrać nazwę cząstek żródła lub wiązki:<br>
-`4-HELIUM`:	cząstka alfa <br>
+`SDUM` Part:	wybrać nazwę cząstek żródła lub wiązki, najbardziej popularne:<br>
+	 `4-HELIUM`:	cząstka alfa <br>
 `RAY`	cząstka nierzeczywista, oznaczająca prostoliniową trajektorię, wykorzystywaną do skanowania geometrii<br>
 `PROTON`	proton <br>
 `ELECTRON`	elektron <br>
