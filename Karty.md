@@ -38,7 +38,7 @@ Wartość domyślna dla pędu to 200.0 GeV/c  (?)
 `SDUM` Part:	wybrać nazwę cząstek żródła lub wiązki:<br>
 `4-HELIUM`:	cząstka alfa <br>
 `RAY`	cząstka nierzeczywista, oznaczająca prostoliniową trajektorię, wykorzystywaną do skanowania geometrii<br>
-`PROTON	proton <br>
+`PROTON`	proton <br>
 `ELECTRON`	elektron <br>
 `PHOTON`	foton <br>
 `NEUTRON`	neutron <br>
@@ -47,8 +47,8 @@ Wartość domyślna dla pędu to 200.0 GeV/c  (?)
 ```
 BEAMPOS 
 ```
-definiuje położenie wiązki. <br>
-Domyślnie (opcja BEAMPOS nie jest wymagana) wiązka wychodzi  z punktu `(0.,0.,0.)` i biegnie w dodatnim kierunku osi Z.
+Definiuje położenie wiązki. <br>
+Domyślnie (opcja BEAMPOS nie jest wymagana) wiązka wychodzi  z punktu `(0.,0.,0.)` i biegnie w dodatnim kierunku osi Z.<br>
 Wartości `WHAT` zależą od wybranej wartości `SDUM`:<BR>
 1. Dla SDUM = POSITIVE lub NEGATIVE:
 - `WHAT(1)`, `WHAT(2)`, `WHAT(3)` : współrzędne `(x,y,z)` punktu źródłowego wiązki. 
@@ -59,37 +59,23 @@ Wartości `WHAT` zależą od wybranej wartości `SDUM`:<BR>
 2. Dla SDUM = SPHE-VOL:
 - `WHAT(1)`: Rin: 
 promień wewnętrznej sfery definiującej powłokę wyrażony w cm (wpisujemy wartość ≥ 0.0, wpisana wartość < 0.0 jest resetowana do wartości domyślnej= 0.).
-- WHAT(2): Rout: 
+- `WHAT(2)`: Rout: 
 promień zewnętrznej sfery definiującej powłokę wyrażony w cm (wpisujemy wartość > 0.0, wpisana wartość 0.0 jest ignorowana, wartość < 0.0 jest resetowana do wartości domyślnej).
-- SDUM  Type:	wybrać: 
+- `SDUM`  Type:	wybrać: 
 	- SPHE-VOL: komenda definiuje przestrzenne źródło o kształcie powłoki sferycznej. Środek `(x,y,z)` zewnętrznej i wewnętrznej sfery, jak również kierunek biegu cząstek muszą być zdefiniowane przez dodatkową kartę `BEAMPOS`. Kątowy rozkład biegu cząstek (lub jego brak) jest definiowany na karcie `BEAM`.
-Dla SDUM = CYLI-VOL:
-WHAT(1)
-Rin: 
-promień wewnętrznego walca definiującego powłokę wyrażony w cm (wpisujemy wartość ≥ 0.0, wpisana wartość < 0.0 jest resetowana do wartości domyślnej).
-Wartość domyślna 0.0
-	
-WHAT(2)
-Rout: 
+3. Dla SDUM = CYLI-VOL:
+- `WHAT(1)`: Rin: 
+promień wewnętrznego walca definiującego powłokę wyrażony w cm (wpisujemy wartość ≥ 0.0, wpisana wartość mniejsza od 0.0 jest resetowana do wartości domyślnej 0.).	
+- `WHAT(2)`: Rout: 
+promień zewnętrznego walca definiującego powłokę wyrażony w cm (wpisujemy wartość > 0.0, wpisana wartość 0.0 jest ignorowana, wartość < 0.0 jest resetowana do wartości domyślnej).
+- `WHAT(3)`: Hin: 
+wysokość wewnętrznego walca definiującego powłokę wyrażony w cm (wpisujemy wartość ≥ 0.0, wpisana wartość mniejsza niż 0.0 jest resetowana do wartości domyślnej).	
+- `WHAT(4)`: Hout: 
 promień zewnętrznego walca definiującego powłokę wyrażony w cm (wpisujemy wartość > 0.0, wpisana wartość 0.0 jest ignorowana, wartość < 0.0 jest resetowana do wartości domyślnej).
 Wartość domyślna 1.0
-
-WHAT(3)
-Hin: 
-wysokość wewnętrznego walca definiującego powłokę wyrażony w cm (wpisujemy wartość ≥ 0.0, wpisana wartość < 0.0 jest resetowana do wartości domyślnej).
-Wartość domyślna 0.0
-	
-WHAT(4)
-Hout: 
-promień zewnętrznego walca definiującego powłokę wyrażony w cm (wpisujemy wartość > 0.0, wpisana wartość 0.0 jest ignorowana, wartość < 0.0 jest resetowana do wartości domyślnej).
-Wartość domyślna 1.0
-
-WHAT(5) - WHAT(6)
-wartości nieużywane
-
-SDUM 
-Type:	wybrać: 
-	CYLI-VOL: komenda definiuje przestrzenne źródło o kształcie powłoki cylindrycznej. Wysokości zarówno walca zewnętrznego, jak i wewnętrznego są równoległe do osi Z. Środek x,y,z zewnętrznego i wewnętrznego walca, jak również kierunek biegu cząstek muszą być zdefiniowane przez dodatkową kartę BEAMPOS. Kątowy rozkład biegu cząstek (lub jego brak) jest definiowany na karcie BEAM. 
+- `WHAT(5)` - `WHAT(6)` wartości nieużywane
+- `SDUM` Type:	wybrać: 
+	- CYLI-VOL: komenda definiuje przestrzenne źródło o kształcie powłoki cylindrycznej. Wysokości zarówno walca zewnętrznego, jak i wewnętrznego są równoległe do osi Z. Środek `(x,y,z)` zewnętrznego i wewnętrznego walca, jak również kierunek biegu cząstek muszą być zdefiniowane przez dodatkową kartę `BEAMPOS`. Kątowy rozkład biegu cząstek (lub jego brak) jest definiowany na karcie `BEAM`. 
 
 
 
