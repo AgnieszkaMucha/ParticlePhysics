@@ -2,7 +2,7 @@
 
 FLUKA: | [START](Start.md) | [Primary](Primary.md) | [Geometry](Geometry.md) | [Estymatory](Estymatory.md) | [Problemy](Ratunek.md)
 ------------- |------------- | ------------ | ------------- | ------------ | -------------
-VELO | ROOT | | | |
+[ROOT](Root.md) | [Projekt VELO](Velo.md) |[Projekt "Zasięg"](Stopping.md) |[Projekt "Źródła"](Sources.md) |[Wyniki studentów](Wyniki2017.md) |
 
 ## Estymatory we Fluce
 Rzeczywisty eksperyment przeprowadzamy w celu uzyskania konkretnych parametrów - energii zdeponowanej w pewnej objetości, policzenia produktów w zderzeniu, często w funkcji energii padającego promieniowania. Jak mamy czas i fundusze - eksperyment przeprowadzamy kilkakrotnie, a wyniki uśredniamy według zasad statystyki. 
