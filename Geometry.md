@@ -13,6 +13,7 @@ Dodawanie komentarza do karty: Kliknąć prawym przyciskiem myszy → Insert com
 
 [!["Geometry"](Images/geometry.png)](Images/geometry.png)
 
+
 ## Przydatne kształty geometryczne:
 kod |	opis
 --------------------|---------------
