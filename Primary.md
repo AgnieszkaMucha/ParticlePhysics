@@ -8,7 +8,7 @@ W niej definiowane są parametry żródła promienowania - rodzaj, pęd lub ener
 
 [!["Primary"](Images/primary.jpg)](Images/primary.jpg)
 ```
-BEAM - Definiuje wielkości charakteryzujące wiązkę: typ cząstek, energię lub pęd, rozbieżność i profil wiązki.
+** BEAM** <BR> - Definiuje wielkości charakteryzujące wiązkę: typ cząstek, energię lub pęd, rozbieżność i profil wiązki.
 ```
 
 Poszczególne pola, w których definiuje się parametry źródła nazywane są we Fluce `What[N]` lub `SDUM`, `N` jest to numer parametru, w oryginalnym inpucie Fluki (bez Flaira) był to numer zarezerwowanego 8-znakowego pola, w którym umieszczało się liczbową lub znakową wartość parametru do symulacji. Obecnie Flair podpowiada w rozwijanej liście możliwe paramery i  możemy dokonać następujących ustaleń:
