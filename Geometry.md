@@ -13,7 +13,7 @@ Możemy zamienić tarczę na tarczę o innym kształcie poleceniem:
 `Card → Add → Geometry → Bodies → Wybór kształtu`. 
 Dodawanie komentarza do karty: Kliknąć prawym przyciskiem myszy → Insert comment
 
-[!["Geometry"](Images/geometry.png)](Images/geometry.png)
+[!["Geometry"](Images/geometry.png)(Images/geometry.png)
 
 
 ## Przydatne kształty geometryczne:
@@ -31,7 +31,7 @@ Definiowanie kształtów geometrycznych musi być zakończone kartą `END`.
 
 Przystąpimy teraz do tworzenia obszarów (**REGION**s) geometrii. W dalszych krokach będzie można przypisać każdemu obszarowi materiał, którym jest wypełniony.
 
-[!["Geometry"](Images/regions.png)](Images/regions.png)
+[!["Geometry"](Images/regions.png)(Images/regions.png)
 
 Każdy obszar geometrii jest opisany jako kombinacja logiczna jednego lub więcej kształtów geometrycznych. Wykorzystuje się w tym celu trzy symbole operacji algebry boolowskiej:
 
@@ -45,5 +45,5 @@ Definiowanie obszarów geometrii musi być zakończone kartą `END`.
 
 ### KATEGORIA MEDIA
 
-[!["Media"](Images/media.png)](Images/media.png)
+[!["Media"](Images/media.png)(Images/media.png)
 
