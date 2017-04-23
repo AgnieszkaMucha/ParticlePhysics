@@ -5,10 +5,11 @@ Rzeczywisty eksperyment przeprowadzamy w celu uzyskania konkretnych parametrów 
 
 Zamast przeprowadzenia rzeczywistego doświadczenia możemy zrobić jego symulację. O ile doświadczenie polegające na rzucie monetą jest dość łatwe do przewidzenia, to symulacje oddziaływania promieniwania z materią oparte są o metody Monte Carlo. Można bardzo ogólnie powiedzieć, że różnica jest w liczbie i stopniu pochodnych w równaniach... Ale ciągle dążymy do tego samego - na podstawie wielu eksperymentów (w MC opisanych równaniami) liczymy takie same parametry, jak w rzeczywistym eksperymencie. Jeżeli w danych rzeczywistych mówimy o wynikach - to w symulacji - o zmiennej losowej. Funkcje zmiennych losowych (najprostsza z nich to średnia) nazywamy ESTYMATORAMI. Robiąc pomiar mówimy, że np. neutron stracił energię (2.0+-0.1) MeV/mm, a robiąc symulację powiemy raczej: estymator strat energii dla neutronu wynosi (2.0+-0.1) MeV/mm. 
 
-Obliczenia trasportu cząstek we Fluce umożliwiają wyznaczenie estymatorów szeregu parametrów, np. zdeponowanej energii, dawki, strumienia czy fluencji. Estymatory te są wbudowane i obliczane  na kilka sposobów, szczegóły można znaleźć na stronie [FLUKI](http://www.fluka.org/fluka.php?id=man_onl).
+## Kategoria **SCORING**
 
+Obliczenia trasportu cząstek we Fluce umożliwiają wyznaczenie estymatorów szeregu parametrów, np. zdeponowanej energii, dawki, strumienia czy fluencji. Estymatory te są wbudowane, nalężą do kategorii `Scoring` i są obliczane  na kilka sposobów, szczegóły można znaleźć na stronie [FLUKI](http://www.fluka.org/fluka.php?id=man_onl).
 
-## `USRBIN`
+# USRBIN
 W naszych ćwiczeniach posłużymy się jednym z estymatorów: `USRBIN`. Oblicza on estymatory depozytów energii i całkowitej fluencji w trójwymiarowej siatce przestrzennej, niezależnie od geometrii regionów. Fluka używa jednostek: cm, g, GeV. <br>
 Użycie karty estymatora `USRBIN` wymaga:
 - Wyboru współrzędnych - kartezjańskich, cylindrycznych, sferycznych.
