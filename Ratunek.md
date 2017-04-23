@@ -10,7 +10,7 @@ Fluka i Flair mają swoje ograniczenia. Trudno ich uniknąć, kiedy z leciwego, 
 3. Symulacja nie chce odpalić! Przed chwilą działała! 
 - Zamknij `Flaira`.
 - Zacznij od nowego katalogu. Przekopiuj swój input do nowego, pustego katalogu i rozpocznij symulację. Flair tworzy pewną liczbę plików tymczasowych, czasem błędnie wykonana symulacja zostawia ślad i podczas procesowania danych ten błąd się wczytuje. Dotyczy to najczęściej błędów w binowaniu rozkładów.
-4. Dodaję karty do `Scoringu`, a nie ma ich po symulacji! Zmieniam liczby binów, a Flair ma to w...
+4. Dodaję karty do `Scoringu`, a nie ma ich po symulacji! Zmieniam liczby binów, a Flair to ignoruje...
 - Zacznij od nowego, pustego katalogu lub usuń wszystkie utworzone pliki (oprócz `.inp` oczywiście). Powód taki sam, jak powyżej.
 - Rozpocznij nową sesję `Flaira`.
 5. Zmianiam liczbę cykli, a Flair ciągle procesuje stare pliki!
