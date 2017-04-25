@@ -42,7 +42,7 @@ Brak wartości domyślnej. <br>
 `SDUM` **Name**: nazwa związku
 Brak wartości domyślnej
 
-### **Importowanie materiału z bazy danych**
+## **Importowanie materiału z bazy danych**
 
 Materiał zapisany w bazie danych można zaimportować poleceniem: `Card → Material`.
 Wybrać i zaimportować żądany materiał. 
