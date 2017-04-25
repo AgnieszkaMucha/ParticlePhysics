@@ -24,6 +24,7 @@ Upewnij się, że posiadasz konto na serwerze `lhcb1`, na którym zainstalowane 
 2. Szczególowy opis kategorii kart FLUKI: 
    - [`PRIMARY`](Primary.md)
    - [`GEOMETRY`](Geometry.md)
+   - [`MEDIA`](Media.md)
 3. Podstawowe estymatory:
    - [`USRBIN`](Estymatory.md)
 4. [Ratunku! Nic nie działa!](Ratunek.md)
