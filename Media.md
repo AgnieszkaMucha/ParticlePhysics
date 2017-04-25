@@ -7,14 +7,14 @@ Można to zrobić na 2 sposoby:
 - manualnie – tworząc niezbędne karty MATERIAL i COMPOUND bezpośrednio w edytorze pliku wsadowego;
 - skorzystać z materiałów wstępnie zdefiniowanych w Bazie Danych Materiałów, a następnie zaimportować do edytora pliku wsadowego (zalecane). W bazie danych można tworzyć i zapisywać swoje własne materiały do wykorzystania w innych plikach wsadowych.
 
-#### Manualne tworzenie materiału
+### Manualne tworzenie materiału
 
 Mając podświetloną kartę `GEOEND`, zastosować komendę
 `Card → Add → Media → Material`. <br>
 W przypadku związku lub mieszaniny dodatkowo zastosować kartę `COMPOUND`
 `Card → Add → Media → Compound`
 
-##### MATERIAL 
+### **MATERIAL** 
 Definiuje materiał składający się z pojedynczego pierwiastka lub związek (konieczność sprzężenia z karta COMPOUND)
 
 [!["Material"](Images/Material.jpg)](Images/Material.jpg)
@@ -29,7 +29,7 @@ Brak wartości domyślnej
 `SDUM` **dE/dx**: strata energii na drogę.
 
 
-##### COMPOUND 
+### **COMPOUND** 
 Definiuje związek, stop lub mieszaninę materiałów (zdefiniowanych na kartach MATERIAL)
 
 [!["Material"](Images/Compound.jpg)](Images/Compound.jpg)
@@ -42,7 +42,7 @@ Brak wartości domyślnej. <br>
 `SDUM` **Name**: nazwa związku
 Brak wartości domyślnej
 
-###### Importowanie materiału z bazy danych
+#### Importowanie materiału z bazy danych
 
 Materiał zapisany w bazie danych można zaimportować poleceniem: `Card → Material`.
 Wybrać i zaimportować żądany materiał. 
@@ -53,7 +53,7 @@ Możliwa jest tez procedura wprowadzenia do bazy danych
 utworzonego przez siebie materiału z pliku INPUT: `Materials → Import`.
 Na koniec należy jeszcze przypisać materiały do regionów. W tym celu należy zmodyfikować domyślne karty ASSIGNMA i dodać inne. Ważne, by każdy region miał przypisany materiał.
 
-##### ASSIGNMA  
+### **ASSIGNMA**  
 Definiuje powiązanie danego materiału z obszarem (REGIONem), a także istnienie pól magnetycznych lub elektrycznych w danym obszarze.
 
 [!["Material"](Images/Assignma.jpg)](Images/Assignma.jpg)
