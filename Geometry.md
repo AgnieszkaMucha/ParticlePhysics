@@ -39,7 +39,7 @@ OR	| przecięcie (część wspólna)
 
 Definiowanie obszarów geometrii musi być zakończone kartą `END`.
 
-### KATEGORIA MEDIA
+Następnym etapem jest wypełnienie utworzonych regionów materiałem. Pomaga w tym [Kategoria **MEDIA**](Media.md) 
 
-[!["Media"](Images/media.png)](Images/media.png)
+
 
