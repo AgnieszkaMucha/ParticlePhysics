@@ -23,7 +23,7 @@ Definiuje materiał składający się z pojedynczego pierwiastka lub związek (k
 Brak wartości domyślnej
 <br> 
 `WHAT(3)` **ρ**: gęstość wyrażona w g⁄〖cm〗^3. <br>
-`WHAT(4)` `#hash`: wskaźnik (liczba) materiału. Podawać, o ile nie podano nazwy **Name** materiału. <br>
+`WHAT(4)` `#`: wskaźnik (liczba) materiału. Podawać, o ile nie podano nazwy **Name** materiału. <br>
 `WHAT(5)` **Am**: nr (nazwa) zamiennika materiału. <br>
 `WHAT(6)` **A**: Liczba masowa materiału.<br>
 `SDUM` **dE/dx**: strata energii na drogę.
