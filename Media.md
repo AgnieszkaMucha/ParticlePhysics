@@ -51,12 +51,15 @@ Można też przeglądać Bazę Danych Materiałów bezpośrednio. Nacisnąć str
 Wybrać Materials. Wybrany materiał zaimportować poleceniem: `Materials → To input`
 Możliwa jest tez procedura wprowadzenia do bazy danych
 utworzonego przez siebie materiału z pliku INPUT: `Materials → Import`.
+
+[!["Material"](Images/Materials_eth.jpg)](Images/Materials_eth.jpg)
+
 Na koniec należy jeszcze przypisać materiały do regionów. W tym celu należy zmodyfikować domyślne karty ASSIGNMA i dodać inne. Ważne, by każdy region miał przypisany materiał.
 
 ### **ASSIGNMA**  
 Definiuje powiązanie danego materiału z obszarem (REGIONem), a także istnienie pól magnetycznych lub elektrycznych w danym obszarze.
 
-[!["Material"](Images/Assignma.jpg)](Images/Assignma.jpg)
+[!["Assignma"](Images/Assignma.jpg)](Images/Assignma.jpg)
 
 `WHAT(1)` **Mat**: podać nazwę materiału. <br>
 `WHAT(2)` **Reg**: podać dolną granicę zakresu regionów powiązanych z materiałem. <BR>
