@@ -3,15 +3,15 @@
 ## Serwer lhcb1
 
 Instalacja FLUKI na swoim lokalmnym komputerze jest skomplikowana, w dodatku okazuje się, ze przewżnie działa ona tam wolno. <br>
-Na potrzeby studentów FLUKA została zainstalowana na naszym grupowym serwerze, fizycznie znajdującym się w budynku D11. Można dostać się na niego np. z wydziałowego taurusa, używając darmowej aplikacji MobaXterm. Proszę zwrócić uwagę, czy w ustawieniach tej aplikacji aktywna jest opcja otwierania X terminala:
+Na potrzeby studentów, FLUKA została zainstalowana na naszym grupowym serwerze, fizycznie znajdującym się w budynku D11. Można dostać się na niego np. z wydziałowego `taurusa`, używając darmowej aplikacji `MobaXterm`. Proszę zwrócić uwagę, czy w ustawieniach tej aplikacji aktywna jest opcja otwierania X terminala:
 
-[!["moba"](Images/moba.png)](Images/moba.jpg)
+[!["moba"](Images/moba.jpg)](Images/moba.jpg)
 
-Po uruchomieniu MobaXterm startujemy sesję ssh: `Sessions->SSH`. W oknie `Remote host` wpisujemy: `taurus.fis.agh.edu.pl`. W otwartym oknie można się zalogować na konto swojego zespołu:
+Po uruchomieniu `MobaXterm` startujemy sesję ssh: `Sessions->SSH`. W oknie `Remote host` wpisujemy: `taurus.fis.agh.edu.pl`. W otwartym oknie można się zalogować na konto swojego zespołu:
 ```
 ssh -XY hep-lab01@lhcb1
 ```
-Nazwy kont to: 'hep-lab0X@lhcb1', gdzie X- oznacza numer zespołu. Hasła zostana podane na zajęciach. Prosze zauważyć, że przy wpisywaniu hasła kursor jest niewidoczny. 
+Nazwy kont to: 'hep-lab0X@lhcb1', gdzie X- oznacza numer zespołu. Hasła zostaną podane na zajęciach. Prosze zauważyć, że przy wpisywaniu hasła kursor jest niewidoczny. 
 
 ## Repozytorium
 Celem usprawnienia pracy i kontaktu pomiędzy zespołami i prowadzącym utorzone jest `Repozytorum`, czyli dostępne dla wszystkich miejsce, gdzie umieszczane są skrypty startowe, pliki z danymi, jak również można tam przesyłać swoje wyniki. Proszę sprawdzić dostęp:
