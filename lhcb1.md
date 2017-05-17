@@ -2,12 +2,12 @@
 
 ## Serwer lhcb1
 
-Instalacja FLUKI na swoim lokalmnym komputerze jest skomplikowana, w dodatku okazuje się, ze przewżnie działa ona tam wolno. <br>
+Instalacja FLUKI na swoim lokalnym komputerze jest skomplikowana, w dodatku okazuje się, ze przewżnie działa ona tam wolno. <br>
 Na potrzeby studentów, FLUKA została zainstalowana na naszym grupowym serwerze, fizycznie znajdującym się w budynku D11. Można dostać się na niego np. z wydziałowego `taurusa`, używając darmowej aplikacji `MobaXterm`. Proszę zwrócić uwagę, czy w ustawieniach tej aplikacji aktywna jest opcja otwierania X terminala:
 
 [!["moba"](Images/moba.jpg)](Images/moba.jpg)
 
-Po uruchomieniu `MobaXterm` startujemy sesję ssh: `Sessions->SSH`. W oknie `Remote host` wpisujemy: `taurus.fis.agh.edu.pl`. W otwartym oknie można się zalogować na konto swojego zespołu:
+Po uruchomieniu `MobaXterm` startujemy sesję ssh: `Sessions->SSH`. W oknie `Remote host` wpisujemy: `taurus.fis.agh.edu.pl`. W nowej zakładce logujemy na konto swojego zespołu:
 ```
 ssh -XY hep-lab01@lhcb1
 ```
@@ -30,3 +30,6 @@ source setfluka
 ```
 ## Zaczynamy!
 Proszę najpierw założyć wygodną dla siebie strukturę katalogów. Uruchamiamy środowisko `Flair` komendą `Flair &` i przystępujemy do wykonania pierwszego zadania: [START](Start.md).
+
+## Uwaga!
+Konto na serwerze `lhcb1` jest przeznaczone tylko na cele dydaktyczne dla analiz dotyczących oddziaływania proomieniowania z materią i fizyki cząstek elementarnych. Inne użycie jest niedozwolone!
