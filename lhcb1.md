@@ -9,27 +9,31 @@ Na potrzeby studentów, FLUKA została zainstalowana na naszym grupowym serwerze
 
 Po uruchomieniu `MobaXterm` startujemy sesję ssh: `Sessions->SSH`. W oknie `Remote host` wpisujemy: `taurus.fis.agh.edu.pl`. W nowej zakładce logujemy na konto swojego zespołu:
 ```
-ssh -XY hep-lab01@lhcb1
+ssh -XY hep-lab0X@lhcb1
 ```
-Nazwy kont to: 'hep-lab0X@lhcb1', gdzie X- oznacza numer zespołu. Hasła zostaną podane na zajęciach. Prosze zauważyć, że przy wpisywaniu hasła kursor jest niewidoczny. 
+Nazwy kont to: `hep-lab0X@lhcb1`, gdzie X- oznacza numer zespołu. Hasła zostaną podane na zajęciach. Prosze zauważyć, że przy wpisywaniu hasła kursor jest niewidoczny. 
 
 ## Repozytorium
 Celem usprawnienia pracy i kontaktu pomiędzy zespołami i prowadzącym utorzone jest `Repozytorum`, czyli dostępne dla wszystkich miejsce, gdzie umieszczane są skrypty startowe, pliki z danymi, jak również można tam przesyłać swoje wyniki. Proszę sprawdzić dostęp:
 ```
 ls -l /datab1/FLUKA/lab_repo
 ```
-i z katalogu 'scripts' skopiować do swojego katalogu głównego '/home/hep-lab0X' skrypt 'setfluka':
+i z katalogu `scripts` skopiować do swojego katalogu głównego `/home/hep-lab0X` skrypt `setfluka`:
 ```
 cp /datab1/FLUKA/lab_repo/scripts/setfluka .
 ```
 
 ## Ustawienia środowiska 
-Przed KAŻDYM rozpoczęciem pracy należy ustawić środowisko, czyli podać, skąd Fluka i Root mają pobierać bibliteki. Z repozytorum trzeba pobrać plik startowy `setfluka` i wykonać go:
+Przed KAŻDYM rozpoczęciem pracy należy ustawić środowisko, czyli podać, skąd Fluka i Root mają pobierać bibloiteki. Z repozytorum trzeba pobrać plik startowy `setfluka` i wykonać go:
 ```
 source setfluka
 ```
 ## Zaczynamy!
-Proszę najpierw założyć wygodną dla siebie strukturę katalogów. Uruchamiamy środowisko `Flair` komendą `Flair &` i przystępujemy do wykonania pierwszego zadania: [START](Start.md).
+Proszę najpierw założyć wygodną dla siebie strukturę katalogów. Uruchamiamy środowisko `Flair` komendą:
+```
+Flair &
+```
+i przystępujemy do wykonania pierwszego zadania: [START](Start.md).
 
 ## Uwaga!
 Konto na serwerze `lhcb1` jest przeznaczone tylko na cele dydaktyczne dla analiz dotyczących oddziaływania proomieniowania z materią i fizyki cząstek elementarnych. Inne użycie jest niedozwolone!
