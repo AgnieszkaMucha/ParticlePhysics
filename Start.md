@@ -18,12 +18,12 @@ Szczegółowe informacje dotyczące programu FLUKA i FLAIR można znaleźć [tut
 - Ze swojego konta na `taurusie` należy zalogować się na konto zespołu na serwerze `lhcb1`. Problem z kontem? Sprawdź [lhcb1](lhcb1.md).
 - Na `lhcb` wykonać skrypt startowy:
 ```bash
-$ source setlhcb
+ source setfluka
 ```
 - Stworzyć i przejść do swojego katalogu roboczego:
 - Uruchomić program FLAIR komendą:
 ```bash
-$ flair &
+ flair &
 ```
 Popatrzymy najpierw na niezbędne elementy pliku do wykonania symulacji:
 
