@@ -2,8 +2,8 @@
 
 ## Serwer lhcb1
 
-Instalacja FLUKI na swoim lokalnym komputerze jest skomplikowana, w dodatku okazuje się, ze przewżnie działa ona tam wolno. <br>
-Na potrzeby studentów, FLUKA została zainstalowana na naszym grupowym serwerze, fizycznie znajdującym się w budynku D11. Można dostać się na niego np. z wydziałowego `taurusa`, używając darmowej aplikacji `MobaXterm`. Proszę zwrócić uwagę, czy w ustawieniach tej aplikacji aktywna jest opcja otwierania X terminala:
+Instalacja FLUKI na swoim lokalnym komputerze jest skomplikowana, a w dodatku okazuje się, że przewżnie działa ona tam wolno. <br>
+Na potrzeby studentów FLUKA została zainstalowana na naszym grupowym serwerze, fizycznie znajdującym się w budynku D11. Można dostać się na niego np. z wydziałowego `taurusa`, używając darmowej aplikacji `MobaXterm`. Proszę zwrócić uwagę, czy w ustawieniach tej aplikacji aktywna jest opcja otwierania X terminala:
 
 [!["moba"](Images/moba.jpg)](Images/moba.jpg)
 
@@ -14,7 +14,7 @@ ssh -XY hep-lab0X@lhcb1
 Nazwy kont to: `hep-lab0X@lhcb1`, gdzie X- oznacza numer zespołu. Hasła zostaną podane na zajęciach. Prosze zauważyć, że przy wpisywaniu hasła kursor jest niewidoczny. 
 
 ## Repozytorium
-Celem usprawnienia pracy i kontaktu pomiędzy zespołami i prowadzącym utorzone jest `Repozytorum`, czyli dostępne dla wszystkich miejsce, gdzie umieszczane są skrypty startowe, pliki z danymi, jak również można tam przesyłać swoje wyniki. Proszę sprawdzić dostęp:
+Celem usprawnienia pracy i kontaktu pomiędzy zespołami i prowadzącym utworzone jest `Repozytorum`, czyli dostępne dla wszystkich miejsce, gdzie umieszczane są skrypty startowe, przykłady, pliki z danymi, jak również można tam przesyłać swoje wyniki. Proszę sprawdzić dostęp:
 ```
 ls -l /datab1/FLUKA/lab_repo
 ```
@@ -36,4 +36,4 @@ Flair &
 i przystępujemy do wykonania pierwszego zadania: [START](Start.md).
 
 ## Uwaga!
-Konto na serwerze `lhcb1` jest przeznaczone tylko na cele dydaktyczne dla analiz dotyczących oddziaływania proomieniowania z materią i fizyki cząstek elementarnych. Inne użycie jest niedozwolone!
+Konto na serwerze `lhcb1` jest przeznaczone tylko na cele dydaktyczne dla analiz dotyczących oddziaływania promieniowania z materią i fizyki cząstek elementarnych. Inne użycie jest niedozwolone!
