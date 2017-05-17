@@ -24,7 +24,7 @@ cp /datab1/FLUKA/lab_repo/scripts/setfluka .
 ```
 
 ## Ustawienia środowiska 
-Przed KAŻDYM rozpoczęciem pracy należy ustawić środowisko, czyli podać, skąd Fluka i Root mają pobierać bibloiteki. Z repozytorum trzeba pobrać plik startowy `setfluka` i wykonać go:
+Przed KAŻDYM rozpoczęciem pracy należy ustawić środowisko, czyli podać, skąd Fluka i Root mają pobierać biblioteki. Z repozytorum trzeba pobrać plik startowy `setfluka` i wykonać go:
 ```
 source setfluka
 ```
