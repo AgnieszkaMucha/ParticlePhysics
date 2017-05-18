@@ -3,7 +3,7 @@
 ## Serwer lhcb1
 
 Instalacja FLUKI na swoim lokalnym komputerze jest skomplikowana, a w dodatku okazuje się, że przewżnie działa ona tam wolno. <br>
-Na potrzeby studentów FLUKA została zainstalowana na naszym grupowym serwerze, fizycznie znajdującym się w budynku D11. Można dostać się na niego np. z wydziałowego `taurusa`, używając darmowej aplikacji `MobaXterm`lub z dowolnego terminala w sysemie linux. 
+Na potrzeby studentów FLUKA została zainstalowana na naszym grupowym serwerze, fizycznie znajdującym się w budynku D11. Można dostać się na niego np. z wydziałowego `taurusa`, używając darmowej aplikacji `MobaXterm`lub z dowolnego terminala w systemie linux. 
 Używając MobaXterm, proszę zwrócić uwagę, czy w ustawieniach tej aplikacji aktywna jest opcja otwierania X terminala:
 
 [!["moba"](Images/moba.jpg)](Images/moba.jpg)
