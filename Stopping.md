@@ -15,7 +15,7 @@ Energię należy dobrać samodzielnie, z zakresu od 100 MeV do 100 GeV w sześci
 2. Wykonaj symulację:
 - dla wybranej wiązki cząstek: jednej ciężkiej i jednej lekkiej. 
 - Zbiornik wypełnij dwoma rodzajami materiałów: lekkim (np. powietrze, woda, krzem) i ciężkim (ołów, żelazo, beton). 
-- Wybierz do scoringu estymatory: całkowitej zdeponowanej energii, energii promieniowania elektromagnetycznego, energii zdeponowanej przez promieniowanie pierwotne i dawki. O estymatorach we Fluce przeczytasz [tutaj](https://agnieszkamucha.github.io/OPJzM/Estymatory.md).
+- Wybierz do scoringu estymatory: całkowitej zdeponowanej energii, energii promieniowania elektromagnetycznego, energii zdeponowanej przez promieniowanie pierwotne i dawki. O estymatorach we Fluce przeczytasz [tutaj](https://agnieszkamucha.github.io/OPJzM/Estymatory.html).
 - Liczba cząstek w wiązce nie powinna być mniejsza niż 10 tysięcy.
 
 ### Opracowanie ćwiczenia:
