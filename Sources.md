@@ -25,3 +25,5 @@ Użyteczne przeliczniki:
 
 Zadane parametry:
 - Źródło: Źródło promieniowania gamma Cs-137 (662 keV) w formie „pastylki” o promieniu 1 cm i grubości 5 mm umieszczone w środku układu współrzędnych w płaszczyźnie XY. Promieniowanie rozchodzi się sferycznie w powietrzu. Źródło posiada aktywność 2 TBq i jest zamknięte w kapsule ołowianej. Kształt wiązki wyznacza kolimator o kącie rozwarcia 20 stopni.
+- Cel: Obliczenie osłabienia promieniowania z tego źródła po użyciu ołowianej osłony.
+- Wskazówki do wykonania ćwiczenia są [tutaj]((Files/gamma_1.pdf)](Files/gamma_1.pdf)).
