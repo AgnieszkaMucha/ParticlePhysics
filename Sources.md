@@ -3,7 +3,7 @@
 ### Projekt 1b
 ## Oddziaływanie promieniowania z typowych źródeł promieniotwórczych (alfa, beta, gamma, neutrony) z materią, projekt osłony.
 
-1. Symulacja promieniowania beta emitowanego ze źródła Sr-90 
+** 1. Symulacja promieniowania beta emitowanego ze źródła Sr-90 **
 
 Wykonanie ćwiczenia:
 - Promieniowanie rozchodzi się z podanego źródła. Modelujemy energię zdeponowaną w przestrzeni wokół źródła. 
