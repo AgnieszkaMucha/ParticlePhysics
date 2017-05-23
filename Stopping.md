@@ -6,7 +6,7 @@
 Badanie oddziaływania promieniowania o wysokich energiach z materią, określenie różnicy w oddziaływaniu pomiędzy cząstkami lekkimi a ciężkimi, wyznaczenie zależności zasięgu promieniowania od energii, rodzaju promieniowania i materiału.
 
 ### Wykonanie ćwiczenia:
-1. Napisz plik inputowy do FLUKI. Szybki starter do puszczenia symulacji jest [tutaj](https://agnieszkamucha.github.io/OPJzM/Start.md).
+1. Napisz plik inputowy do FLUKI. Szybki starter do puszczenia symulacji jest [tutaj](https://agnieszkamucha.github.io/OPJzM/Start.html).
  Oddziaływanie będzie badane w prostopadłościanie wypełnionym lekkimi i ciężkimi materiałami. Rozmiary należy tak dobrać, aby widoczny był zasięg promieniowania (można poszukać w tablicach). Źródłem będzie wiązka:
 - Protonów, jonów (złota, olowiu, węgla) lub neutronów (cząstki ciężkie).
 - Elektronów lub fotonów (cząstki lekkie).
