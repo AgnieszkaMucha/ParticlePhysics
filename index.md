@@ -30,10 +30,10 @@ Upewnij się, że posiadasz konto na serwerze `lhcb1`, na którym zainstalowane 
 1. [Start-zaczynamy pracę z FLUKĄ](Start.md)
 2. Szczególowy opis kategorii kart FLUKI: 
    - [`PRIMARY`](Primary.md)
-   - [`GEOMETRY`](Geometry.md)
+   - [`GEOMETRY`](Geometry.md) [Hands-on](https://agnieszkamucha.github.io/OPJzM/Files/Geometry.pdf)
    - [`MEDIA`](Media.md)
 3. Podstawowe estymatory:
-   - [`USRBIN`](Estymatory.md)
+   - [`USRBIN`](Estymatory.md) [Hands-on](https://agnieszkamucha.github.io/OPJzM/Files/scoring.pdf)
 4. [Ratunku! Nic nie działa!](Ratunek.md)
 
 ## Ćwiczenia laboratoryjne II:
