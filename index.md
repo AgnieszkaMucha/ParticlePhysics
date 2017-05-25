@@ -13,7 +13,14 @@ Podczas zajęć w pracowni komputerowej, studenci zapoznają się z tematem ćwi
 Podczas ćwiczeń studenci będą te programy modyfikować. Omówione zostaną szczegóły analizy.
 
 Na podstawie przeprowadzonych analiz studenci wykonają samodzielnie dwa projekty:
-1. Symulację oddziaływania promieniowania z materią programem FLUKA (dwa tematy do wyboru).
+1. Symulację oddziaływania promieniowania z materią programem FLUKA. Każda grupa wykonuje inny projekt z listy:
+- oddziaływanie i wyznaczenie zasięgu ciąstek cięzkich (protonów, jonów) w różnych materiałach,
+- oddziaływanie i wyznaczenie zasięgu elektronów i fotonów w różnych materiałach,
+- oddziaływanie i wyznaczenie zasięgu neutronów w różnych materiałach,
+- oddziaływania i projekt osłony dla promieniowania alpha pochodzącego z rzeczywistego źródła, 
+- oddziaływania i projekt osłony dla promieniowania beta pochodzącego z rzeczywistego źródła, 
+- oddziaływania i projekt osłony dla promieniowania gamma pochodzącego z rzeczywistego źródła, 
+- oddziaływania i projekt osłony dla neutronów z rzeczywistego źródła, 
 2. Analizę depozytów energii w detektorze VELO.
 
 ## Warunki wstępne 
