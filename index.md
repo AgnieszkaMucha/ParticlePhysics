@@ -33,7 +33,7 @@ Upewnij się, że posiadasz konto na serwerze `lhcb1`, na którym zainstalowane 
    - [`GEOMETRY`](Geometry.md) [Hands-on](https://agnieszkamucha.github.io/OPJzM/Files/Geometry.pdf)
    - [`MEDIA`](Media.md)
 3. Podstawowe estymatory:
-   - [`USRBIN`](Estymatory.md) [Hands-on](https://agnieszkamucha.github.io/OPJzM/Files/scoring.pdf)
+   - [`USRBIN`](Estymatory.md) [Hands-on](https://agnieszkamucha.github.io/OPJzM/Files/Scoring.pdf)
 4. [Ratunku! Nic nie działa!](Ratunek.md)
 
 ## Ćwiczenia laboratoryjne II:
