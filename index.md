@@ -14,7 +14,7 @@ Podczas ćwiczeń studenci będą te programy modyfikować. Omówione zostaną s
 
 Na podstawie przeprowadzonych analiz studenci wykonają samodzielnie dwa projekty:
 1. Symulację oddziaływania promieniowania z materią programem FLUKA. Każda grupa wykonuje inny projekt z listy:
-- oddziaływanie i wyznaczenie zasięgu ciąstek cięzkich (protonów, jonów) w różnych materiałach,
+- oddziaływanie i wyznaczenie zasięgu cziąstek ciężkich (protonów, jonów) w różnych materiałach,
 - oddziaływanie i wyznaczenie zasięgu elektronów i fotonów w różnych materiałach,
 - oddziaływanie i wyznaczenie zasięgu neutronów w różnych materiałach,
 - oddziaływania i projekt osłony dla promieniowania alpha pochodzącego z rzeczywistego źródła, 
