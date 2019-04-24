@@ -7,14 +7,14 @@ Badanie oddziaływania promieniowania o wysokich energiach z materią, określen
 
 ### Wykonanie ćwiczenia:
 1. Napisz plik inputowy do FLUKI. Szybki starter do puszczenia symulacji jest [tutaj](https://agnieszkamucha.github.io/OPJzM/Start.html).
- Oddziaływanie będzie badane w prostopadłościanie wypełnionym lekkimi i ciężkimi materiałami. Rozmiary należy tak dobrać, aby widoczny był zasięg promieniowania (można poszukać w tablicach). Źródłem będzie wiązka:
-- Protonów, jonów (złota, olowiu, węgla) lub neutronów (cząstki ciężkie).
-- Elektronów lub fotonów (cząstki lekkie).
+ Oddziaływanie będzie badane w cylindrze wypełnionym lekkimi i ciężkimi materiałami. Rozmiary należy tak dobrać, aby widoczny był zasięg promieniowania (można poszukać w tablicach). Źródłem będzie wiązka:
+- Protonów i neutronów (cząstki ciężkie).
+- Elektronów i fotonów (cząstki lekkie).
 
 Energię należy dobrać samodzielnie, z zakresu od 100 MeV do 100 GeV w sześciu dowolnych, ale dających znaczące wyniki, krokach. 
 2. Wykonaj symulację:
 - dla wybranej wiązki cząstek: jednej ciężkiej i jednej lekkiej. 
-- Zbiornik wypełnij dwoma rodzajami materiałów: lekkim (np. powietrze, woda, krzem) i ciężkim (ołów, żelazo, beton). 
+- Zbiornik wypełnij dwoma rodzajami materiałów: lekkim (np. powietrze, woda, krzem) i ciężkim (wolfram, ołów, żelazo, beton). 
 - Wybierz do scoringu estymatory: całkowitej zdeponowanej energii, energii promieniowania elektromagnetycznego, energii zdeponowanej przez promieniowanie pierwotne i dawki. O estymatorach we Fluce przeczytasz [tutaj](https://agnieszkamucha.github.io/OPJzM/Estymatory.html).
 - Liczba cząstek w wiązce nie powinna być mniejsza niż 10 tysięcy.
 
