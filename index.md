@@ -38,7 +38,7 @@ Upewnij się, że posiadasz konto na serwerze `lhcb1`, na którym zainstalowane 
 
 ## Projekty
 1.  a) Zasięg wysokoenergetycznych cząstek naładowanych w różnych materiałach (Fluka), [opis](Stopping.md). <br>
-    b) Oddziaływanie promieniowania ze znanych źródeł promieniotwórczych (alfa, beta, gamma, neutrony) z materią, projekt osłony. (Fluka), [opis](Sources.md).
+  %  b) Oddziaływanie promieniowania ze znanych źródeł promieniotwórczych (alfa, beta, gamma, neutrony) z materią, projekt osłony. (Fluka), [opis](Sources.md).
 2. VELO, [opis](VELO.md).
 
 ## Dodatki
