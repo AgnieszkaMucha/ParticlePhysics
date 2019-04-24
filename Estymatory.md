@@ -18,7 +18,7 @@ Użycie karty estymatora `USRBIN` wymaga:
 - Określenia numeru logicznego, najlepiej z rozwijanej listy, bo niektóre numery są zarezerwowane dla fortrana.
 - Zdefiniowanie nazwy "detektora" - tak we Fluce nazywamy nasz estymator. Ta nazwa powinna być znacząca i może mieć do 10 znaków.
 - Określenia liczby przedziałów (binów) każdej współrzędnej. Tutaj jest ograniczenie (maksymalna liczba binów to 400?), ale jeśli problem jest symetryczny w płaszczyźnie _xy_, to nie ma potrzeby dzielić np. osi _x_ (damy tam jeden przedział). <br>
-Gestość podziału wybierzemy doświadczalnie, od tego zależy rozdzielczość naszej symulacji. Jeżeli będziemy badać zasięg promieniowania na odległości np. 1m, to rozsądnie jest podzielić ją na 500 binów.  Pamiętajmy o kropce dziesiętnej po każdej liczbie całkowitej!
+Gestość podziału wybierzemy doświadczalnie, od tego zależy rozdzielczość naszej symulacji. Jeżeli będziemy badać zasięg promieniowania na odległości np. 1m, to rozsądnie jest podzielić ją na 500 binów.  
 
 Przykład definiowania `USRBIN`:
 
@@ -26,9 +26,10 @@ Przykład definiowania `USRBIN`:
 
 Karta `USRBIN` podaje rozkłady przestrzenne depozytów energii i całkowitej fluencji w formie kolorowych map 3D, o zawartości wybranej przez użytkownika, znormalizowanych do jednostkowej objętości. <br>
 W naszych zastosowaniach wykorzystamy estymatory następujących zmiennych:
+- `BEMPART` - gęstość oddziaływań nieelastycznych TYLKO przez cząstek pierwotnych (primaries), 
+- `ALL-PART` - gęstość oddziaływań nieelastycznych wszystkich cząstek (primaries), 
 - `ENERGY` - całkowita zdeponowana energia (bardziej ściśle: gęstośc energii, [GeV/cm3]
 - `EM-ENERGY` - energia promieniowania elektromagnetycznego (elektrony, fotony), [GeV/cm3]
-- `BEMPART` - energia zdeponowana TYLKO przez promieniowanie pierwotne (primaries), [GeV/cm3]
 - `DOSE` - dawka promieniowania, [GeV/g], aby wynik był w [Gy]=[GeV/g]x1.602e-7
 - `HAD_CHAR` - fluencja naładowanych hadronów, [part/cm2]
 - `HADGT20M` - fluencja wysokoenergetycznych hadronów, [part/cm2]
@@ -47,7 +48,7 @@ Na poniższych wykresach przedstawiono wynik kilku powyższych estymatorów (wi�
 
 [!["P_300MeV"](Images/Beka_300MeV.png)](Images/Beka_300MeV.png)
 
-Następne wykresy zawierają przestrzenny rozkład energii zdeponowanej przez pierwotne protony i dawkę otrzymaną przez materiał zbiornika. Pod kolorowymi mapami znajdują się projekcje tych rozkładów. Zapraszam do dyskusji! To są główne rozkłady potrzebne w ćwiczeniach.
+Następne wykresy zawierają przestrzenny rozkład gęstości oddziaływań pierwotnych protonów i dawkę otrzymaną przez materiał zbiornika. Pod kolorowymi mapami znajdują się projekcje tych rozkładów. Zapraszam do dyskusji! To są główne rozkłady potrzebne w ćwiczeniach.
 
 [!["S_300MeV"](Images/Stop_300MeV.png)](Images/Stop_300MeV.png)
 
