@@ -7,7 +7,7 @@
    II. Wyznaczenie depozytów energii i odpowiedzi mikropaskowego detektora VELO ze spektrometru LHCb (symulacja w architekturze GEANT i dane rzeczywiste - praca na ntuplu w architekturze ROOT).
 
 ## Wymagania dla studentów:
-Laboratorium odbywać się będzie w terminach: 18.05, 23.05, 25.05, 30.05, 1.06, od godz. 14:40 po dwie-trzy godziny wykładowe.
+Laboratorium odbywać się będzie w godz. 8-10:30 w terminach: 8.05, 15.05, 22.05, 29.05 (sala 207/D10) .
 
 Podczas zajęć w pracowni komputerowej, studenci zapoznają się z tematem ćwiczeń i pobiorą potrzebne pliki z danymi i przykładowe programy do analizy.
 Podczas ćwiczeń studenci będą te programy modyfikować. Omówione zostaną szczegóły analizy.
@@ -17,10 +17,6 @@ Na podstawie przeprowadzonych analiz studenci wykonają samodzielnie dwa projekt
 - oddziaływanie i wyznaczenie zasięgu cziąstek ciężkich (protonów, jonów) w różnych materiałach,
 - oddziaływanie i wyznaczenie zasięgu elektronów i fotonów w różnych materiałach,
 - oddziaływanie i wyznaczenie zasięgu neutronów w różnych materiałach,
-- oddziaływania i projekt osłony dla promieniowania alpha pochodzącego z rzeczywistego źródła, 
-- oddziaływania i projekt osłony dla promieniowania beta pochodzącego z rzeczywistego źródła, 
-- oddziaływania i projekt osłony dla promieniowania gamma pochodzącego z rzeczywistego źródła, 
-- oddziaływania i projekt osłony dla neutronów z rzeczywistego źródła, 
 2. Analizę depozytów energii w detektorze VELO.
 
 ## Warunki wstępne 
