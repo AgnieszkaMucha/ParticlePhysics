@@ -27,16 +27,16 @@ Dokonaj porównania wyników:
 ### Opracowanie wyników (do 28 czerwca 2019):
 - każda osoba powinna wykonać symulację oddziaływania wiązki protonów i elektronów w materiale w lekkich i cięzkich materiałach. Licznba padających cząstek to conajmniej 10 tysięcy, a cykli symulacji conajmniej 3. Energia wybrana z przedziału 0.1 - 1 GeV.
 - proszę zrobić dwuwymiarowe rozkłady zdeponowanej energii (lub dawki) dla tego samego materiału i wskazać różnice pomiędzy elektronami i protonami, 
-- w przypadku protonów:
+- w przypadku protonów: <br>
 a) dla conajmniej trzech energii i dwóch materiałów zrobić rozkład zdeponowanej n=enrgii (lub dawki) w funkcji odległości i  wyznaczyć zasięg,
-b) zrobić rozkład (log-log) zasięgu w funkcji energii, porównać z wartościami tablicowymi (i).
+b) zrobić rozkład (log-log) zasięgu w funkcji energii, porównać z wartościami tablicowymi (i). <br>
 c) sprawdzić "skalowanie zasięgu", tzn, czy stosunek zasięgów (dla tych samych energii i tych samych cząstek) jest równy stosunkowi gęstości i pierwiastka z liczby atomowej (p. wykład), 
 - dla elektronów:
-a) zrobić rozkład 2D i 1D energii zdeponowanej tylko przez wiązki pierwotne (BEAM_PART),
+a) zrobić rozkład 2D i 1D energii zdeponowanej tylko przez wiązki pierwotne (BEAM_PART), <br>
 b) zrobić rozkłąd 2D i 1D energii całkowitej zdeponowanej przy przejściu elektronów i skomentować różnicę z poprzednim rozkładem. 
 c) wyznaczyć drogę radiacyjną (ii) lub zasięg i porównać z tablicami.
 - Uwaga: 
-(i) zasięg przedstawiamy w [cm], ale częściej jako iloczym zasięgu i gestości: [cm g/cm3 =g/cm²] (p. wykład).
+(i) zasięg przedstawiamy w [cm], ale częściej jako iloczym zasięgu i gestości: [cm g/cm3 =g/cm²] (p. wykład). <br>
 (ii) droga radiacyjna dla elektronów jest to odległość, po której energia elektronu, tracona w wyniku promieniowania hamowania, wynosi średnio 1/e (czyli około 36,8%) swej energii początkowej, wyrażana jest również jako wartość pomnożona przez gęstość materiału w [g/cm²]. 
 
 ### Ćwiczenia dodatkowe:
