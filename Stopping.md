@@ -18,17 +18,26 @@ Energię należy dobrać samodzielnie, z zakresu od 100 MeV do 100 GeV w sześci
 - Wybierz do scoringu estymatory: całkowitej zdeponowanej energii, energii promieniowania elektromagnetycznego, energii zdeponowanej przez promieniowanie pierwotne i dawki. O estymatorach we Fluce przeczytasz [tutaj](https://agnieszkamucha.github.io/OPJzM/Estymatory.html).
 - Liczba cząstek w wiązce nie powinna być mniejsza niż 10 tysięcy.
 
-### Opracowanie ćwiczenia:
+### Dyskusja wykonanej symulacji:
 Dokonaj porównania wyników:
 - jakie są różnice w oddziaływaniu poszczególnych cząstek? 
 - jakie cząstki wtórne powstały?
 - od czego zależą straty jonizacyjne?
-- Przedstaw sprawozdanie z najbardziej znaczącymi wynikami.
 
-Wyznacz zasięg promieniowania:
-- zrzutuj rozkłady 2D na 1D, skomentuj wynik.
-- jeśli to możliwe wyznacz: zasięg, drogę radiacyjną, 
-- gdyby wiązka uderzała przez godzinę, jaka dawka zdeponuje się w materiale?
+### Opracowanie wyników (do 28 czerwca 2019):
+- każda osoba powinna wykonać symulację oddziaływania wiązki protonów i elektronów w materiale w lekkich i cięzkich materiałach. Licznba padających cząstek to conajmniej 10 tysięcy, a cykli symulacji conajmniej 3. Energia wybrana z przedziału 0.1 - 1 GeV.
+- proszę zrobić dwuwymiarowe rozkłady zdeponowanej energii (lub dawki) dla tego samego materiału i wskazać różnice pomiędzy elektronami i protonami, 
+- w przypadku protonów:
+a) dla conajmniej trzech energii i dwóch materiałów zrobić rozkład zdeponowanej n=enrgii (lub dawki) w funkcji odległości i  wyznaczyć zasięg,
+b) zrobić rozkład (log-log) zasięgu w funkcji energii, porównać z wartościami tablicowymi (i).
+c) sprawdzić "skalowanie zasięgu", tzn, czy stosunek zasięgów (dla tych samych energii i tych samych cząstek) jest równy stosunkowi gęstości i pierwiastka z liczby atomowej (p. wykład), 
+- dla elektronów:
+a) zrobić rozkład 2D i 1D energii zdeponowanej tylko przez wiązki pierwotne (BEAM_PART),
+b) zrobić rozkłąd 2D i 1D energii całkowitej zdeponowanej przy przejściu elektronów i skomentować różnicę z poprzednim rozkładem. 
+c) wyznaczyć drogę radiacyjną (ii) lub zasięg i porównać z tablicami.
+- Uwaga: 
+(i) zasięg przedstawiamy w [cm], ale częściej jako iloczym zasięgu i gestości: [cm g/cm3 =g/cm²] (p. wykład).
+(ii) droga radiacyjna dla elektronów jest to odległość, po której energia elektronu, tracona w wyniku promieniowania hamowania, wynosi średnio 1/e (czyli około 36,8%) swej energii początkowej, wyrażana jest również jako wartość pomnożona przez gęstość materiału w [g/cm²]. 
 
 ### Ćwiczenia dodatkowe:
 1. Beam dump dla LHC:
