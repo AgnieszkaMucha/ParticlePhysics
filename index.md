@@ -12,7 +12,7 @@ Laboratorium odbywać się będzie w godz. 8-10:30 w terminach: 8.05, 15.05, 22.
 Podczas zajęć w pracowni komputerowej, studenci zapoznają się z tematem ćwiczeń i pobiorą potrzebne pliki z danymi i przykładowe programy do analizy.
 Podczas ćwiczeń studenci będą te programy modyfikować. Omówione zostaną szczegóły analizy.
 
-Na podstawie przeprowadzonych analiz studenci wykonają samodzielnie dwa projekty:
+Na podstawie przeprowadzonych analiz studenci wykonają samodzielnie dwa projekty (szczegóły projektu sa  [TUTAJ](Stopping.md):
 1. Symulację oddziaływania promieniowania z materią programem FLUKA. Każda grupa wykonuje inny projekt z listy:
 - oddziaływanie i wyznaczenie zasięgu cziąstek ciężkich (protonów, jonów) w różnych materiałach,
 - oddziaływanie i wyznaczenie zasięgu elektronów i fotonów w różnych materiałach,
