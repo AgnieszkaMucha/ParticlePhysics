@@ -1,9 +1,10 @@
 
 # Matter – antimatter asymmetry 
-# Particle Physics project for FPACS PhD students
+# Particle Physics project for AGH UST FPACS PhD students
 
 ## Motivation:
    I. Observation of CP Violation in heavy flavour physics.
+   II. A lot of fun.
 
 
 ## Theory:
