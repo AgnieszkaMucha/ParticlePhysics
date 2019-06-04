@@ -10,9 +10,9 @@
 
 
 ## Introduction:
-1. [CPV in a nutshell ](https://agnieszkamucha.github.io/ParticlePhysics/Files/CPV_1.pdf)
-2. [A few words about LHCb analysis ](https://agnieszkamucha.github.io/ParticlePhysics/Files/LHCb_ana.pdf)
-3. [LHCb Open Data Project](http://opendata.cern.ch/record/4901)
+1. [CPV in a nutshell] (https://agnieszkamucha.github.io/ParticlePhysics/Files/CPV_1.pdf)
+2. [A few words about LHCb analysis ] (https://agnieszkamucha.github.io/ParticlePhysics/Files/LHCb_ana.pdf)
+3. [LHCb Open Data Project] (http://opendata.cern.ch/record/4901)
 4. [Project Notebook] (http://opendata.cern.ch/record/4900)
 
 ## Project 1: Direct CP Violation in charged B meson decay
