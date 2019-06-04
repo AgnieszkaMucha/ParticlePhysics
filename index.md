@@ -16,8 +16,7 @@
 4. [Project Notebook] (http://opendata.cern.ch/record/4900)
 5. [Hands-on in Notebook](https://github.com/lhcb/opendata-project/blob/80d64a3796e593fc8f9b257e85f32ae2e54f131f/LHCb_Open_Data_Project.ipynb)
 
-## Project 1
-
-3. [Using your ROOT] 
-## Project 2
-1.
+## Project 1: Direct CP Violation in charged B meson decay
+3. [Using your ROOT] (http://home.agh.edu.pl/~amucha/czastki/zima18/Description_handsOn.pdf)
+## Project 2: Dalitz plots and two body resonances
+1. 
