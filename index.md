@@ -3,7 +3,7 @@
 # Particle Physics project for AGH UST FPACS PhD students
 
 ## Motivation:
-   I. Observation of CP Violation in heavy flavour physics.
+   I. Observation of CP Violation in heavy flavour physics. <br>
    II. A lot of fun.
 
 
