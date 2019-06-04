@@ -3,7 +3,7 @@
 # Particle Physics project for FPACS PhD students
 
 ## Motivation:
-   I. CP Violation in heavy flavour physics .
+   I. CP Violation in heavy flavour physics.
 
 
 ## Theory:
