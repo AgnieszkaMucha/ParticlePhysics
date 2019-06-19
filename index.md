@@ -20,5 +20,5 @@
 2. [With a fancy Notebook](https://github.com/lhcb/opendata-project/blob/80d64a3796e593fc8f9b257e85f32ae2e54f131f/LHCb_Open_Data_Project.ipynb)
 
 ## Project 2: Dalitz plots and two body resonances
-1. [Description and hands-on](https://github.com/AgnieszkaMucha/ParticlePhysics/blob/master/Files/Dalitz%20Plots.pdf)
+1. [Description and hands-on](https://agnieszkamucha.github.io/ParticlePhysics/Files/Dalitz%20Plots.pdf)
 2. [Project Notebook (scroll down to see...)](https://github.com/lhcb/opendata-project/blob/80d64a3796e593fc8f9b257e85f32ae2e54f131f/LHCb_Open_Data_Project.ipynb) 
