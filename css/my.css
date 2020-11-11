@@ -1,5 +1,5 @@
 body {
-    margin: 60px auto;
+    margin: 10px auto;
     width: 90%;
 }
 nav ul, footer ul {
@@ -10,7 +10,7 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 40px;
+    margin-right: 10px;
 }
 a {
     text-decoration: none;
