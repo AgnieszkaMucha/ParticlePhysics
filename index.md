@@ -1,5 +1,5 @@
-# D mesons deacys 
-# Particle Physics project for AGH UST FPACS  students
+# D mesons decays 
+# Particle Physics project for AGH UST FPACS students
 
 ## Motivation:
    I. Observation of CP Violation in heavy flavour physics. <br>
