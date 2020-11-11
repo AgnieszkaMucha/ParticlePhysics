@@ -2,8 +2,8 @@
 # Particle Physics project for AGH UST FPACS students
 
 ## Motivation:
-   I. Observation of CP Violation in heavy flavour physics. <br>
-   II. A lot of fun.
+   I. Introduction to experimental particle physics.
+   II. Search for D meson decay in data simulated in LHCb experiment.
 
 
 ## Theory:
