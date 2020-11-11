@@ -26,23 +26,13 @@ D mesons contain charm quark. The lighter D meson contains also one of the light
    - study the data set: 
    It contains 160 000 simulated events of D and Ds decays to three hadrons (kaons or pions). 
    
- ### Working envinment and tools
-[ROOT - praktyczne wprowadzenie](Root.md)
+ ### Working environment and tools
+[ROOT - basis](Root.md)
  
 
+https://indico.cern.ch/event/704163/contributions/2936719/
+https://indico.cern.ch/event/788195/contributions/3364842/
 
-
-
-[1] [LHCb Open data project](http://opendata.cern.ch/docs/about-lhcb)
+[1] [LHCb Open data project](http://opendata.cern.ch/docs/about-lhcb) <br>
 [2] [LHCb StarterKit](https://lhcb.github.io/starterkit-lessons/first-analysis-steps/physics-at-lhcb.html#the-reconstruction)
-1. [CPV in a nutshell](https://agnieszkamucha.github.io/ParticlePhysics/Files/CPV_1.pdf)
-2. [LHCb Open Data Project](http://opendata.cern.ch/record/4901)
-3. [Project Notebook](http://opendata.cern.ch/record/4900)
 
-## Project 1: Direct CP Violation in charged B meson decay
-1. [Using your ROOT](http://home.agh.edu.pl/~amucha/czastki/zima18/Description_handsOn.pdf)
-2. [With a fancy Notebook](https://github.com/lhcb/opendata-project/blob/80d64a3796e593fc8f9b257e85f32ae2e54f131f/LHCb_Open_Data_Project.ipynb)
-
-## Project 2: Dalitz plots and two body resonances
-1. [Description and hands-on](https://agnieszkamucha.github.io/ParticlePhysics/Files/Dalitz%20Plots.pdf)
-2. [Project Notebook (scroll down to see...)](https://github.com/lhcb/opendata-project/blob/80d64a3796e593fc8f9b257e85f32ae2e54f131f/LHCb_Open_Data_Project.ipynb) 
