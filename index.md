@@ -1,15 +1,25 @@
-# D mesons decays 
+# D mesons decays to three hadrons
 # Particle Physics project for AGH UST FPACS students
 
-## Motivation:
-   I. Introduction to experimental particle physics.
-   II. Search for D meson decay in data simulated in LHCb experiment.
-
+## Goals of the course
+   I. Introduction to experimental particle physics. <br>
+   II. Search for D meson decay in data simulated in the LHCb experiment. <br>
+   III. Environment for daily work
 
 ## Theory:
-
+Lectures accompanying this course can be found [here] (http://home.agh.edu.pl/~amucha/czastki2020.php)
 
 ## Introduction:
+
+### LHCb Experiment [1]
+The Large Hadron Collider (LHC) is not only a tool with which to search for exotic new particles, but also a factory of particles whose existence is in no doubt but whose precise properties are not yet known well enough. LHCb, unlike the other experiments ATLAS and CMS, which search for new particles produced directly in the proton–proton collisions, is devoted to the study of well established particles, the beauty (B) and charmed (C) mesons. These particles, which comprise a bottom or charm quark or antiquark plus one other quark with a different “flavour”, only exist for about a trillionth of a second before decaying into lighter particles. But subtle quantum effects called loops, in which virtual particles are temporarily created by borrowing energy from the vacuum, can influence the behaviour of B and C mesons and give researchers a handle on particles that are too heavy to be produced directly.
+
+### D meson
+
+
+
+[1] [LHCb Open data project] (http://opendata.cern.ch/docs/about-lhcb)
+[] [LHCb StarterKit] (https://lhcb.github.io/starterkit-lessons/first-analysis-steps/physics-at-lhcb.html#the-reconstruction)
 1. [CPV in a nutshell](https://agnieszkamucha.github.io/ParticlePhysics/Files/CPV_1.pdf)
 2. [LHCb Open Data Project](http://opendata.cern.ch/record/4901)
 3. [Project Notebook](http://opendata.cern.ch/record/4900)
