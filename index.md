@@ -15,11 +15,12 @@ Lectures accompanying this course can be found [here] (http://home.agh.edu.pl/~a
 The Large Hadron Collider (LHC) is not only a tool with which to search for exotic new particles, but also a factory of particles whose existence is in no doubt but whose precise properties are not yet known well enough. LHCb, unlike the other experiments ATLAS and CMS, which search for new particles produced directly in the proton–proton collisions, is devoted to the study of well established particles, the beauty (B) and charmed (C) mesons. These particles, which comprise a bottom or charm quark or antiquark plus one other quark with a different “flavour”, only exist for about a trillionth of a second before decaying into lighter particles. But subtle quantum effects called loops, in which virtual particles are temporarily created by borrowing energy from the vacuum, can influence the behaviour of B and C mesons and give researchers a handle on particles that are too heavy to be produced directly.
 
 ### D meson
+D mesons contain charm quark. The lighter D meson contains also one of the lightest quarks (up or down) whereas Ds has a heavier strange quark. Decayss of charm mesons involve the change of quark flavour through weak interaction.  
 
 
 
 [1] [LHCb Open data project] (http://opendata.cern.ch/docs/about-lhcb)
-[] [LHCb StarterKit] (https://lhcb.github.io/starterkit-lessons/first-analysis-steps/physics-at-lhcb.html#the-reconstruction)
+[2] [LHCb StarterKit] (https://lhcb.github.io/starterkit-lessons/first-analysis-steps/physics-at-lhcb.html#the-reconstruction)
 1. [CPV in a nutshell](https://agnieszkamucha.github.io/ParticlePhysics/Files/CPV_1.pdf)
 2. [LHCb Open Data Project](http://opendata.cern.ch/record/4901)
 3. [Project Notebook](http://opendata.cern.ch/record/4900)
