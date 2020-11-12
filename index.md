@@ -33,7 +33,9 @@ Instead you can either:
 
 ### ROOT 
  You can find a plethora of ROOT tutorials. 
- - Let's start with some basis:[ROOT - basis]() 
+ - Let's start with some basis:
+   - [ROOT - basis](https://root.cern.ch/root/htmldoc/guides/primer/ROOTPrimer.html) or [primer](https://root.cern/primer/)
+   - let's dive into ROOT from [here](https://root.cern.ch/root/htmldoc/guides/primer/ROOTPrimerLetter.pdf)
  - All you need to do in ROOT is described in HASCO lectures and examples [2]:
    - [here](https://indico.cern.ch/event/704163/contributions/2936719/) and 
    - [there](https://indico.cern.ch/event/788195/contributions/3364842/) 
