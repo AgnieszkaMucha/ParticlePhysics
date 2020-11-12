@@ -12,7 +12,7 @@ Lectures accompanying this course can be found [here](http://home.agh.edu.pl/~am
 ## Introduction:
 
 ### LHCb Experiment 
-
+The LHCb (Large Hadron Collider beauty) experiment is one of the four main experiments that operate at the Large Hadron Collider (LHC) at CERN. The experiment is designed to study CP violation, observation of rare decays of beauty and charm particles, and search for New Physics (NP) evidences using indirect measurements. Whereas ATLAS and CMS are general-purpose detector with a broad physics programme spanning from the Standard Model (SM) though supersymmetry (SUSY) to extra dimensions, the LHCb detector is a single-arm forward spectrometer dedicated for studying flavour physics at the LHC. The LHCb programme is thus highly complementary to the direct searches performed at ATLAS and CMS. 
 
 ### D meson
 D mesons contain charm quark. The lighter D meson contains also one of the lightest quarks (up or down) whereas Ds has a heavier strange quark. Decays of charm mesons involve the change of quark flavour through weak interaction. 
