@@ -20,6 +20,9 @@ D mesons contain charm quark. The lighter D meson contains also one of the light
 2. Data anaysis:
    - study the data set: 
    It contains 160 000 simulated events of D and Ds decays to three hadrons (kaons or pions). 
+   - Choose one mode of D meson decay, select candidates,
+   - plot distribution of mass and life-time,
+   - make fits and compare parameters with theory.
    
 ### Working environment 
 HEP analysis usually require [ROOT framework](https://root.cern/). <br>
