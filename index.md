@@ -25,7 +25,7 @@ D mesons contain charm quark. The lighter D meson contains also one of the light
    - make fits and compare parameters with theory.
    
 ### Working environment 
-HEP analysis usually require [ROOT framework](https://root.cern/). <br>
+HEP analyses usually require [ROOT framework](https://root.cern/). <br>
 You can use ROOT on Windows but I strongly discourage you from doing this. <br>
 Instead you can either:
 - use our group server `lhcbd1` (access through taurus), see [here](lhcbd1.md),
