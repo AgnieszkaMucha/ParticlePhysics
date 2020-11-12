@@ -1,6 +1,6 @@
 {% include cool_header.html %}
 ## Particle Physics project for AGH UST FPACS students
-# D mesons decays to three hadrons
+# D meson decays to three hadrons
 ## Goals of the course:
    I. Introduction to experimental particle physics. <br>
    II. Search for D meson decay in data simulated in the LHCb experiment. <br>
