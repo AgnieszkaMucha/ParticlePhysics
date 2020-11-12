@@ -34,7 +34,7 @@ Instead you can either:
 ### ROOT 
  You can find a plethora of ROOT tutorials. 
  - Let's start with [ROOT - basis]() 
- - All you need to do in ROOT is described in HASCO lectures and examples (here)[https://indico.cern.ch/event/704163/contributions/2936719/] and [there]https://indico.cern.ch/event/788195/contributions/3364842/ [2]
+ - All you need to do in ROOT is described in HASCO lectures and examples (here)[https://indico.cern.ch/event/704163/contributions/2936719/] and (there) [https://indico.cern.ch/event/788195/contributions/3364842/] [2]
  
 ### C++ or Py? This is the question...
 Well, why not trying both? Below you can find example of the same analysis in ROOT in C++ and Python scenario [3]. 
@@ -45,5 +45,5 @@ Well, why not trying both? Below you can find example of the same analysis in RO
 
 [1] LHCb Detector Performance, LHCb Collaboration, Roel Aaij(NIKHEF, Amsterdam) et al. (Dec 19, 2014)
 Published in: Int.J.Mod.Phys.A 30 (2015) 07, 1530022, e-Print: 1412.6352 [hep-ex](https://arxiv.org/abs/1412.6352) <br>
-[2] Hadron Collider School - HASCOHomeContactHadron Collider Physics Summer School - [HASCO](http://hasco.uni-goettingen.de/)
+[2] Hadron Collider Physics Summer School - [HASCO](http://hasco.uni-goettingen.de/)
 
