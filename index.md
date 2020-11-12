@@ -15,7 +15,7 @@ Lectures accompanying this course can be found [here](http://home.agh.edu.pl/~am
 
 
 ### D meson
-D mesons contain charm quark. The lighter D meson contains also one of the lightest quarks (up or down) whereas Ds has a heavier strange quark. Decayss of charm mesons involve the change of quark flavour through weak interaction. 
+D mesons contain charm quark. The lighter D meson contains also one of the lightest quarks (up or down) whereas Ds has a heavier strange quark. Decays of charm mesons involve the change of quark flavour through weak interaction. 
 
 ### Project
 1. Plan of the experiment:
