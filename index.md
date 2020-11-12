@@ -26,7 +26,7 @@ D mesons contain charm quark. The lighter D meson contains also one of the light
  ### ROOT 
  [ROOT - basis](Root.md)
  
- #### C++ or Py? This is the question...
+ ### C++ or Py? This is the question...
 Well, why not both? Below you can find example of the same analysis in ROOT in C++ and Python scenario. 
  
 
@@ -34,5 +34,5 @@ https://indico.cern.ch/event/704163/contributions/2936719/
 https://indico.cern.ch/event/788195/contributions/3364842/
 
 [1] [LHCb Open data project](http://opendata.cern.ch/docs/about-lhcb) <br>
-[2] [LHCb StarterKit](https://lhcb.github.io/starterkit-lessons/first-analysis-steps/physics-at-lhcb.html#the-reconstruction)
+[2] Hadron Collider School - HASCOHomeContactHadron Collider Physics Summer School - HASCO](http://hasco.uni-goettingen.de/)
 
