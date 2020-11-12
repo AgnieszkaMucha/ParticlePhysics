@@ -35,8 +35,8 @@ Instead you can either:
  You can find a plethora of ROOT tutorials. 
  - Let's start with some basis:[ROOT - basis]() 
  - All you need to do in ROOT is described in HASCO lectures and examples [2]:
-   - (here)[https://indico.cern.ch/event/704163/contributions/2936719/] and 
-   - (there)[https://indico.cern.ch/event/788195/contributions/3364842/] 
+   - [here](https://indico.cern.ch/event/704163/contributions/2936719/) and 
+   - [there](https://indico.cern.ch/event/788195/contributions/3364842/) 
  
 ### C++ or Py? This is the question...
 Well, why not trying both? Below you can find example of the same analysis in ROOT in C++ and Python scenario [3]. 
