@@ -42,6 +42,8 @@ Instead you can either:
  
 ### C++ or Py? This is the question...
 Well, why not trying both? Below you can find example of the same analysis in ROOT in C++ and Python scenario [3]. 
+- Have a glance at [PyROOT](https://root.cern/manual/python/).
+- See examples: 
  
 
 
