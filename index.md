@@ -21,13 +21,17 @@ D mesons contain charm quark. The lighter D meson contains also one of the light
    - study the data set: 
    It contains 160 000 simulated events of D and Ds decays to three hadrons (kaons or pions). 
    
- ### Working environment
- 
+ ### Working environment 
+HEP analysis usually require [ROOT framework](https://root.cern/). You can use ROOT in Windows but I strongly  discourage you from doing this. Instead you can either:
+- use our group server `lhcbd1` (access through taurus), see [here](lhcbd1.md)
+- use your personal computer with VM and install ROOT, see [here](lhcbd1.md)
+- upload our VM and become a happy user of well-configured VM, ROOT and conda application [here](lhcbd1.md)
+
  ### ROOT 
  [ROOT - basis](Root.md)
  
  ### C++ or Py? This is the question...
-Well, why not both? Below you can find example of the same analysis in ROOT in C++ and Python scenario. 
+Well, why not trying both? Below you can find example of the same analysis in ROOT in C++ and Python scenario. 
  
 
 https://indico.cern.ch/event/704163/contributions/2936719/
