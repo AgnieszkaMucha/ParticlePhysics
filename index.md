@@ -19,7 +19,7 @@ D mesons contain charm quark. The lighter D meson contains also one of the light
    - what information you need to obtain from experiment to observe your process.
 2. Data anaysis:
    - study the data set (from AGH cloud, [check access to this site](https://dysk.agh.edu.pl/s/cQ6wLsdCxRjFpa4) ) <br> 
-   It contains 160 000 simulated events of D and Ds decays to three hadrons (kaons and pions). 
+   It contains 160 000 simulated events of D\sup{+} and Ds\sub{+} decays to three hadrons (kaons and pions). 
    - Choose one mode of D meson decay, select candidates,
    - plot distribution of mass and life-time,
    - make fits and compare parameters with theory.
