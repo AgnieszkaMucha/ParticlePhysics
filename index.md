@@ -18,7 +18,7 @@ D mesons contain charm quark. The lighter D meson contains also one of the light
    - draw Feynman diagram of your process and note whereas it is a common or rare decay (we call it favoured or suppressed decay).
    - what information you need to obtain from experiment to observe your process.
 2. Data anaysis:
-   - study the data set (from AGH cloud, [check access to this site](https://dysk.agh.edu.pl/s/cQ6wLsdCxRjFpa4) ): 
+   - study the data set (from AGH cloud, [check access to this site](https://dysk.agh.edu.pl/s/cQ6wLsdCxRjFpa4) ) <br> 
    It contains 160 000 simulated events of D and Ds decays to three hadrons (kaons and pions). 
    - Choose one mode of D meson decay, select candidates,
    - plot distribution of mass and life-time,
@@ -28,7 +28,7 @@ D mesons contain charm quark. The lighter D meson contains also one of the light
 HEP analyses usually require [ROOT framework](https://root.cern/). <br>
 You can use ROOT on Windows but I strongly discourage you from doing this. <br>
 Instead you can either:
-- use our group server `lhcbd1` (access through 'taurus'), see [here](lhcbd1.md),
+- use our group server `lhcbd1` (access through `taurus.fs.agh.edu.pl`), see [here](lhcbd1.md),
 - use your personal computer with VM and install ROOT, see [here](https://root.cern/install/),
 - upload our VM and become a happy user of well-configured VM, ROOT and conda application:<br>
    - [description](https://indico.fis.agh.edu.pl/event/1/contributions/88/attachments/62/102/Hands-on-WorkEnv.pdf),<br>
