@@ -26,11 +26,11 @@ D mesons contain charm quark. The lighter D<sup>+</sup> meson contains also one 
    
 ### Working environment 
 HEP analyses usually require [ROOT framework](https://root.cern/). <br>
-> You can use ROOT on Windows but I strongly discourage you from doing this. 
-Instead you can either:
+> You can use ROOT on Windows but I strongly discourage you from doing this. <br>
+You can either:
 - use our group server `lhcbd1` (access through `taurus.fs.agh.edu.pl`), see [here](lhcbd1.md),
 - use your personal computer with VM and install ROOT, see [here](https://root.cern/install/),
-- upload our VM and become a happy user of well-configured VM, ROOT and conda application:<br>
+- upload our VM and become a happy user of well-configured VM, `ROOT` and `conda` application:<br>
    - [description](https://indico.fis.agh.edu.pl/event/1/contributions/88/attachments/62/102/Hands-on-WorkEnv.pdf),<br>
    - [Ubuntu VM from AGH Google Suite](https://drive.google.com/file/d/1fCczgh12l2z8Af-JJszyJlv-Tt14365z/view).
 
@@ -44,7 +44,7 @@ Instead you can either:
    - [there](https://indico.cern.ch/event/788195/contributions/3364842/) 
  
 ### C++ or Py? This is the question...
-Well, why not trying both? Below you can find example of the same analysis in ROOT in C++ and Python scenario [3]. 
+> Well, why not trying both? Below you can find example of the same analysis in ROOT in C++ and Python scenario [3]. 
 - Have a glance at [PyROOT](https://root.cern/manual/python/).
 
  
