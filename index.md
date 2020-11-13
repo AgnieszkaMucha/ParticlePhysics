@@ -10,7 +10,7 @@
 The LHCb (Large Hadron Collider beauty) experiment is one of the four main experiments that operate at the Large Hadron Collider (LHC) at CERN. The experiment is designed to study CP violation, observation of rare decays of beauty and charm particles, and search for New Physics (NP) evidences using indirect measurements. Whereas ATLAS and CMS are general-purpose detector with a broad physics programme spanning from the Standard Model (SM) though supersymmetry (SUSY) to extra dimensions, the LHCb detector is a single-arm forward spectrometer dedicated for studying flavour physics at the LHC. The LHCb programme is thus highly complementary to the direct searches performed at ATLAS and CMS. 
 
 ### D meson
-D mesons contain charm quark. The lighter D<sup>+</sup> meson contains also one of the lightest quarks (up or down) whereas D<sup>+</sup>s has a heavier strange quark. Decays of charm mesons involve the change of quark flavour through weak interaction. 
+D mesons contain charm quark. The lighter D<sup>+</sup> meson contains also one of the lightest quarks (up or down) whereas D<sub>s</sub><sup>+</sup> has a heavier strange quark. Decays of charm mesons involve the change of quark flavour through weak interaction. 
 
 ### Project
 1. Introduction:
@@ -19,7 +19,7 @@ D mesons contain charm quark. The lighter D<sup>+</sup> meson contains also one 
    - what information you need to obtain from experiment to observe your process.
 2. Data anaysis:
    - study the data set (from AGH cloud, [check access to this site](https://dysk.agh.edu.pl/s/cQ6wLsdCxRjFpa4) ) <br> 
-   It contains 160 000 simulated events of D<sup>+</sup> and Ds<sup>+</sup> decays to three hadrons (kaons and pions). 
+   It contains 160 000 simulated events of D<sup>+</sup> and D<sub>s</sub><sup>+</sup> decays to three hadrons (kaons and pions). 
    - Choose one mode of D meson decay, select candidates,
    - plot distribution of mass and life-time,
    - make fits and compare parameters with theory.
