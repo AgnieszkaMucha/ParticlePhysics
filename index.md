@@ -27,6 +27,7 @@ D mesons contain charm quark. The lighter D<sup>+</sup> meson contains also one 
 ### Working environment 
 HEP analyses usually require [ROOT framework](https://root.cern/). <br>
 > You can use ROOT on Windows but I strongly discourage you from doing this. <br>
+
 You can either:
 - use our group server `lhcbd1` (access through `taurus.fs.agh.edu.pl`), see [here](lhcbd1.md),
 - use your personal computer with VM and install ROOT, see [here](https://root.cern/install/),
