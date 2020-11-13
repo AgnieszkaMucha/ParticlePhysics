@@ -13,7 +13,7 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 10px;
+    margin-right: auto;
     width: 90%;
 }
 a {
