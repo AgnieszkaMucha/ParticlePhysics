@@ -2,6 +2,7 @@ body {
     margin: 10px auto;
     width: 100%;
     text-align: justify;
+    font-size: 14px;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
