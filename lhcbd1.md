@@ -14,6 +14,11 @@ ssh -XY ppXX_2020@lhcbd1
 ```
 Nazwy kont to: `ppXX_2020@lhcbd1`, gdzie XX- oznacza numer studenta. Dane do logowania zamieszczone są w materoałach na Teamsach. Prosze zauważyć, że przy wpisywaniu hasła kursor jest niewidoczny. 
 
+Po zalogowaniu się swoje konto należy wykonać skrtpt startowy, konfigurujący środowisko (można dodać to do swojego `.bashrc`) :
+```
+source setup-env.sh
+```
+Dostępny jest ROOT v6.22 z python3.
 
 ## Uwaga!
 Konto na serwerze `lhcbd1` jest przeznaczone tylko na cele dydaktyczne dla analiz dotyczących oddziaływania promieniowania z materią i fizyki cząstek elementarnych. Inne użycie jest niedozwolone! 
