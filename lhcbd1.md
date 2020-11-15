@@ -19,6 +19,9 @@ Po zalogowaniu się swoje konto należy wykonać skrtpt startowy, konfigurujący
 source setup-env.sh
 ```
 Dostępny jest ROOT v6.22 z python3.
-
+Dane do ćwiczenia dostępne są pod linkiem:
+```
+data-dir -> /data4/pp20-data
+```
 ## Uwaga!
 Konto na serwerze `lhcbd1` jest przeznaczone tylko na cele dydaktyczne dla analiz dotyczących oddziaływania promieniowania z materią i fizyki cząstek elementarnych. Inne użycie jest niedozwolone! 
