@@ -14,7 +14,7 @@ ssh -XY ppXX_2020@lhcbd1
 ```
 Nazwy kont to: `ppXX_2020@lhcbd1`, gdzie XX- oznacza numer studenta. Dane do logowania zamieszczone są w materiałach na Teamsach. Prosze zauważyć, że przy wpisywaniu hasła kursor jest niewidoczny. 
 
-Po zalogowaniu się swoje konto należy wykonać skrtpt startowy, konfigurujący środowisko (można dodać to do swojego `.bashrc`) :
+Po zalogowaniu się swoje konto należy wykonać skrypt startowy, konfigurujący środowisko (można dodać to do swojego `.bashrc`) :
 ```
 source setup-env.sh
 ```
