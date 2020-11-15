@@ -45,7 +45,9 @@ You can either:
    - [there](https://indico.cern.ch/event/788195/contributions/3364842/) 
  
 ### C++ or Py? This is the question...
-> Well, why not trying both? Below you can find example of the same analysis in ROOT in C++ and Python scenario [3]. 
+> Well, why not trying both? Below you can find example of the same analysis in ROOT in C++ and Python scenario [3]:
+   - [ROOT C++](Files/Tutorial-ROOT.pdf)
+   - [PyROOT](Files/Tutorial-PyROOT_2018.pdf)
 - Have a glance at [PyROOT](https://root.cern/manual/python/).
 
  
