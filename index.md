@@ -16,7 +16,7 @@ D mesons contain charm quark. The lighter D<sup>+</sup> meson contains also one 
 1. Introduction:
    - study the channels of [D<sup>+</sup>](https://pdglive.lbl.gov/Particle.action?init=0&node=S031&home=MXXX035#decayclump_F) and [D<sub>s</sub><sup>+</sup>](https://pdglive.lbl.gov/Particle.action?init=0&node=S034&home=MXXX040#decayclump_A) decays and chose one that contains charge kaons or pions. 
    - draw Feynman diagram of your process and note whereas it is a common or rare decay (we call it favoured or suppressed decay). What type of interaction is responsible for this decay?
-   - what information you need to obtain from experiment to observe your process.
+   - what information you need to obtain from experiment to observe your process?
 2. Data anaysis:
    - study the data set (from AGH cloud, [check access to this site](https://dysk.agh.edu.pl/s/cQ6wLsdCxRjFpa4) ) <br> 
    It contains 160 000 simulated events of D<sup>+</sup> and D<sub>s</sub><sup>+</sup> decays to three hadrons (kaons and pions). 
