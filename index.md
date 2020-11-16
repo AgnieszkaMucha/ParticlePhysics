@@ -47,7 +47,7 @@ You can either:
 > Well, why not trying both? Below you can find example of the same analysis in ROOT in C++ and Python scenario [3]:
    - [ROOT C++](Files/Tutorial-ROOT.pdf)
    - [PyROOT](Files/Tutorial-PyROOT_2018.pdf)
-- Have a look at webpage for [PyROOT](https://root.cern/manual/python/).
+- Have a look at [PyROOT](https://root.cern/manual/python/) webpage.
 
 
 
