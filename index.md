@@ -1,10 +1,10 @@
 {% include cool_header.html %}
-# Cząstki Elmentarne i Oddziałaywania - semestr letni 2021
-Wprowadzenie [wykład 1](wyklad1_introduction)
+# Cząstki Elmentarne i Oddziaływania - semestr letni 2021
+- Wprowadzenie [wykład 1](wyklad1_introduction)
 
 
 ## Particle Physics project 1 for AGH UST FPACS students
-#### D meson decays to three hadrons
+### D meson decays to three hadrons
 ## Goals of the course:
    I. Introduction to experimental particle physics. <br>
    II. Search for D meson decay in data simulated in the LHCb experiment. <br>
