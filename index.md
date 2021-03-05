@@ -1,6 +1,34 @@
 {% include cool_header.html %}
 # Cząstki Elementarne i Oddziaływania - semestr letni 2021
+## WYKŁADY
 - Wprowadzenie [wykład 1](wyklad1_introduction)
+## ĆWICZENIA
+
+## LABORATORIUM
+### Working environment 
+HEP analyses usually require [ROOT framework](https://root.cern/). <br>
+> You can use ROOT on Windows but I strongly discourage you from doing this. 
+You can either:
+- use our group server `lhcbd1` (access through `taurus.fs.agh.edu.pl`), you have both ROOT and data set, see [here](lhcbd1.md),
+- use your personal computer with VM and install ROOT, see [here](https://root.cern/install/),
+- upload our VM and become a happy user of well-configured VM, `ROOT` and `conda` application:<br>
+   - [description](https://indico.fis.agh.edu.pl/event/1/contributions/88/attachments/62/102/Hands-on-WorkEnv.pdf),<br>
+   - [Ubuntu VM from AGH Google Suite](https://drive.google.com/file/d/1fCczgh12l2z8Af-JJszyJlv-Tt14365z/view).
+
+### ROOT 
+ You can find a plethora of ROOT tutorials. 
+ - Let's start with some basis:
+   - [ROOT - basis](https://root.cern.ch/root/htmldoc/guides/primer/ROOTPrimer.html) or [primer](https://root.cern/primer/)
+   - let's dive into ROOT from [here](https://root.cern.ch/root/htmldoc/guides/primer/ROOTPrimerLetter.pdf)
+ - All you need to do in ROOT is described in HASCO lectures and examples [2]:
+   - [here](https://indico.cern.ch/event/704163/contributions/2936719/) and 
+   - [there](https://indico.cern.ch/event/788195/contributions/3364842/) 
+ 
+### C++ or Py? This is the question...
+> Well, why not trying both? Below you can find example of the same analysis in ROOT in C++ and Python scenario [3]:
+   - [ROOT C++](Files/Tutorial-ROOT.pdf)
+   - [PyROOT](Files/Tutorial-PyROOT_2018.pdf)
+- Have a look at [PyROOT](https://root.cern/manual/python/) webpage.
 
 
 ## Particle Physics project 1 for AGH UST FPACS students
@@ -28,30 +56,6 @@ D mesons contain charm quark. The lighter D<sup>+</sup> meson contains also one 
    - plot distribution of mass and life-time,
    - make fits and compare parameters with theory.
    
-### Working environment 
-HEP analyses usually require [ROOT framework](https://root.cern/). <br>
-> You can use ROOT on Windows but I strongly discourage you from doing this. 
-You can either:
-- use our group server `lhcbd1` (access through `taurus.fs.agh.edu.pl`), you have both ROOT and data set, see [here](lhcbd1.md),
-- use your personal computer with VM and install ROOT, see [here](https://root.cern/install/),
-- upload our VM and become a happy user of well-configured VM, `ROOT` and `conda` application:<br>
-   - [description](https://indico.fis.agh.edu.pl/event/1/contributions/88/attachments/62/102/Hands-on-WorkEnv.pdf),<br>
-   - [Ubuntu VM from AGH Google Suite](https://drive.google.com/file/d/1fCczgh12l2z8Af-JJszyJlv-Tt14365z/view).
-
-### ROOT 
- You can find a plethora of ROOT tutorials. 
- - Let's start with some basis:
-   - [ROOT - basis](https://root.cern.ch/root/htmldoc/guides/primer/ROOTPrimer.html) or [primer](https://root.cern/primer/)
-   - let's dive into ROOT from [here](https://root.cern.ch/root/htmldoc/guides/primer/ROOTPrimerLetter.pdf)
- - All you need to do in ROOT is described in HASCO lectures and examples [2]:
-   - [here](https://indico.cern.ch/event/704163/contributions/2936719/) and 
-   - [there](https://indico.cern.ch/event/788195/contributions/3364842/) 
- 
-### C++ or Py? This is the question...
-> Well, why not trying both? Below you can find example of the same analysis in ROOT in C++ and Python scenario [3]:
-   - [ROOT C++](Files/Tutorial-ROOT.pdf)
-   - [PyROOT](Files/Tutorial-PyROOT_2018.pdf)
-- Have a look at [PyROOT](https://root.cern/manual/python/) webpage.
 
 
 
