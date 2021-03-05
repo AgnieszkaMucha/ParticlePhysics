@@ -1,5 +1,5 @@
 {% include cool_header.html %}
-# Cząstki Elmentarne i Oddziaływania - semestr letni 2021
+# Cząstki Elementarne i Oddziaływania - semestr letni 2021
 - Wprowadzenie [wykład 1](wyklad1_introduction)
 
 
