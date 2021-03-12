@@ -2,7 +2,7 @@
 # Cząstki Elementarne i Oddziaływania - semestr letni 2021
 ## WYKŁADY
 - Wprowadzenie [wykład 1](Files/wyklad1_introduction.pdf)
-- Relatywistyka [wykład 1](Files/wyklad_2_relatywistyka.pdf)
+- Relatywistyka [wykład 2](Files/wyklad_2_relatywistyka.pdf)
 ## ĆWICZENIA
 - Relatywistyka [Zadania](Files/Zadania_1.pdf)
 ## LABORATORIUM
