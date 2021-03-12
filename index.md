@@ -1,9 +1,10 @@
 {% include cool_header.html %}
 # Cząstki Elementarne i Oddziaływania - semestr letni 2021
 ## WYKŁADY
-- Wprowadzenie [wykład 1](wyklad1_introduction)
+- Wprowadzenie [wykład 1](Files/wyklad1_introduction.pdf)
+- Relatywistyka [wykład 1](Files/wyklad_2_relatywistyka.pdf)
 ## ĆWICZENIA
-
+- Relatywistyka [Zadania](Files/Zadania_1.pdf)
 ## LABORATORIUM
 ### Working environment 
 HEP analyses usually require [ROOT framework](https://root.cern/). <br>
