@@ -16,6 +16,9 @@ You can either:
    - [description](https://indico.fis.agh.edu.pl/event/1/contributions/88/attachments/62/102/Hands-on-WorkEnv.pdf),<br>
    - [Ubuntu VM from AGH Google Suite](https://drive.google.com/file/d/1fCczgh12l2z8Af-JJszyJlv-Tt14365z/view).
 
+### How to start with Jupyter Notebook - notes for beginners
+- start reading [this](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
+
 ### ROOT 
  You can find a plethora of ROOT tutorials. 
  - Let's start with some basis:
