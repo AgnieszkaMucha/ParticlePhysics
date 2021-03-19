@@ -8,7 +8,7 @@
 - Relatywistyka [Zadania](Files/Zadania_1.pdf)
 ## LABORATORIUM
 ### Working environment 
-HEP analyses usually require [ROOT framework](https://root.cern/). <br>
+HEP analyses usually require [ROOT framework](https://root.cern/). 
 > You can use ROOT on Windows but I strongly discourage you from doing this. 
 You can either:
 - use our group server `lhcbd1` (access through `taurus.fis.agh.edu.pl`), you have both ROOT and data set, see [here](lhcbd1.md),
