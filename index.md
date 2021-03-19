@@ -3,7 +3,7 @@
 ## WYKŁADY
 - Wprowadzenie [wykład 1](Files/wyklad_1_Introduction.pdf)
 - Relatywistyka [wykład 2](Files/wyklad_2_relatywistyka.pdf)
-- - Relatywistyka [wykład 3](Files/wyklad_3_zderzenia.pdf)
+- Wiązki i zderzenia [wykład 3](Files/wyklad_3_zderzenia.pdf)
 ## ĆWICZENIA
 - Relatywistyka [Zadania](Files/Zadania_1.pdf)
 ## LABORATORIUM
@@ -17,8 +17,8 @@ You can either:
    - [description](https://indico.fis.agh.edu.pl/event/1/contributions/88/attachments/62/102/Hands-on-WorkEnv.pdf),<br>
    - [Ubuntu VM from AGH Google Suite](https://drive.google.com/file/d/1fCczgh12l2z8Af-JJszyJlv-Tt14365z/view).
 
-### How to start with Jupyter Notebook - notes for beginners
-- start reading [this](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
+### How to start with Jupyter Notebook
+- start with reading [this](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
 - everything you need to know is [here](https://hsf-training.github.io/analysis-essentials/python/01basics.html#Jupyter)
 
 ### Python 
