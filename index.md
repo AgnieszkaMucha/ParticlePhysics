@@ -3,6 +3,7 @@
 ## WYKŁADY
 - Wprowadzenie [wykład 1](Files/wyklad_1_Introduction.pdf)
 - Relatywistyka [wykład 2](Files/wyklad_2_relatywistyka.pdf)
+- - Relatywistyka [wykład 3](Files/wyklad_3_zderzenia.pdf)
 ## ĆWICZENIA
 - Relatywistyka [Zadania](Files/Zadania_1.pdf)
 ## LABORATORIUM
@@ -10,7 +11,7 @@
 HEP analyses usually require [ROOT framework](https://root.cern/). <br>
 > You can use ROOT on Windows but I strongly discourage you from doing this. 
 You can either:
-- use our group server `lhcbd1` (access through `taurus.fs.agh.edu.pl`), you have both ROOT and data set, see [here](lhcbd1.md),
+- use our group server `lhcbd1` (access through `taurus.fis.agh.edu.pl`), you have both ROOT and data set, see [here](lhcbd1.md),
 - use your personal computer with VM and install ROOT, see [here](https://root.cern/install/),
 - upload our VM and become a happy user of well-configured VM, `ROOT` and `conda` application:<br>
    - [description](https://indico.fis.agh.edu.pl/event/1/contributions/88/attachments/62/102/Hands-on-WorkEnv.pdf),<br>
@@ -18,6 +19,10 @@ You can either:
 
 ### How to start with Jupyter Notebook - notes for beginners
 - start reading [this](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
+- everything you need to know is [here](https://hsf-training.github.io/analysis-essentials/python/01basics.html#Jupyter)
+
+### Python 
+- practical course of Python, see [here](https://hsf-training.github.io/analysis-essentials/python/README.html)
 
 ### ROOT 
  You can find a plethora of ROOT tutorials. 
