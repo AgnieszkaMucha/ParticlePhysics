@@ -14,7 +14,7 @@
 ## Particle Physics projects for AGH UST FPACS students
 ## Goals of the course:
    I. Introduction to experimental particle physics. <br>
-   II. Search for D meson decay in data simulated in the LHCb experiment. <br>
+   II. Study of charm or beauty meson decays in the LHCb experiment with the use of real or simulated data. <br>
    III. Environment for daily work
 
 ### LHCb Experiment 
