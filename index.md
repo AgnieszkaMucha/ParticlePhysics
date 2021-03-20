@@ -10,6 +10,34 @@
 
 ### J/Psi decay to muons (real data) 
 
+
+## Particle Physics projects for AGH UST FPACS students
+## Goals of the course:
+   I. Introduction to experimental particle physics. <br>
+   II. Search for D meson decay in data simulated in the LHCb experiment. <br>
+   III. Environment for daily work
+
+### LHCb Experiment 
+The LHCb (Large Hadron Collider beauty) experiment is one of the four main experiments that operate at the Large Hadron Collider (LHC) at CERN. The experiment is designed to study CP violation, observation of rare decays of beauty and charm particles, and search for New Physics (NP) evidences using indirect measurements. Whereas ATLAS and CMS are general-purpose detector with a broad physics programme spanning from the Standard Model (SM) though supersymmetry (SUSY) to extra dimensions, the LHCb detector is a single-arm forward spectrometer dedicated for studying flavour physics at the LHC. The LHCb programme is thus highly complementary to the direct searches performed at ATLAS and CMS. 
+
+### D meson
+D mesons contain charm quark. The lighter D<sup>+</sup> meson contains also one of the lightest quarks (up or down) whereas D<sub>s</sub><sup>+</sup> has a heavier strange quark. Decays of charm mesons involve the change of quark flavour through weak interaction. 
+
+### Project 1: 3-body decay of D meson (real data)
+
+### Project 2: D meson decays to three hadrons (simulated data)
+1. Introduction:
+   - study the channels of [D<sup>+</sup>](https://pdglive.lbl.gov/Particle.action?init=0&node=S031&home=MXXX035#decayclump_F) and [D<sub>s</sub><sup>+</sup>](https://pdglive.lbl.gov/Particle.action?init=0&node=S034&home=MXXX040#decayclump_A) decays and chose one that contains charge kaons or pions. 
+   - draw Feynman diagram of your process and note whereas it is a common or rare decay (we call it favoured or suppressed decay). What type of interaction is responsible for this decay?
+   - what information you need to obtain from experiment to observe your process?
+2. Data anaysis:
+   - study the data set (from AGH cloud, [check access to this site](https://dysk.agh.edu.pl/s/cQ6wLsdCxRjFpa4) ) <br> 
+   It contains 160 000 simulated events of D<sup>+</sup> and D<sub>s</sub><sup>+</sup> decays to three hadrons (kaons and pions). 
+   - Choose one mode of D meson decay, select candidates,
+   - plot distribution of mass and life-time,
+   - make fits and compare parameters with theory.
+   
+
 ### Working environment 
 HEP analyses usually require [ROOT framework](https://root.cern/). 
 > You can use ROOT on Windows but I strongly discourage you from doing this. 
@@ -42,34 +70,6 @@ HEP analyses usually require [ROOT framework](https://root.cern/).
    - [ROOT C++](Files/Tutorial-ROOT.pdf)
    - [PyROOT](Files/Tutorial-PyROOT_2018.pdf)
 - Have a look at [PyROOT](https://root.cern/manual/python/) webpage.
-
-## Particle Physics projects for AGH UST FPACS students
-## Goals of the course:
-   I. Introduction to experimental particle physics. <br>
-   II. Search for D meson decay in data simulated in the LHCb experiment. <br>
-   III. Environment for daily work
-
-### LHCb Experiment 
-The LHCb (Large Hadron Collider beauty) experiment is one of the four main experiments that operate at the Large Hadron Collider (LHC) at CERN. The experiment is designed to study CP violation, observation of rare decays of beauty and charm particles, and search for New Physics (NP) evidences using indirect measurements. Whereas ATLAS and CMS are general-purpose detector with a broad physics programme spanning from the Standard Model (SM) though supersymmetry (SUSY) to extra dimensions, the LHCb detector is a single-arm forward spectrometer dedicated for studying flavour physics at the LHC. The LHCb programme is thus highly complementary to the direct searches performed at ATLAS and CMS. 
-
-### D meson
-D mesons contain charm quark. The lighter D<sup>+</sup> meson contains also one of the lightest quarks (up or down) whereas D<sub>s</sub><sup>+</sup> has a heavier strange quark. Decays of charm mesons involve the change of quark flavour through weak interaction. 
-
-### Project 1: 3-body decays of D meson (real data)
-
-### Project 2: D meson decays to three hadrons (simulated data)
-1. Introduction:
-   - study the channels of [D<sup>+</sup>](https://pdglive.lbl.gov/Particle.action?init=0&node=S031&home=MXXX035#decayclump_F) and [D<sub>s</sub><sup>+</sup>](https://pdglive.lbl.gov/Particle.action?init=0&node=S034&home=MXXX040#decayclump_A) decays and chose one that contains charge kaons or pions. 
-   - draw Feynman diagram of your process and note whereas it is a common or rare decay (we call it favoured or suppressed decay). What type of interaction is responsible for this decay?
-   - what information you need to obtain from experiment to observe your process?
-2. Data anaysis:
-   - study the data set (from AGH cloud, [check access to this site](https://dysk.agh.edu.pl/s/cQ6wLsdCxRjFpa4) ) <br> 
-   It contains 160 000 simulated events of D<sup>+</sup> and D<sub>s</sub><sup>+</sup> decays to three hadrons (kaons and pions). 
-   - Choose one mode of D meson decay, select candidates,
-   - plot distribution of mass and life-time,
-   - make fits and compare parameters with theory.
-   
-
 
 
 [1] LHCb Detector Performance, LHCb Collaboration, Roel Aaij et al. (Dec 19, 2014) [Int.J.Mod.Phys.A 30 (2015) 07, 1530022](https://arxiv.org/abs/1412.6352) <br>
