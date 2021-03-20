@@ -63,7 +63,7 @@ HEP analyses usually require [ROOT framework](https://root.cern/).
    - let's dive into ROOT from [here](https://root.cern.ch/root/htmldoc/guides/primer/ROOTPrimerLetter.pdf)
  - All you need to do in ROOT is described in HASCO lectures and examples [2]:
    - [here](https://indico.cern.ch/event/704163/contributions/2936719/) and 
-   - [there](https://indico.cern.ch/event/788195/contributions/3364842/) 
+   - [there](https://indico.cern.ch/event/788195/contributions/3364842/) (includes ipynb examples)
  
 ### C++ or Py? This is the question...
 > Well, why not trying both? Below you can find example of the same analysis in ROOT in C++ and Python scenario [3]:
