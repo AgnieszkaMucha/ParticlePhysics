@@ -6,12 +6,15 @@
 - Wiązki i zderzenia [wykład 3](Files/wyklad_3_zderzenia.pdf)
 ## ĆWICZENIA
 - Relatywistyka [Zadania](Files/Zadania_1.pdf)
-## LABORATORIUM
+## LABORATORY
+
+### J/Psi decay to muons (real data) 
+
 ### Working environment 
 HEP analyses usually require [ROOT framework](https://root.cern/). 
 > You can use ROOT on Windows but I strongly discourage you from doing this. 
-You can either:
-- use our group server `lhcbd1` (access through `taurus.fis.agh.edu.pl`), you have both ROOT and data set, see [here](lhcbd1.md),
+> You can either:
+- use our group server `lhcbd1` (access through `taurus.fis.agh.edu.pl`), you have both ROOT framowork, conda environment and data sets, see [here](lhcbd1.md),
 - use your personal computer with VM and install ROOT, see [here](https://root.cern/install/),
 - upload our VM and become a happy user of well-configured VM, `ROOT` and `conda` application:<br>
    - [description](https://indico.fis.agh.edu.pl/event/1/contributions/88/attachments/62/102/Hands-on-WorkEnv.pdf),<br>
@@ -40,9 +43,7 @@ You can either:
    - [PyROOT](Files/Tutorial-PyROOT_2018.pdf)
 - Have a look at [PyROOT](https://root.cern/manual/python/) webpage.
 
-
-## Particle Physics project 1 for AGH UST FPACS students
-### D meson decays to three hadrons
+## Particle Physics projects for AGH UST FPACS students
 ## Goals of the course:
    I. Introduction to experimental particle physics. <br>
    II. Search for D meson decay in data simulated in the LHCb experiment. <br>
@@ -54,7 +55,9 @@ The LHCb (Large Hadron Collider beauty) experiment is one of the four main exper
 ### D meson
 D mesons contain charm quark. The lighter D<sup>+</sup> meson contains also one of the lightest quarks (up or down) whereas D<sub>s</sub><sup>+</sup> has a heavier strange quark. Decays of charm mesons involve the change of quark flavour through weak interaction. 
 
-### Project
+### Project 1: 3-body decays of D meson (real data)
+
+### Project 2: D meson decays to three hadrons (simulated data)
 1. Introduction:
    - study the channels of [D<sup>+</sup>](https://pdglive.lbl.gov/Particle.action?init=0&node=S031&home=MXXX035#decayclump_F) and [D<sub>s</sub><sup>+</sup>](https://pdglive.lbl.gov/Particle.action?init=0&node=S034&home=MXXX040#decayclump_A) decays and chose one that contains charge kaons or pions. 
    - draw Feynman diagram of your process and note whereas it is a common or rare decay (we call it favoured or suppressed decay). What type of interaction is responsible for this decay?
