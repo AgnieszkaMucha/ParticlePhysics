@@ -3,7 +3,7 @@
 ## WYKŁADY
 - Wprowadzenie [wykład 1](Files/wyklad_1_Introduction.pdf)
 - Relatywistyka [wykład 2](Files/wyklad_2_relatywistyka.pdf)
-- Wiązki i zderzenia [wykład 3](Files/wyklad_3_zderzenia.pdf)
+- Wiązki, zderzenia, Złota Reguła Fermiego [wykład 3](Files/wyklad_3_zderzeniaFGR.pdf)
 ## ĆWICZENIA
 - Relatywistyka [Zadania](Files/Zadania_1.pdf)
 ## LABORATORY
