@@ -8,7 +8,7 @@
 - Relatywistyka [Zadania](Files/Zadania_1.pdf)
 - Zderzenia [Zadania](Files/Zadania_2.pdf)
 ## LABORATORY
-- Skąd się biorą cząstki w pliku z danymi? [Reconstruction](Files/LAB_reconstruction.ppt)
+- Skąd się biorą cząstki w pliku z danymi? [Reconstruction](Files/LAB_reconstruction.pptx)
 
 ### J/Psi decay to muons (real data) 
 
