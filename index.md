@@ -6,7 +6,9 @@
 - Wiązki, zderzenia, Złota Reguła Fermiego [wykład 3](Files/wyklad_3_zderzeniaFGR.pdf)
 ## ĆWICZENIA
 - Relatywistyka [Zadania](Files/Zadania_1.pdf)
+- Zderzenia [Zadania](Files/Zadania_2.pdf)
 ## LABORATORY
+- Skąd się biorą cząstki w pliku z danymi? [Reconstruction](LAB_reconstruction.ppt)
 
 ### J/Psi decay to muons (real data) 
 
