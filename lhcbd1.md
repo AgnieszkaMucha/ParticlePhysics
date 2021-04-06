@@ -10,9 +10,9 @@ Używając MobaXterm, proszę zwrócić uwagę, czy w ustawieniach tej aplikacji
 Po uruchomieniu `MobaXterm` startujemy sesję ssh: `Sessions->SSH`. W oknie `Remote host` wpisujemy: `taurus.fis.agh.edu.pl`.
 Dalej już postępuje się tak samo niezależnie, czy mamy okno z linuxa, czy z Moby:  logujemy na konto swojego zespołu:
 ```
-ssh -XY ppXX_2020@lhcbd1
+ssh -XY CEO_2021_NN@lhcbd1
 ```
-Nazwy kont to: `ppXX_2020@lhcbd1`, gdzie XX- oznacza numer studenta. Dane do logowania zamieszczone są w materiałach na Teamsach. Prosze zauważyć, że przy wpisywaniu hasła kursor jest niewidoczny. 
+Nazwy kont to: `CEO_2021_NN@lhcbd1`, gdzie NN- oznacza numer studenta. Dane do logowania zamieszczone są w materiałach na Teamsach. Prosze zauważyć, że przy wpisywaniu hasła kursor jest niewidoczny. 
 
 Po zalogowaniu się swoje konto aktywujemy środowisko:
 ```
