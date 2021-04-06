@@ -14,9 +14,9 @@ ssh -XY ppXX_2020@lhcbd1
 ```
 Nazwy kont to: `ppXX_2020@lhcbd1`, gdzie XX- oznacza numer studenta. Dane do logowania zamieszczone są w materiałach na Teamsach. Prosze zauważyć, że przy wpisywaniu hasła kursor jest niewidoczny. 
 
-Po zalogowaniu się swoje konto należy wykonać skrypt startowy, konfigurujący środowisko (można dodać to do swojego `.bashrc`) :
+Po zalogowaniu się swoje konto aktywujemy środowisko:
 ```
-source setup-env.sh
+conda activate env-analysis-uproot
 ```
 Dostępny jest ROOT v6.22 z python3.
 Dane do ćwiczenia dostępne są pod linkiem:
