@@ -14,7 +14,7 @@ ssh -XY CEO_2021_NN@lhcbd1
 ```
 Nazwy kont to: `CEO_2021_NN@lhcbd1`, gdzie NN- oznacza numer studenta. Dane do logowania zamieszczone są w materiałach na Teamsach. Prosze zauważyć, że przy wpisywaniu hasła kursor jest niewidoczny. 
 
-Po zalogowaniu się swoje konto aktywujemy środowisko:
+Po zalogowaniu się swoje konto, jeśli do analizy używamy ROOTa, to aktywujemy środowisko:
 ```
 source /cvmfs/sft.cern.ch/lcg/views/LCG_97python3/x86_64-centos7-gcc9-opt/setup.sh
 ```
