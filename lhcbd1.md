@@ -18,7 +18,7 @@ Po zalogowaniu się swoje konto aktywujemy środowisko:
 ```
 conda activate env-analysis-uproot
 ```
-Dostępny jest ROOT v6.22 z python3.
+Dostępny jest ROOT v6.22 z python3 oraz 'jupyter notebook'. <br>
 Dane do ćwiczenia dostępne są z katalogu (proszę nie kopiować danych do swojego domowego katalogu):
 ```
 /data4/ceo-data
