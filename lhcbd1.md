@@ -19,9 +19,9 @@ Po zalogowaniu się swoje konto aktywujemy środowisko:
 conda activate env-analysis-uproot
 ```
 Dostępny jest ROOT v6.22 z python3.
-Dane do ćwiczenia dostępne są pod linkiem:
+Dane do ćwiczenia dostępne są z katalogu (proszę nie kopiować danych do swojego domowego katalogu):
 ```
-data-dir -> /data4/pp20-data
+/data4/ceo-data
 ```
 ## Uwaga!
 Konto na serwerze `lhcbd1` jest przeznaczone tylko na cele dydaktyczne dla analiz dotyczących oddziaływania promieniowania z materią i fizyki cząstek elementarnych. Inne użycie jest niedozwolone! 
