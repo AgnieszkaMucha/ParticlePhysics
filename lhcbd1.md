@@ -16,9 +16,13 @@ Nazwy kont to: `CEO_2021_NN@lhcbd1`, gdzie NN- oznacza numer studenta. Dane do l
 
 Po zalogowaniu się swoje konto aktywujemy środowisko:
 ```
+source /cvmfs/sft.cern.ch/lcg/views/LCG_97python3/x86_64-centos7-gcc9-opt/setup.sh
+```
+Użycie `jupyter notebook` do zrobienia analizy wymaga innego środowiska, konfigurowanego poprzez: 
+```
 conda activate env-analysis-uproot
 ```
-Dostępny jest ROOT v6.22 z python3 oraz `jupyter notebook`. <br>
+Uwaga! Powyższe dwie konfiguracje powinny być stosowane od nowej sesji na serwerze, konfiguracje są ze sobą niezgodne ... <br>
 Dane do ćwiczenia dostępne są z katalogu (proszę nie kopiować danych do swojego domowego katalogu):
 ```
 /data4/ceo-data
