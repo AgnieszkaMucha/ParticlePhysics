@@ -53,7 +53,7 @@ HEP analyses usually require [ROOT framework](https://root.cern/).
 ### How to start with Jupyter Notebook
 - start with reading [this](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
 - everything you need to know is [here](https://hsf-training.github.io/analysis-essentials/python/01basics.html#Jupyter)
-- notebook on AGH LHCb server  `lhcbd1` (soon)
+- notebook on AGH LHCb server  `lhcbd1`
 
 ### Python 
 - practical course of Python, see [here](https://hsf-training.github.io/analysis-essentials/python/README.html)
