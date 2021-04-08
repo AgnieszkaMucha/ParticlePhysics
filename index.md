@@ -10,6 +10,11 @@
 ## LABORATORY
 - Skąd się biorą cząstki w pliku z danymi? [Reconstruction](Files/LAB_reconstruction.pptx)
 
+## Literature:
+- Mark Thomson "Modern Particle Physics", University of Cambridge, 2013 [online resouces](https://www.hep.phy.cam.ac.uk/~thomson/MPP/ModernParticlePhysics.html)
+- Alessandro Bettini “Introduction to Elementary Particle Physics”  Cambridge University Press, 2014
+- Donald H. Perkins "Introduction to High Energy Physics" (4th ed.) Cambridge University Press, 2000 [online resouces](doi:10.1017/CBO9780511809040)
+
 ### J/Psi decay to muons (real data) 
 
 
