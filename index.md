@@ -10,6 +10,10 @@
 ## LABORATORY
 - Skąd się biorą cząstki w pliku z danymi? [Reconstruction](Files/LAB_reconstruction.pptx)
 
+## HOT NEWS!
+- Evidence of new physics (Muon Anomalous Magnetic Moment) [web page](https://news.fnal.gov/2021/04/first-results-from-fermilabs-muon-g-2-experiment-strengthen-evidence-of-new-physics/) [article](Papers/PhysRevLett.126.141801_muong2.pdf)
+- Violation of lepton universality (Strengthened hints for a violation of lepton universality in B decays) [article](https://arxiv.org/abs/2103.11769)
+
 ## Literature:
 - Mark Thomson "Modern Particle Physics", University of Cambridge, 2013 [online resources](https://www.hep.phy.cam.ac.uk/~thomson/MPP/ModernParticlePhysics.html)
 - Alessandro Bettini “Introduction to Elementary Particle Physics”  Cambridge University Press, 2014
