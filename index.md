@@ -11,7 +11,7 @@
 - Skąd się biorą cząstki w pliku z danymi? [Reconstruction](Files/LAB_reconstruction.pptx)
 
 ## HOT NEWS!
-- Evidence of new physics (Measurement of the Positive Muon Anomalous Magnetic Moment) [web page](https://news.fnal.gov/2021/04/first-results-from-fermilabs-muon-g-2-experiment-strengthen-evidence-of-new-physics/) [article](Papers/PhysRevLett.126.141801_muong2.pdf)
+- Evidence of new physics (Measurement of the Positive Muon Anomalous Magnetic Moment) [web page](https://news.fnal.gov/2021/04/first-results-from-fermilabs-muon-g-2-experiment-strengthen-evidence-of-new-physics/) [article](Papers/muong2.pdf)
 - Violation of lepton universality (Strengthened hints for a violation of lepton universality in B decays) [article](https://arxiv.org/abs/2103.11769)
 
 ## Literature:
