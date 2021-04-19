@@ -11,6 +11,7 @@
 - Zderzenia [Zadania](Files/Zadania_2.pdf)
 ## LABORATORY
 - Skąd się biorą cząstki w pliku z danymi? [Reconstruction](Files/LAB_reconstruction.pptx)
+- Identyfikacja cząstek w eksperymencie LHCb [Identyfikacja](Files/Identyfikacja.pdf)
 
 ## HOT NEWS!
 - Evidence of new physics (Measurement of the Positive Muon Anomalous Magnetic Moment) [web page](https://news.fnal.gov/2021/04/first-results-from-fermilabs-muon-g-2-experiment-strengthen-evidence-of-new-physics/) [article](Paper/muong2.pdf)
@@ -21,7 +22,8 @@
 - Alessandro Bettini “Introduction to Elementary Particle Physics”  Cambridge University Press, 2014
 - Donald H. Perkins "Introduction to High Energy Physics" (4th ed.) Cambridge University Press, 2000 [resources](doi:10.1017/CBO9780511809040)
 
-### J/Psi decay to muons (real data) 
+### J/Psi decay to muons (real data)
+- Analiza danych [materiały](Files/LAB_analiza.pdf]
 
 
 ## Particle Physics projects for AGH UST FPACS students
