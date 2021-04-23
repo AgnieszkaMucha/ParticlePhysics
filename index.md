@@ -1,11 +1,12 @@
 {% include cool_header.html %}
 # Cząstki Elementarne i Oddziaływania - semestr letni 2021
 ## WYKŁADY
-- Wprowadzenie [wykład 1](Files/wyklad_1_Introduction.pdf)
-- Relatywistyka [wykład 2](Files/wyklad_2_relatywistyka.pdf)
-- Wiązki, zderzenia, Złota Reguła Fermiego [wykład 3](Files/wyklad_3_zderzeniaFGR.pdf)
-- Oddziaływania elektromagnetycze [wykład 4](Files/wyklad_4_QED.pdf)
-- Rozpraszanie elektron-proton [wykład 5](Files/wyklad_5_ep.pdf)
+- Wprowadzenie [wykład](Files/wyklad_1_Introduction.pdf)
+- Relatywistyka [wykład](Files/wyklad_2_relatywistyka.pdf)
+- Wiązki, zderzenia, Złota Reguła Fermiego [wykład](Files/wyklad_3_zderzeniaFGR.pdf)
+- Oddziaływania elektromagnetycze [wykład](Files/wyklad_4_QED.pdf)
+- Rozpraszanie elektron-proton [wykład](Files/wyklad_5_ep.pdf)
+- Model Kwarkowy [wykład](Files/wyklad_7_modelKwarkowy.pdf)
 ## ĆWICZENIA
 - Relatywistyka [Zadania](Files/Zadania_1.pdf)
 - Zderzenia [Zadania](Files/Zadania_2.pdf)
