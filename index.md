@@ -6,7 +6,7 @@
 - Wiązki, zderzenia, Złota Reguła Fermiego [wykład](Files/wyklad_3_zderzeniaFGR.pdf)
 - Oddziaływania elektromagnetycze [wykład](Files/wyklad_4_QED.pdf)
 - Rozpraszanie elektron-proton [wykład](Files/wyklad_5_ep.pdf)
-- Model Kwarkowy [wykład](Files/wyklad_7_modelKwarkowy.pdf)
+- Model Kwarkowy [wykład](Files/wyklad_7_ModelKwarkowy.pdf)
 ## ĆWICZENIA
 - Relatywistyka [Zadania](Files/Zadania_1.pdf)
 - Zderzenia [Zadania](Files/Zadania_2.pdf)
