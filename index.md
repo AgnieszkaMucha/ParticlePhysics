@@ -7,6 +7,7 @@
 - Oddziaływania elektromagnetycze [wykład](Files/wyklad_4_QED.pdf)
 - Rozpraszanie elektron-proton [wykład](Files/wyklad_5_ep.pdf)
 - Model Kwarkowy [wykład](Files/wyklad_7_ModelKwarkowy.pdf)
+- Oddziaływania silne [wykład](Files/wyklad_9_silne.pdf)
 ## ĆWICZENIA
 - Relatywistyka [Zadania](Files/Zadania_1.pdf)
 - Zderzenia [Zadania](Files/Zadania_2.pdf)
