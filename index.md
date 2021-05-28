@@ -10,7 +10,7 @@
 - Oddziaływania silne [wykład](Files/wyklad_9_silne.pdf)
 - Oddziaływania słabe i elektrosłabe [wykład](Files/wyklad_10_EW.pdf)
 - Fizyka na LHC [wykład](Files/wyklad_11_LHC_Higgs.pdf)
-- Oscylacje zapachu [wykład](Files/Flavour_oscillation.pdf)
+- Oscylacje zapachu [wykład](Files/Flavour_oscillations.pdf)
 ## ĆWICZENIA
 - Relatywistyka [Zadania](Files/Zadania_1.pdf)
 - Zderzenia [Zadania](Files/Zadania_2.pdf)
