@@ -6,6 +6,9 @@
 - Wprowadzenie [wykład](Files/wyklad_1_Introduction.pdf)
 - Relatywistyka [wykład](Files/wyklad_2_relatywistyka.pdf)
 
+## ĆWICZENIA
+- Relatywistyka (21.03.2022) [Zadania](Files/Zadania_2022_1.pdf)
+
 <!--
 - Wiązki, zderzenia, Złota Reguła Fermiego [wykład](Files/wyklad_3_zderzeniaFGR.pdf)
 - Oddziaływania elektromagnetycze [wykład](Files/wyklad_4_QED.pdf)
@@ -16,8 +19,6 @@
 - Fizyka na LHC [wykład](Files/wyklad_11_LHC_Higgs.pdf)
 - Oscylacje zapachu [wykład](Files/Flavour_oscillations.pdf)
 
-## ĆWICZENIA
-- Relatywistyka (21.03.2022) [Zadania](Files/Zadania_2022_1.pdf)
 
 <!--
 - Zderzenia [Zadania](Files/Zadania_2.pdf)
