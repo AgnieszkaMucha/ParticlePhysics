@@ -1,10 +1,12 @@
 {% include cool_header.html %}
 ### AGH UST Kraków
 ### Wydział Fizyki i Informatyki Stosowanej
-# Cząstki Elementarne i Oddziaływania - semestr letni 2021
+# Cząstki Elementarne i Oddziaływania - semestr letni 2022
 ## WYKŁADY
 - Wprowadzenie [wykład](Files/wyklad_1_Introduction.pdf)
 - Relatywistyka [wykład](Files/wyklad_2_relatywistyka.pdf)
+
+<!--
 - Wiązki, zderzenia, Złota Reguła Fermiego [wykład](Files/wyklad_3_zderzeniaFGR.pdf)
 - Oddziaływania elektromagnetycze [wykład](Files/wyklad_4_QED.pdf)
 - Rozpraszanie elektron-proton [wykład](Files/wyklad_5_ep.pdf)
@@ -13,6 +15,8 @@
 - Oddziaływania słabe i elektrosłabe [wykład](Files/wyklad_10_EW.pdf)
 - Fizyka na LHC [wykład](Files/wyklad_11_LHC_Higgs.pdf)
 - Oscylacje zapachu [wykład](Files/Flavour_oscillations.pdf)
+
+-->
 ## ĆWICZENIA
 - Relatywistyka [Zadania](Files/Zadania_1.pdf)
 - Zderzenia [Zadania](Files/Zadania_2.pdf)
@@ -37,7 +41,7 @@
 - Donald H. Perkins "Introduction to High Energy Physics" (4th ed.) Cambridge University Press, 2000 [resources](doi:10.1017/CBO9780511809040)
 
 
-
+<!--
 
 
 ## Goals of the course:
@@ -64,7 +68,7 @@ D mesons contain charm quark. The lighter D<sup>+</sup> meson contains also one 
    - Choose one mode of D meson decay, select candidates,
    - plot distribution of mass and life-time,
    - make fits and compare parameters with theory.
-   
+-->   
 
 ### Working environment 
 HEP analyses usually require [ROOT framework](https://root.cern/). 
