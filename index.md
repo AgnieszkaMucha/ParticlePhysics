@@ -21,7 +21,7 @@
 - Relatywistyka [Zadania](Files/Zadania_1.pdf)
 - Zderzenia [Zadania](Files/Zadania_2.pdf)
 - Kwarki [Zadania](Files/zadania_3.pdf)
-## LABORATORY
+## LABORATORIUM
 - Skąd się biorą cząstki w pliku z danymi? [Reconstruction](Files/LAB_reconstruction.pptx)
 - Identyfikacja cząstek w eksperymencie LHCb [Identyfikacja](Files/Identyfikacja.pdf)
 
