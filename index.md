@@ -16,9 +16,10 @@
 - Fizyka na LHC [wykład](Files/wyklad_11_LHC_Higgs.pdf)
 - Oscylacje zapachu [wykład](Files/Flavour_oscillations.pdf)
 
--->
 ## ĆWICZENIA
-- Relatywistyka [Zadania](Files/Zadania_1.pdf)
+- Relatywistyka (21.03.2022) [Zadania](Files/Zadania_2022_1.pdf)
+
+<!--
 - Zderzenia [Zadania](Files/Zadania_2.pdf)
 - Kwarki [Zadania](Files/zadania_3.pdf)
 ## LABORATORIUM
