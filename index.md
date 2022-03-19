@@ -6,7 +6,7 @@
 - Wprowadzenie [wykład](Files/wyklad_1_Introduction.pdf)
 - Relatywistyka [wykład](Files/wyklad_2_relatywistyka.pdf)
 - Wiązki, zderzenia, rozpady [wykład](Files/wyklad_3_zderzenia.pdf)
-- Złota Reguła Fermiego [wykład](Files/wyklad_3_zderzeniaFGR.pdf)
+- Złota Reguła Fermiego [wykład](Files/wyklad_4_FGR.pdf)
 - Źródła cząstek o wysokich energiach  [wykład](Files/wyklad_4_zrodla.pdf)
 
 ## ĆWICZENIA
