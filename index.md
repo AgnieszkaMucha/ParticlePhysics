@@ -5,14 +5,15 @@
 ## WYKŁADY
 - Wprowadzenie [wykład](Files/wyklad_1_Introduction.pdf)
 - Relatywistyka [wykład](Files/wyklad_2_relatywistyka.pdf)
--  Wiązki, zderzenia, rozpady [wykład](Files/wyklad_3_zderzenia.pdf)
+- Wiązki, zderzenia, rozpady [wykład](Files/wyklad_3_zderzenia.pdf)
+- Złota Reguła Fermiego [wykład](Files/wyklad_3_zderzeniaFGR.pdf)
 - Źródła cząstek o wysokich energiach  [wykład](Files/wyklad_4_zrodla.pdf)
 
 ## ĆWICZENIA
 - Relatywistyka (21.03.2022) [Zadania](Files/Zadania_2022_1.pdf)
 
 <!--
-- Wiązki, zderzenia, Złota Reguła Fermiego [wykład](Files/wyklad_3_zderzeniaFGR.pdf)
+
 - Oddziaływania elektromagnetycze [wykład](Files/wyklad_4_QED.pdf)
 - Rozpraszanie elektron-proton [wykład](Files/wyklad_5_ep.pdf)
 - Model Kwarkowy [wykład](Files/wyklad_7_ModelKwarkowy.pdf)
