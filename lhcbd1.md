@@ -12,7 +12,7 @@ Dalej już postępuje się tak samo niezależnie, czy mamy okno z linuxa, czy z 
 ```
 ssh -XY CEO_2022_NN@lhcbd1
 ```
-Nazwy kont to: `CEO_2021_NN@lhcbd1`, gdzie NN- oznacza numer studenta. Dane do logowania podane zostana na zajęciach. Prosze zauważyć, że przy wpisywaniu hasła kursor jest niewidoczny. 
+Nazwy kont to: `CEO_2022_NN@lhcbd1`, gdzie NN- oznacza numer studenta. Dane do logowania podane zostana na zajęciach. Prosze zauważyć, że przy wpisywaniu hasła kursor jest niewidoczny. 
 
 `jupyter notebook` do zrobienia analizy wymaga konfiguracji środowiska poprzez: 
 ```
