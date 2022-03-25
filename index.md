@@ -2,6 +2,9 @@
 ### AGH UST Kraków
 ### Wydział Fizyki i Informatyki Stosowanej
 # Cząstki Elementarne i Oddziaływania - semestr letni 2022
+
+## HOT NEWS! Magic beauty charmless decays: [przeczytaj ](https://lhcb-outreach.web.cern.ch/2022/03/17/magic-beauty-charmless-decays/)
+
 ## WYKŁADY
 - Wprowadzenie [wykład](Files/wyklad_1_Introduction.pdf)
 - Relatywistyka [wykład](Files/wyklad_2_relatywistyka.pdf)
@@ -28,7 +31,6 @@
 - Skąd się biorą cząstki w pliku z danymi? [Reconstruction](Files/LAB_reconstruction.pptx)
 - Identyfikacja cząstek w eksperymencie LHCb [Identyfikacja](Files/Identyfikacja.pdf)
 
-## HOT NEWS! Magic beauty charmless decays: [przeczytaj: ](https://lhcb-outreach.web.cern.ch/2022/03/17/magic-beauty-charmless-decays/)
 
 <!--
 - Zderzenia [Zadania](Files/Zadania_2.pdf)
