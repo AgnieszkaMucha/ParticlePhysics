@@ -21,6 +21,7 @@
 - Oddziaływania słabe i elektrosłabe [wykład](Files/wyklad_10_EW.pdf)
 - Fizyka na LHC [wykład](Files/wyklad_11_LHC_Higgs.pdf)
 - Oscylacje zapachu [wykład](Files/Flavour_oscillations.pdf)
+-->
 
 ## LABORATORIUM
 - Wprowadzenie
