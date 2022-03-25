@@ -27,7 +27,7 @@
 -->
 
 ## LABORATORIUM
-- Wprowadzenie
+- Wprowadzenie - co w Roocie piszczy
 - Skąd się biorą cząstki w pliku z danymi? [Reconstruction](Files/LAB_reconstruction.pptx)
 - Identyfikacja cząstek w eksperymencie LHCb [Identyfikacja](Files/Identyfikacja.pdf)
 
