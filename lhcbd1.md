@@ -10,19 +10,15 @@ Używając MobaXterm, proszę zwrócić uwagę, czy w ustawieniach tej aplikacji
 Po uruchomieniu `MobaXterm` startujemy sesję ssh: `Sessions->SSH`. W oknie `Remote host` wpisujemy: `taurus.fis.agh.edu.pl`.
 Dalej już postępuje się tak samo niezależnie, czy mamy okno z linuxa, czy z Moby:  logujemy na konto swojego zespołu:
 ```
-ssh -XY CEO_2021_NN@lhcbd1
+ssh -XY CEO_2022_NN@lhcbd1
 ```
-Nazwy kont to: `CEO_2021_NN@lhcbd1`, gdzie NN- oznacza numer studenta. Dane do logowania zamieszczone są w materiałach na Teamsach. Prosze zauważyć, że przy wpisywaniu hasła kursor jest niewidoczny. 
+Nazwy kont to: `CEO_2021_NN@lhcbd1`, gdzie NN- oznacza numer studenta. Dane do logowania podane zostana na zajęciach. Prosze zauważyć, że przy wpisywaniu hasła kursor jest niewidoczny. 
 
-Po zalogowaniu się swoje konto, jeśli do analizy używamy ROOTa, to aktywujemy środowisko:
-```
-source /cvmfs/sft.cern.ch/lcg/views/LCG_97python3/x86_64-centos7-gcc9-opt/setup.sh
-```
-Użycie `jupyter notebook` do zrobienia analizy wymaga innego środowiska, konfigurowanego poprzez: 
+`jupyter notebook` do zrobienia analizy wymaga konfiguracji środowiska poprzez: 
 ```
 conda activate env-analysis-uproot
 ```
-Uwaga! Powyższe dwie konfiguracje powinny być stosowane od nowej sesji na serwerze, konfiguracje są ze sobą niezgodne ... <br>
+
 Dane do ćwiczenia dostępne są z katalogu (proszę nie kopiować danych do swojego domowego katalogu):
 ```
 /data4/ceo-data
