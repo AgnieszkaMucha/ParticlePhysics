@@ -31,7 +31,16 @@
 - Skąd się biorą cząstki w pliku z danymi? [Reconstruction](Files/LAB_reconstruction.pptx)
 - Identyfikacja cząstek w eksperymencie LHCb [Identyfikacja](Files/Identyfikacja.pdf)
 
-
+### ROOT 
+ You can find a plethora of ROOT tutorials. 
+ - Let's start with some basis:
+   - [ROOT - basis](https://root.cern.ch/root/htmldoc/guides/primer/ROOTPrimer.html) or [primer](https://root.cern/primer/)
+   - let's dive into ROOT from [here](https://root.cern.ch/root/htmldoc/guides/primer/ROOTPrimerLetter.pdf)
+ - All you need to do in ROOT is described in HASCO lectures and examples [2]:
+   - [here](https://indico.cern.ch/event/704163/contributions/2936719/) (.cpp and .py examples
+   - [there](https://indico.cern.ch/event/788195/contributions/3364842/) (also .ipynb examples)
+ 
+ 
 <!--
 - Zderzenia [Zadania](Files/Zadania_2.pdf)
 - Kwarki [Zadania](Files/zadania_3.pdf)
@@ -102,15 +111,7 @@ HEP analyses usually require [ROOT framework](https://root.cern/).
 ### Python 
 - practical course of Python, see [here](https://hsf-training.github.io/analysis-essentials/python/README.html)
 
-### ROOT 
- You can find a plethora of ROOT tutorials. 
- - Let's start with some basis:
-   - [ROOT - basis](https://root.cern.ch/root/htmldoc/guides/primer/ROOTPrimer.html) or [primer](https://root.cern/primer/)
-   - let's dive into ROOT from [here](https://root.cern.ch/root/htmldoc/guides/primer/ROOTPrimerLetter.pdf)
- - All you need to do in ROOT is described in HASCO lectures and examples [2]:
-   - [here](https://indico.cern.ch/event/704163/contributions/2936719/) (.cpp and .py examples
-   - [there](https://indico.cern.ch/event/788195/contributions/3364842/) (also .ipynb examples)
- 
+
 ### C++ or Py? This is the question...
 > Well, why not trying both? Below you can find example of the same analysis in ROOT in C++ and Python scenario [3]:
    - [ROOT C++](Files/Tutorial-ROOT.pdf)
