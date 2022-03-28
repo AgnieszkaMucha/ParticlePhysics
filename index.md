@@ -27,7 +27,7 @@
 -->
 
 ## LABORATORIUM
-- Wprowadzenie - co w Roocie piszczy
+- Wprowadzenie - co w Roocie piszczy? Generacja rozpadu, [zadanie](Files/Lab_2022_TGen_PS.pptx)
 - Skąd się biorą cząstki w pliku z danymi? [Reconstruction](Files/LAB_reconstruction.pptx)
 - Identyfikacja cząstek w eksperymencie LHCb [Identyfikacja](Files/Identyfikacja.pdf)
 
