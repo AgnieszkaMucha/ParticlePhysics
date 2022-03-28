@@ -10,6 +10,7 @@
 - Relatywistyka [wykład](Files/wyklad_2_relatywistyka.pdf)
 - Wiązki, zderzenia, rozpady [wykład](Files/wyklad_3_zderzenia.pdf)
 - Złota Reguła Fermiego [wykład](Files/wyklad_4_FGR.pdf)
+- Oddziaływania elektromagnetycze [wykład](Files/wyklad_4_QED.pdf)
 - Źródła cząstek o wysokich energiach  [wykład](Files/wyklad_4_zrodla.pdf)
 
 ## ĆWICZENIA
@@ -17,7 +18,7 @@
 
 <!--
 
-- Oddziaływania elektromagnetycze [wykład](Files/wyklad_4_QED.pdf)
+
 - Rozpraszanie elektron-proton [wykład](Files/wyklad_5_ep.pdf)
 - Model Kwarkowy [wykład](Files/wyklad_7_ModelKwarkowy.pdf)
 - Oddziaływania silne [wykład](Files/wyklad_9_silne.pdf)
