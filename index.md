@@ -16,7 +16,7 @@
 ## ĆWICZENIA
 - Relatywistyka (21.03.2022) [Zadania](Files/Zadania_2022_1.pdf)
 - Zderzenia (4.04.2022) [Zadania](Files/Zadania_2.pdf)
-- Kwarki [Zadania](Files/zadania_3.pdf)
+
 <!--
 
 
@@ -44,7 +44,7 @@
  
  
 <!--
-
+- Kwarki [Zadania](Files/zadania_3.pdf)
 ## LABORATORIUM
 - Skąd się biorą cząstki w pliku z danymi? [Reconstruction](Files/LAB_reconstruction.pptx)
 - Identyfikacja cząstek w eksperymencie LHCb [Identyfikacja](Files/Identyfikacja.pdf)
