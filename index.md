@@ -29,7 +29,7 @@
 -->
 
 ## LABORATORIUM
-- Wprowadzenie - co w Roocie piszczy? Generacja rozpadu, [zadanie](Files/Lab_2022_TGenPS.pptx)
+- Wprowadzenie - co w Roocie piszczy? Generacja rozpadu, zadanie [pptx](Files/Lab_2022_TGenPS.pptx),  [pdf](Files/Lab_2022_TGenPS.pdf)
 - ROOT - różne techniki analizy 
 
 ## PROJEKT
