@@ -19,6 +19,7 @@
 ## ĆWICZENIA
 - Relatywistyka (21.03.2022) [Zadania](Files/Zadania_2022_1.pdf)
 - Zderzenia (4.04.2022) [Zadania](Files/Zadania_2.pdf)
+- Model kwarkowy (9.05.2022) [Zadania](Files/Zadania_2022_3.pdf)
 
 ### Zagadnienia do egzaminu: [tutaj](Files/zagadnienia.pdf)
 <!--
