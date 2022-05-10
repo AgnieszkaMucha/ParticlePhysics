@@ -14,19 +14,20 @@
 - Źródła cząstek o wysokich energiach  [wykład](Files/wyklad_4_zrodla.pdf)
 - Rozpraszanie elektron-proton [wykład](Files/wyklad_5_ep.pdf)
 - Model Kwarkowy [wykład](Files/wyklad_7_ModelKwarkowy.pdf)
-
+- Oddziaływania silne [wykład](Files/wyklad_9_silne.pdf)
 
 ## ĆWICZENIA
 - Relatywistyka (21.03.2022) [Zadania](Files/Zadania_2022_1.pdf)
 - Zderzenia (4.04.2022) [Zadania](Files/Zadania_2.pdf)
 - Model kwarkowy (9.05.2022) [Zadania](Files/Zadania_2022_3.pdf)
+- Ekperymentalne aspekty Modelu Standardowego (dodatek) [Zadania](Files/Zadania_2022_4.pdf)
 
 ### Zagadnienia do egzaminu: [tutaj](Files/zagadnienia.pdf)
 <!--
 
 
 
-- Oddziaływania silne [wykład](Files/wyklad_9_silne.pdf)
+
 - Oddziaływania słabe i elektrosłabe [wykład](Files/wyklad_10_EW.pdf)
 - Fizyka na LHC [wykład](Files/wyklad_11_LHC_Higgs.pdf)
 - Oscylacje zapachu [wykład](Files/Flavour_oscillations.pdf)
