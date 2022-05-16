@@ -15,6 +15,9 @@
 - Rozpraszanie elektron-proton [wykład](Files/wyklad_5_ep.pdf)
 - Model Kwarkowy [wykład](Files/wyklad_7_ModelKwarkowy.pdf)
 - Oddziaływania silne [wykład](Files/wyklad_9_silne.pdf)
+- Oddziaływania słabe i elektrosłabe [wykład](Files/wyklad_10_EW1.pdf)
+- Fizyka na LHC [wykład](Files/wyklad_11_LHC_Higgs1.pdf)
+- Oscylacje zapachu [wykład](Files/Flavour_oscillations1.pdf)
 
 ## ĆWICZENIA
 - Relatywistyka (21.03.2022) [Zadania](Files/Zadania_2022_1.pdf)
