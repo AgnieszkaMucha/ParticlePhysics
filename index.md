@@ -15,8 +15,8 @@
 - Rozpraszanie elektron-proton [wykład](Files/wyklad_5_ep.pdf)
 - Model Kwarkowy [wykład](Files/wyklad_7_ModelKwarkowy.pdf)
 - Oddziaływania silne [wykład](Files/wyklad_9_silne.pdf)
-- Charm & Beauty [wykład](Files/wyklad_8_CBe.pdf)
-- Oddziaływania słabe i elektrosłabe [wykład](Files/wyklad_10_EW1.pdf)
+- Charm & Beauty [wykład](Files/wyklad_8_CB.pdf)
+- Oddziaływania słabe i elektrosłabe [wykład](Files/wyklad_10_EW.pdf)
 - Fizyka na LHC [wykład](Files/wyklad_11_LHC_Higgs1.pdf)
 - Oscylacje zapachu [wykład](Files/Flavour_oscillations1.pdf)
 
