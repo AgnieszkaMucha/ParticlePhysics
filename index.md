@@ -3,7 +3,9 @@
 ### Wydział Fizyki i Informatyki Stosowanej
 # Cząstki Elementarne i Oddziaływania - semestr letni 2022
 
-## HOT NEWS! Magic beauty charmless decays: [przeczytaj ](https://lhcb-outreach.web.cern.ch/2022/03/17/magic-beauty-charmless-decays/)
+## HOT NEWS! 
+W dniach 6-10 czerwca 2022 r. w murach naszej Uczelni odbędzie się XIV Międzynarodowa Konferencja BEACH 2022, organizowanej przez zespół LHCb z Katedry Oddziaływań i Detekcji Cząstek WFiIS AGH. [Zapraszamy!](https://www.fis.agh.edu.pl/aktualnosci/2022-05-31-14-miedzynarodowa-konferencja-beach-2022/)
+Magic beauty charmless decays: [przeczytaj ](https://lhcb-outreach.web.cern.ch/2022/03/17/magic-beauty-charmless-decays/)
 
 ## WYKŁADY
 - Wprowadzenie [wykład](Files/wyklad_1_Introduction.pdf)
