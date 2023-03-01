@@ -4,7 +4,7 @@
 # Cząstki Elementarne i Oddziaływania - semestr letni 2023
 
 ## HOT NEWS! 
-<--
+<!--
 - Egzamin odbędzie się 20 czerwca o godzinie 11:15 w sali 108 D10.
 - W dniach 6-10 czerwca 2022 r. w murach naszej Uczelni odbędzie się XIV Międzynarodowa Konferencja BEACH 2022, organizowanej przez zespół LHCb z Katedry Oddziaływań i Detekcji Cząstek WFiIS AGH. [Zapraszamy!](https://www.agh.edu.pl/konferencje/konferencja/article/beach-2022/)
 - Magic beauty charmless decays: [przeczytaj ](https://lhcb-outreach.web.cern.ch/2022/03/17/magic-beauty-charmless-decays/)
