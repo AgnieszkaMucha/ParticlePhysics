@@ -1,12 +1,14 @@
 {% include cool_header.html %}
 ### AGH UST Kraków
 ### Wydział Fizyki i Informatyki Stosowanej
-# Cząstki Elementarne i Oddziaływania - semestr letni 2022
+# Cząstki Elementarne i Oddziaływania - semestr letni 2023
 
 ## HOT NEWS! 
+<--
 - Egzamin odbędzie się 20 czerwca o godzinie 11:15 w sali 108 D10.
 - W dniach 6-10 czerwca 2022 r. w murach naszej Uczelni odbędzie się XIV Międzynarodowa Konferencja BEACH 2022, organizowanej przez zespół LHCb z Katedry Oddziaływań i Detekcji Cząstek WFiIS AGH. [Zapraszamy!](https://www.agh.edu.pl/konferencje/konferencja/article/beach-2022/)
 - Magic beauty charmless decays: [przeczytaj ](https://lhcb-outreach.web.cern.ch/2022/03/17/magic-beauty-charmless-decays/)
+-->
 
 ## WYKŁADY
 - Wprowadzenie [wykład](Files/wyklad_1_Introduction.pdf)
@@ -24,9 +26,9 @@
 - Oscylacje zapachu [wykład](Files/Flavour_oscillations1.pdf)
 
 ## ĆWICZENIA
-- Relatywistyka (21.03.2022) [Zadania](Files/Zadania_2022_1.pdf)
-- Zderzenia (4.04.2022) [Zadania](Files/Zadania_2.pdf)
-- Model kwarkowy (9.05.2022) [Zadania](Files/Zadania_2022_3.pdf)
+- Relatywistyka  [Zadania](Files/Zadania_2022_1.pdf)
+- Zderzenia [Zadania](Files/Zadania_2.pdf)
+- Model kwarkowy [Zadania](Files/Zadania_2022_3.pdf)
 - Ekperymentalne aspekty Modelu Standardowego (dodatek) [Zadania](Files/Zadania_2022_4.pdf)
 
 ### Zagadnienia do egzaminu: [tutaj](Files/zagadnienia.pdf)
