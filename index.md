@@ -81,6 +81,7 @@
 ## Literature:
 - Mark Thomson "Modern Particle Physics", University of Cambridge, 2013 [online resources](https://www.hep.phy.cam.ac.uk/~thomson/MPP/ModernParticlePhysics.html)
 - Alessandro Bettini “Introduction to Elementary Particle Physics”  Cambridge University Press, 2014
+- David Griffiths "Introduction to Elementary Particles", John Wiley & Sons 1987
 - Donald H. Perkins "Introduction to High Energy Physics" (4th ed.) Cambridge University Press, 2000 [resources](doi:10.1017/CBO9780511809040)
 
 
