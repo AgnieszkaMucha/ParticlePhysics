@@ -32,11 +32,16 @@
 - Ekperymentalne aspekty Modelu Standardowego (dodatek) [Zadania](Files/Zadania_2022_4.pdf)
 
 ### Zagadnienia do egzaminu: [tutaj](Files/zagadnienia.pdf)
+
+## Literatura:
+- Mark Thomson "Modern Particle Physics", University of Cambridge, 2013 [online resources](https://www.hep.phy.cam.ac.uk/~thomson/MPP/ModernParticlePhysics.html)
+- Alessandro Bettini “Introduction to Elementary Particle Physics”  Cambridge University Press, 2014
+- David Griffiths "Introduction to Elementary Particles", John Wiley & Sons 1987
+- Donald H. Perkins "Introduction to High Energy Physics" (4th ed.) Cambridge University Press, 2000 [resources](doi:10.1017/CBO9780511809040)
+
+
+
 <!--
-
-
-
-
 - Oddziaływania słabe i elektrosłabe [wykład](Files/wyklad_10_EW.pdf)
 - Fizyka na LHC [wykład](Files/wyklad_11_LHC_Higgs.pdf)
 - Oscylacje zapachu [wykład](Files/Flavour_oscillations.pdf)
@@ -78,11 +83,7 @@
 - Evidence of new physics (Measurement of the Positive Muon Anomalous Magnetic Moment) [web page](https://news.fnal.gov/2021/04/first-results-from-fermilabs-muon-g-2-experiment-strengthen-evidence-of-new-physics/) [article](Paper/muong2.pdf)
 - Violation of lepton universality (Strengthened hints for a violation of lepton universality in B decays) [article](https://arxiv.org/abs/2103.11769)
 
-## Literature:
-- Mark Thomson "Modern Particle Physics", University of Cambridge, 2013 [online resources](https://www.hep.phy.cam.ac.uk/~thomson/MPP/ModernParticlePhysics.html)
-- Alessandro Bettini “Introduction to Elementary Particle Physics”  Cambridge University Press, 2014
-- David Griffiths "Introduction to Elementary Particles", John Wiley & Sons 1987
-- Donald H. Perkins "Introduction to High Energy Physics" (4th ed.) Cambridge University Press, 2000 [resources](doi:10.1017/CBO9780511809040)
+
 
 
 <!--
