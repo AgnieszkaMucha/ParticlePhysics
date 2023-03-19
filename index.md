@@ -119,9 +119,10 @@ D mesons contain charm quark. The lighter D<sup>+</sup> meson contains also one 
 HEP analyses usually require [ROOT framework](https://root.cern/). 
 > You can use ROOT on Windows but I strongly discourage you from doing this. 
 > You can either:
-- use our group server `lhcbd1` (access through `taurus.fis.agh.edu.pl`), you have both ROOT framowork, conda environment and data sets, see [here](lhcbd1.md),
 - use your personal computer with VM and install ROOT, see [here](https://root.cern/install/),
-- Jak skonfigurowac środowisko do pracy na lokalnym komputerze? Instrukcja jest [tutaj](https://agile.fis.agh.edu.pl/confluence/pages/viewpage.action?pageId=28837229)
+- używać ROOTa poprzez Google Collab: konfiguracja środowiska pracy podczas pracy w laboratorium WFiIS jest tutaj: [instrukcja](Files/WorkingEnvironment.pdf)
+- używać ROOTAa na swoim lokalnym komputerze po zajęciach, instrukcja jest [tutaj](https://agile.fis.agh.edu.pl/confluence/pages/viewpage.action?pageId=28837229)
+- "our" students can use our group server `lhcbd1` (access through `taurus.fis.agh.edu.pl`), you have both ROOT framowork, conda environment and data sets, see [here](lhcbd1.md),
 
 
 <!--
