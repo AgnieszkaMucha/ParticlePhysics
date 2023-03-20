@@ -46,7 +46,7 @@
 -->
 
 ## LABORATORIUM
-- ROOT - różne techniki analizy na przykładzie rozpadu J/Psi na parę mionów.
+- ROOT - różne techniki analizy na przykładzie rozpadu J/Psi na parę mionów (taurus:/home/staff/mucha/Public/CEO)
 - Generacja przykładowego rozpadu: [zadanie](Files/Lab_CEO_TGenPS.pdf)
 
 ### ROOT 
@@ -55,7 +55,7 @@
    - [ROOT - basis](https://root.cern.ch/root/htmldoc/guides/primer/ROOTPrimer.html) or [primer](https://root.cern/primer/)
    - let's dive into ROOT from [here](https://root.cern.ch/root/htmldoc/guides/primer/ROOTPrimerLetter.pdf)
  - All you need to do in ROOT is described in HASCO lectures and examples [2]:
-   - [here](https://indico.cern.ch/event/704163/contributions/2936719/) (.cpp and .py examples
+   - [here](https://indico.cern.ch/event/704163/contributions/2936719/) (.cpp and .py examples)
    - [there](https://indico.cern.ch/event/788195/contributions/3364842/) (also .ipynb examples)
  
  
