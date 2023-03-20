@@ -39,8 +39,6 @@
 - David Griffiths "Introduction to Elementary Particles", John Wiley & Sons 1987
 - Donald H. Perkins "Introduction to High Energy Physics" (4th ed.) Cambridge University Press, 2000 [resources](doi:10.1017/CBO9780511809040)
 
-
-
 <!--
 - Oddziaływania słabe i elektrosłabe [wykład](Files/wyklad_10_EW.pdf)
 - Fizyka na LHC [wykład](Files/wyklad_11_LHC_Higgs.pdf)
@@ -48,10 +46,8 @@
 -->
 
 ## LABORATORIUM
-- ROOT - różne techniki analizy - przykład: Rozpad J/Psi na parę mionów  [materiały](Files/LAB_analiza.pdf)
-- Wprowadzenie - co w Roocie piszczy? Generacja rozpadu, [zadanie](Files/Lab_CEO_TGenPS.pdf)
-
-
+- ROOT - różne techniki analizy na przykładzie rozpadu J/Psi na parę mionów.
+- Generacja przykładowego rozpadu: [zadanie](Files/Lab_CEO_TGenPS.pdf)
 
 ### ROOT 
  You can find a plethora of ROOT tutorials. 
