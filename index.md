@@ -46,7 +46,7 @@
 -->
 
 ## LABORATORIUM
-- ROOT - różne techniki analizy na przykładzie rozpadu J/Psi na parę mionów (taurus:/home/staff/mucha/Public/CEO)
+- ROOT - różne techniki analizy na przykładzie rozpadu J/Psi na parę mionów (_taurus:/home/staff/mucha/Public/CEO_)
 - Generacja przykładowego rozpadu: [zadanie](Files/Lab_CEO_TGenPS.pdf)
 
 ### ROOT 
