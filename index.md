@@ -48,14 +48,10 @@
 -->
 
 ## LABORATORIUM
+- ROOT - różne techniki analizy - przykład: Rozpad J/Psi na parę mionów  [materiały](Files/LAB_analiza.pdf)
 - Wprowadzenie - co w Roocie piszczy? Generacja rozpadu, [zadanie](Files/Lab_CEO_TGenPS.pdf)
-- ROOT - różne techniki analizy 
 
-## PROJEKT
-- Skąd się biorą cząstki w pliku z danymi? [Reconstruction](Files/LAB_reconstruction.pptx)
-- Identyfikacja cząstek w eksperymencie LHCb [Identyfikacja](Files/Identyfikacja.pdf)
-- Materia-antymateria (łamanie CP) [OPIS](Files/projekt_2022.pdf)
-- Zadanie projektowe [notatnik](https://github.com/lhcb/opendata-project/blob/master/LHCb_Open_Data_Project.ipynb)
+
 
 ### ROOT 
  You can find a plethora of ROOT tutorials. 
@@ -68,13 +64,19 @@
  
  
 <!--
+
+## PROJEKT
+- Skąd się biorą cząstki w pliku z danymi? [Reconstruction](Files/LAB_reconstruction.pptx)
+- Identyfikacja cząstek w eksperymencie LHCb [Identyfikacja](Files/Identyfikacja.pdf)
+- Materia-antymateria (łamanie CP) [OPIS](Files/projekt_2022.pdf)
+- Zadanie projektowe [notatnik](https://github.com/lhcb/opendata-project/blob/master/LHCb_Open_Data_Project.ipynb)
+
 - Kwarki [Zadania](Files/zadania_3.pdf)
 ## LABORATORIUM
 - Skąd się biorą cząstki w pliku z danymi? [Reconstruction](Files/LAB_reconstruction.pptx)
 - Identyfikacja cząstek w eksperymencie LHCb [Identyfikacja](Files/Identyfikacja.pdf)
 
-### J/Psi decay to muons (real data)
-- Analiza danych [materiały](Files/LAB_analiza.pdf)
+
 
 ## Particle Physics projects for AGH UST FPACS students
 - Materia-antymateria (łamanie CP) [OPIS](Files/projekt_2021.pdf)
