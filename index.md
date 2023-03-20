@@ -120,13 +120,14 @@ HEP analyses usually require [ROOT framework](https://root.cern/).
 - use your personal computer with VM and install ROOT, see [here](https://root.cern/install/),
 - używać ROOTa poprzez Google Collab: konfiguracja środowiska pracy podczas pracy w laboratorium WFiIS jest tutaj: [instrukcja](Files/WorkingEnvironment.pdf)
 - używać ROOTAa na swoim lokalnym komputerze po zajęciach, instrukcja jest [tutaj](https://agile.fis.agh.edu.pl/confluence/pages/viewpage.action?pageId=28837229)
-- "our" students can use our group server `lhcbd1` (access through `taurus.fis.agh.edu.pl`), you have both ROOT framowork, conda environment and data sets, see [here](lhcbd1.md),
+
 
 
 <!--
 - upload our VM and become a happy user of well-configured VM, `ROOT` and `conda` application:<br>
    - [description](https://indico.fis.agh.edu.pl/event/1/contributions/88/attachments/62/102/Hands-on-WorkEnv.pdf),<br>
    - [Ubuntu VM from AGH Google Suite](https://drive.google.com/file/d/1fCczgh12l2z8Af-JJszyJlv-Tt14365z/view).
+- "our" students can use our group server `lhcbd1` (access through `taurus.fis.agh.edu.pl`), you have both ROOT framowork, conda environment and data sets, see [here](lhcbd1.md),
 -->
 
 ### How to start with Jupyter Notebook
