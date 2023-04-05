@@ -50,9 +50,9 @@
 - Generacja przykładowego rozpadu: [zadanie](Files/Lab_CEO_TGenPS.pdf)
 
 ### ROOT 
- You can find a plethora of ROOT tutorials.
+ You can find a plethora of ROOT tutorials:
  - Very recent [Manual](https://root.cern/manual/basics/)
- - Examples with DataFrame [df](https://root.cern/doc/master/classROOT_1_1RDataFrame.html)
+ - Examples with DataFrame [here](https://root.cern/doc/master/classROOT_1_1RDataFrame.html)
  - Some old pages:
    - [ROOT - basis](https://root.cern.ch/root/htmldoc/guides/primer/ROOTPrimer.html) or [primer](https://root.cern/primer/)
    - let's dive into ROOT from [here](https://root.cern.ch/root/htmldoc/guides/primer/ROOTPrimerLetter.pdf)
