@@ -27,9 +27,9 @@
 
 ## ĆWICZENIA
 - Relatywistyka  [Zadania](Files/Zadania_2022_1.pdf)
-- Zderzenia [Zadania](Files/Zadania_2.pdf)
+- Zderzenia [Zadania](Files/Zadania_2.pdf) na 26.04 (środa)
 - Model kwarkowy [Zadania](Files/Zadania_2022_3.pdf)
-- Ekperymentalne aspekty Modelu Standardowego (dodatek) [Zadania](Files/Zadania_2022_4.pdf)
+- Ekperymentalne aspekty Modelu Standardowego [Zadania](Files/Zadania_2022_4.pdf)
 
 ### Zagadnienia do egzaminu: [tutaj](Files/zagadnienia.pdf)
 
@@ -47,7 +47,7 @@
 
 ## LABORATORIUM
 - ROOT - różne techniki analizy na przykładzie rozpadu J/Psi na parę mionów (_taurus:/home/staff/mucha/Public/CEO_)
-- Generacja przykładowego rozpadu: [zadanie](Files/Lab_CEO_TGenPS.pdf)
+- Generacja przykładowego rozpadu: [zadanie](Files/Lab_CEO_TGenPS.pdf) - termin oddania: 28.05.2023
 
 ### ROOT 
  You can find a plethora of ROOT tutorials:
