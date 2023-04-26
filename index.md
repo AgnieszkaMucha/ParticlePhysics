@@ -18,7 +18,7 @@
 - Oddziaływania elektromagnetycze [wykład](Files/wyklad_4_QED.pdf)
 - Źródła cząstek o wysokich energiach  [wykład](Files/wyklad_4_zrodla.pdf)
 - Rozpraszanie elektron-proton [wykład](Files/wyklad_5_ep.pdf)
-- Model Kwarkowy [wykład](Files/wyklad_7_ModelKwarkowy.pdf)
+- Model Kwarkowy [wykład](Files/wyklad_7_ModelKwarkowy.pdf) [problemy](Files/Zadania_2022_3.pdf)
 - Oddziaływania silne [wykład](Files/wyklad_9_silne.pdf)
 - Charm & Beauty [wykład](Files/wyklad_8_CB.pdf)
 - Oddziaływania słabe i elektrosłabe [wykład](Files/wyklad_10_EW.pdf)
@@ -28,8 +28,7 @@
 ## ĆWICZENIA
 - Relatywistyka  [Zadania](Files/Zadania_2022_1.pdf)
 - Zderzenia [Zadania](Files/Zadania_2.pdf) na 26.04 (środa)
-- Model kwarkowy [Zadania](Files/Zadania_2022_3.pdf)
-- Ekperymentalne aspekty Modelu Standardowego [Zadania](Files/Zadania_2022_4.pdf)
+- Ekperymentalne aspekty Modelu Standardowego [Zadania](Files/Zadania_2022_4.pdf) na 17.05 (środa)
 
 ### Zagadnienia do egzaminu: [tutaj](Files/zagadnienia.pdf)
 
