@@ -45,13 +45,14 @@
 -->
 
 ## LABORATORIUM
-- ROOT - różne techniki analizy na przykładzie rozpadu J/Psi na parę mionów (_taurus:/home/staff/mucha/Public/CEO_)
+- ROOT - różne techniki analizy na przykładzie rozpadu $J/\Psi$ na parę mionów (_taurus:/home/staff/mucha/Public/CEO_)
 - Generacja przykładowego rozpadu: [zadanie](Files/Lab_CEO_TGenPS.pdf) - termin oddania: 28.05.2023
 
 ## PROJEKT
 - Skąd się biorą cząstki w pliku z danymi? [Reconstruction](Files/LAB_reconstruction.pptx)
 - Identyfikacja cząstek w eksperymencie LHCb [Identyfikacja](Files/Identyfikacja.pdf)
 - Zadanie projektowe: Rekonstrukcja masy i wyznaczenie czasu życia mezonu $K^0_s$ i $\Lambda$ z danych zebranych przez eksperyment LHCb 
+- - Pliki z danymi umieszczone są w katalogu _taurus:/home/staff/mucha/Public/CEO_
 
 
 ### ROOT 
