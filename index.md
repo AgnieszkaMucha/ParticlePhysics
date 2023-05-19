@@ -53,8 +53,9 @@
 - Identyfikacja cząstek w eksperymencie LHCb [Identyfikacja](Files/Identyfikacja.pdf)
 - Zadanie projektowe: Rekonstrukcja masy i wyznaczenie czasu życia mezonu $K^0_s$ i $\Lambda$ z danych zebranych przez eksperyment LHCb 
     1. Pliki z danymi umieszczone są w katalogu _taurus:/home/staff/mucha/Public/CEO/projekt_
-    2. Środowisko pracy: przeczytaj poniżej o dedykowanej instalacji VM i ROOTa
+    2. Środowisko pracy: przeczytaj o dedykowanej instalacji VM i ROOTa [tutaj](https://github.com/AgnieszkaMucha/ParticlePhysics/blob/master/index.md#working-environment)
     3. Instrukcja: 
+ - Termin oddania: 25.06.2023
 
 
 ### ROOT 
