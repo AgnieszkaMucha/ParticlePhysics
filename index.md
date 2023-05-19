@@ -59,7 +59,40 @@
    - [here](https://indico.cern.ch/event/704163/contributions/2936719/) (.cpp and .py examples)
    - [there](https://indico.cern.ch/event/788195/contributions/3364842/) (also .ipynb examples)
  
- 
+### Working environment 
+HEP analyses usually require [ROOT framework](https://root.cern/). 
+> You can use ROOT on Windows but I strongly discourage you from doing this. 
+> You can either:
+- zainalować VM z preinstalowanym ROOTem i condą (podejście rekomendowane), zobacz i pobierz [tutaj](https://figshare.com/s/2fd8f8072f9b7e50cf4d)
+- use your personal computer with VM and install ROOT, see [here](https://root.cern/install/),
+- używać ROOTa poprzez Google Collab: konfiguracja środowiska pracy podczas pracy w laboratorium WFiIS jest tutaj: [instrukcja](Files/WorkingEnv)
+- używać ROOTAa na swoim lokalnym komputerze po zajęciach logując się na komputer w 204, instrukcja jest [tutaj](https://agile.fis.agh.edu.pl/confluence/pages/viewpage.action?pageId=28837229)
+
+
+
+<!--
+- upload our VM and become a happy user of well-configured VM, `ROOT` and `conda` application:<br>
+   - [description](https://indico.fis.agh.edu.pl/event/1/contributions/88/attachments/62/102/Hands-on-WorkEnv.pdf),<br>
+   - [Ubuntu VM from AGH Google Suite](https://drive.google.com/file/d/1fCczgh12l2z8Af-JJszyJlv-Tt14365z/view).
+- "our" students can use our group server `lhcbd1` (access through `taurus.fis.agh.edu.pl`), you have both ROOT framowork, conda environment and data sets, see [here](lhcbd1.md),
+-->
+
+### How to start with Jupyter Notebook
+- start with reading [this](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
+- everything you need to know is [here](https://hsf-training.github.io/analysis-essentials/python/01basics.html#Jupyter)
+
+
+### Python 
+- practical course of Python, see [here](https://hsf-training.github.io/analysis-essentials/python/README.html)
+
+
+### C++ or Py? This is the question...
+> Well, why not trying both? Below you can find example of the same analysis in ROOT in C++ and Python scenario [3]:
+   - [ROOT C++](Files/Tutorial-ROOT.pdf)
+   - [PyROOT](Files/Tutorial-PyROOT_2018.pdf)
+- Have a look at [PyROOT](https://root.cern/manual/python/) webpage.
+
+
 <!--
 
 ## PROJEKT
@@ -114,37 +147,6 @@ D mesons contain charm quark. The lighter D<sup>+</sup> meson contains also one 
    - make fits and compare parameters with theory.
 -->   
 
-### Working environment 
-HEP analyses usually require [ROOT framework](https://root.cern/). 
-> You can use ROOT on Windows but I strongly discourage you from doing this. 
-> You can either:
-- use your personal computer with VM and install ROOT, see [here](https://root.cern/install/),
-- używać ROOTa poprzez Google Collab: konfiguracja środowiska pracy podczas pracy w laboratorium WFiIS jest tutaj: [instrukcja](Files/WorkingEnvironment.pdf)
-- używać ROOTAa na swoim lokalnym komputerze po zajęciach, instrukcja jest [tutaj](https://agile.fis.agh.edu.pl/confluence/pages/viewpage.action?pageId=28837229)
-
-
-
-<!--
-- upload our VM and become a happy user of well-configured VM, `ROOT` and `conda` application:<br>
-   - [description](https://indico.fis.agh.edu.pl/event/1/contributions/88/attachments/62/102/Hands-on-WorkEnv.pdf),<br>
-   - [Ubuntu VM from AGH Google Suite](https://drive.google.com/file/d/1fCczgh12l2z8Af-JJszyJlv-Tt14365z/view).
-- "our" students can use our group server `lhcbd1` (access through `taurus.fis.agh.edu.pl`), you have both ROOT framowork, conda environment and data sets, see [here](lhcbd1.md),
--->
-
-### How to start with Jupyter Notebook
-- start with reading [this](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
-- everything you need to know is [here](https://hsf-training.github.io/analysis-essentials/python/01basics.html#Jupyter)
-
-
-### Python 
-- practical course of Python, see [here](https://hsf-training.github.io/analysis-essentials/python/README.html)
-
-
-### C++ or Py? This is the question...
-> Well, why not trying both? Below you can find example of the same analysis in ROOT in C++ and Python scenario [3]:
-   - [ROOT C++](Files/Tutorial-ROOT.pdf)
-   - [PyROOT](Files/Tutorial-PyROOT_2018.pdf)
-- Have a look at [PyROOT](https://root.cern/manual/python/) webpage.
 
 
 [1] LHCb Detector Performance, LHCb Collaboration, Roel Aaij et al. (Dec 19, 2014) [Int.J.Mod.Phys.A 30 (2015) 07, 1530022](https://arxiv.org/abs/1412.6352) <br>
