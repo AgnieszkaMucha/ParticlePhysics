@@ -63,7 +63,7 @@
 HEP analyses usually require [ROOT framework](https://root.cern/). 
 > You can use ROOT on Windows but I strongly discourage you from doing this. 
 > You can either:
-- zainalować VM z preinstalowanym ROOTem i condą (podejście rekomendowane), zobacz i pobierz [tutaj](https://figshare.com/s/2fd8f8072f9b7e50cf4d)
+- zainstalować VM z preinstalowanym ROOTem i condą (\bf{podejście rekomendowane}), zobacz i pobierz [tutaj](https://figshare.com/s/2fd8f8072f9b7e50cf4d)
 - use your personal computer with VM and install ROOT, see [here](https://root.cern/install/),
 - używać ROOTa poprzez Google Collab: konfiguracja środowiska pracy podczas pracy w laboratorium WFiIS jest tutaj: [instrukcja](Files/WorkingEnv)
 - używać ROOTAa na swoim lokalnym komputerze po zajęciach logując się na komputer w 204, instrukcja jest [tutaj](https://agile.fis.agh.edu.pl/confluence/pages/viewpage.action?pageId=28837229)
