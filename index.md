@@ -51,6 +51,9 @@
 ## PROJEKT
 - Skąd się biorą cząstki w pliku z danymi? [Reconstruction](Files/LAB_reconstruction.pptx)
 - Identyfikacja cząstek w eksperymencie LHCb [Identyfikacja](Files/Identyfikacja.pdf)
+2. Punkt 2
+    - Podpunkt 2.1
+        - Podpunkt 2.1.1
 1. Zadanie projektowe: Rekonstrukcja masy i wyznaczenie czasu życia mezonu $K^0_s$ i $\Lambda$ z danych zebranych przez eksperyment LHCb 
   1. Pliki z danymi umieszczone są w katalogu _taurus:/home/staff/mucha/Public/CEO/projekt_
   2. Środowisko pracy: przeczytaj poniżej o dedykowanej instalacji VM i ROOTa
