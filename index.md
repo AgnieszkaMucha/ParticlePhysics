@@ -66,8 +66,8 @@
    - [ROOT - basis](https://root.cern.ch/root/htmldoc/guides/primer/ROOTPrimer.html) or [primer](https://root.cern/primer/)
    - let's dive into ROOT from [here](https://root.cern.ch/root/htmldoc/guides/primer/ROOTPrimerLetter.pdf)
    - HASCO lectures and examples [2]:
-   - [here](https://indico.cern.ch/event/704163/contributions/2936719/) (.cpp and .py examples)
-   - [there](https://indico.cern.ch/event/788195/contributions/3364842/) (also .ipynb examples)
+       - [here](https://indico.cern.ch/event/704163/contributions/2936719/) (.cpp and .py examples)
+       - [there](https://indico.cern.ch/event/788195/contributions/3364842/) (also .ipynb examples)
  
 ### Working environment 
 HEP analyses usually require [ROOT framework](https://root.cern/). 
