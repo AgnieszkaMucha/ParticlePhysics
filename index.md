@@ -61,7 +61,7 @@
 ### ROOT 
  You can find a plethora of ROOT tutorials:
  - Very recent [Manual](https://root.cern/manual/basics/)
- - Very clear and qute new tutorial with C++ and Pyhon {here](https://www.nevis.columbia.edu/~seligman/root-class/RootClass2021.pdf)
+ - Very clear and quite new tutorial with C++ and Pyhon [here](https://www.nevis.columbia.edu/~seligman/root-class/RootClass2021.pdf)
  - Examples with DataFrame [here](https://root.cern/doc/master/classROOT_1_1RDataFrame.html)
  - PyROOT Workshop z 2022, [zobacz](https://indico.cern.ch/event/882824/contributions/3929999/)
  
