@@ -54,7 +54,7 @@
 - Zadanie projektowe: Rekonstrukcja masy i wyznaczenie czasu życia mezonu $K^0_s$ i $\Lambda$ z danych zebranych przez eksperyment LHCb 
     1. Pliki z danymi umieszczone są w katalogu _taurus:/home/staff/mucha/Public/CEO/Projekt_
     2. Środowisko pracy: przeczytaj poniżej o dedykowanej instalacji VM i ROOTa
-    3. Instrukcja: 
+    3. Instrukcje, dane i przykłady rozwiązań zamieszczone są na współdzielonym dysku (AGH Google) CEO-2023
  - Termin oddania: 25.06.2023
 
 
