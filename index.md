@@ -61,14 +61,18 @@
 ### ROOT 
  You can find a plethora of ROOT tutorials:
  - Very recent [Manual](https://root.cern/manual/basics/)
+ - Very clear and qute new tutorial with C++ and Pyhon {here](https://www.nevis.columbia.edu/~seligman/root-class/RootClass2021.pdf)
  - Examples with DataFrame [here](https://root.cern/doc/master/classROOT_1_1RDataFrame.html)
  - PyROOT Workshop z 2022, [zobacz](https://indico.cern.ch/event/882824/contributions/3929999/)
+ 
+ <!--
  - Some old pages:
    - [ROOT - basis](https://root.cern.ch/root/htmldoc/guides/primer/ROOTPrimer.html) or [primer](https://root.cern/primer/)
    - let's dive into ROOT from [here](https://root.cern.ch/root/htmldoc/guides/primer/ROOTPrimerLetter.pdf)
    - HASCO lectures and examples [2]:
        - [here](https://indico.cern.ch/event/704163/contributions/2936719/) (.cpp and .py examples)
        - [there](https://indico.cern.ch/event/788195/contributions/3364842/) (also .ipynb examples)
+ -->
  
 ### Working environment 
 HEP analyses usually require [ROOT framework](https://root.cern/). 
