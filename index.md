@@ -65,21 +65,20 @@
  - Examples with DataFrame [here](https://root.cern/doc/master/classROOT_1_1RDataFrame.html)
  - PyROOT Workshop z 2022, [zobacz](https://indico.cern.ch/event/882824/contributions/3929999/)
  
- <!--
-
+<!--
  - Some old pages:
    - [ROOT - basis](https://root.cern.ch/root/htmldoc/guides/primer/ROOTPrimer.html) or [primer](https://root.cern/primer/)
    - let's dive into ROOT from [here](https://root.cern.ch/root/htmldoc/guides/primer/ROOTPrimerLetter.pdf)
    - HASCO lectures and examples [2]:
        - [here](https://indico.cern.ch/event/704163/contributions/2936719/) (.cpp and .py examples)
        - [there](https://indico.cern.ch/event/788195/contributions/3364842/) (also .ipynb examples)
- -->
+-->
  
 ### Working environment 
 HEP analyses usually require [ROOT framework](https://root.cern/). 
 > You can use ROOT on Windows but I strongly discourage you from doing this. 
 > You can either:
-- zainstalować VM z preinstalowanym ROOTem i condą (**podejście rekomendowane**), zobacz i pobierz [tutaj](https://figshare.com/s/2fd8f8072f9b7e50cf4d)
+- zainstalować VM z preinstalowanym ROOTem i condą (**podejście rekomendowane**), zobacz i pobierz [tutaj](https://figshare.com/s/2fd8f8072f9b7e50cf4d), kilka wskazówek praktycznych jest [tutaj](Files/notatki_VM_Root.pptx)
 - use your personal computer with VM and install ROOT, see [here](https://root.cern/install/),
 - używać ROOTa poprzez Google Collab: konfiguracja środowiska pracy podczas pracy w laboratorium WFiIS jest tutaj: [instrukcja](Files/WorkingEnv)
 - używać ROOTAa na swoim lokalnym komputerze po zajęciach logując się na komputer w 204, instrukcja jest [tutaj](https://agile.fis.agh.edu.pl/confluence/pages/viewpage.action?pageId=28837229)
