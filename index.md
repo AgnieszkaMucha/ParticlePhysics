@@ -19,7 +19,7 @@
 - Źródła cząstek o wysokich energiach  [wykład](Files/wyklad_4_zrodla.pdf)
 - Rozpraszanie elektron-proton [wykład](Files/wyklad_5_ep.pdf)
 - Model Kwarkowy [wykład](Files/wyklad_7_ModelKwarkowy.pdf) [problemy](Files/Zadania_2022_3.pdf)
-- Oddziaływania silne [wykład](Files/wyklad_9_silne.pdf)
+- Oddziaływania silne [wykład](Files/wyklad_9_silne.pdf),  [wykład Jakuba](Files/wyklad-QCD-JWojnarowski.pdf)
 - Charm & Beauty [wykład](Files/wyklad_8_CB.pdf)
 - Oddziaływania słabe i elektrosłabe [wykład](Files/wyklad_10_EW.pdf)
 - Fizyka na LHC [wykład](Files/LHC_Higgs.pdf), [dodatek o MS](Files/SM_dodatek.pdf)
