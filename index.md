@@ -21,7 +21,7 @@
 - Model Kwarkowy [wykład](Files/wyklad_7_ModelKwarkowy.pdf) [problemy](Files/Zadania_2022_3.pdf)
 - Oddziaływania słabe i elektrosłabe [wykład](Files/wyklad_10_EW.pdf)
 - Oddziaływania silne [wykład](Files/wyklad_9_silne.pdf),  [prezentacja Jakuba](Files/wykład-QCD-JWojnarowski.pdf)
-- Charm & Beauty [wykład](Files/wyklad_8_CB.pdf),  [Beauty Przemka (Files/Beauty_PRys.pdf), [Produkcja Charmu Patryka (Files/CB_production_PPrus.pdf)
+- Charm & Beauty [wykład](Files/wyklad_8_CB.pdf),  [Beauty Przemka](Files/Beauty_PRys.pdf), [Produkcja Charmu Patryka](Files/CB_production_PPrus.pdf)
 - Fizyka na LHC [wykład](Files/LHC_Higgs.pdf), [dodatek o MS](Files/SM_dodatek.pdf)
 - Oscylacje zapachu [wykład](Files/Flavour_oscillations.pdf)
 
