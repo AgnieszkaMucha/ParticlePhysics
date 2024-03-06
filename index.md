@@ -1,7 +1,7 @@
 {% include cool_header.html %}
 ### AGH UST Kraków
 ### Wydział Fizyki i Informatyki Stosowanej
-# Cząstki Elementarne i Oddziaływania - semestr letni 2023
+# Cząstki Elementarne i Oddziaływania - semestr letni 2024
 
 ## HOT NEWS! 
 <!--
