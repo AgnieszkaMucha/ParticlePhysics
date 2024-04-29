@@ -8,6 +8,8 @@
 - Egzamin odbędzie się 20 czerwca o godzinie 11:15 w sali 108 D10.
 - W dniach 6-10 czerwca 2022 r. w murach naszej Uczelni odbędzie się XIV Międzynarodowa Konferencja BEACH 2022, organizowanej przez zespół LHCb z Katedry Oddziaływań i Detekcji Cząstek WFiIS AGH. [Zapraszamy!](https://www.agh.edu.pl/konferencje/konferencja/article/beach-2022/)
 - Magic beauty charmless decays: [przeczytaj ](https://lhcb-outreach.web.cern.ch/2022/03/17/magic-beauty-charmless-decays/)
+[prezentacja Jakuba](Files/wykład-QCD-JWojnarowski.pdf)
+ [Higgsy Filipa](Files/CEiO_Higgs_FBaran.pdf)
 -->
 
 ## WYKŁADY
@@ -19,10 +21,10 @@
 - Źródła cząstek o wysokich energiach  [wykład](Files/wyklad_4_zrodla.pdf)
 - Rozpraszanie elektron-proton [wykład](Files/wyklad_5_ep.pdf)
 - Model Kwarkowy [wykład](Files/wyklad_7_ModelKwarkowy.pdf) [problemy](Files/Zadania_2022_3.pdf)
+- Charm & Beauty [wykład](Files/wyklad_8_CB.pdf)
+- Oddziaływania silne [wykład](Files/wyklad_9_silne.pdf)   
 - Oddziaływania słabe i elektrosłabe [wykład](Files/wyklad_10_EW.pdf)
-- Oddziaływania silne [wykład](Files/wyklad_9_silne.pdf),  [prezentacja Jakuba](Files/wykład-QCD-JWojnarowski.pdf)
-- Charm & Beauty [wykład](Files/wyklad_8_CB.pdf), 
-- Fizyka na LHC [wykład](Files/LHC_Higgs.pdf), [Higgsy Filipa](Files/CEiO_Higgs_FBaran.pdf)
+- Fizyka na LHC [wykład](Files/LHC_Higgs.pdf),
 - Oscylacje zapachu [wykład](Files/Flavour_oscillations.pdf)
 
 ## ĆWICZENIA
