@@ -34,6 +34,9 @@
 
 ### Zagadnienia do egzaminu: [tutaj](Files/zagadnienia.pdf)
 
+egzamin I termin: 10.06.2024, godz. 8:00.
+egzamin II termin: 4.07.2024
+
 ## Literatura:
 - Mark Thomson "Modern Particle Physics", University of Cambridge, 2013 [online resources](https://www.hep.phy.cam.ac.uk/~thomson/MPP/ModernParticlePhysics.html)
 - Alessandro Bettini “Introduction to Elementary Particle Physics”  Cambridge University Press, 2014
