@@ -24,7 +24,7 @@
 - Charm & Beauty [wykład](Files/wyklad_8_CB.pdf)
 - Oddziaływania silne [wykład](Files/wyklad_9_silne.pdf)   
 - Oddziaływania słabe i elektrosłabe [wykład](Files/wyklad_10_EW.pdf)
-- 
+  
   <!--
 - Fizyka na LHC [wykład](Files/LHC_Higgs.pdf),
 - Oscylacje zapachu [wykład](Files/Flavour_oscillations.pdf)
