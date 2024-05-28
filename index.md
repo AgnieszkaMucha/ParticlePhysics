@@ -35,7 +35,7 @@
 - Zderzenia [Zadania](Files/Zadania_2.pdf) 
 - Ekperymentalne aspekty Modelu Standardowego [Zadania](Files/Zadania_2022_4.pdf)
 
-### Zagadnienia do egzaminu: [tutaj](Files/zagadnienia.pdf)
+### Zagadnienia do egzaminu 2024: [tutaj](Files/zagadnienia-2024.pdf)
 
 - egzamin I termin: 10.06.2024, godz. 8:00.
 - egzamin II termin: 4.07.2024
