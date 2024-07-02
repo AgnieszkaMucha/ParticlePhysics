@@ -38,7 +38,7 @@
 ### Zagadnienia do egzaminu 2024: [tutaj](Files/zagadnienia-2024.pdf)
 
 - egzamin I termin: 10.06.2024, godz. 8:00.
-- egzamin II termin: 4.07.2024
+- egzamin II termin: 3.07.2024 godz. 11, s 16/D10
 
 ## Literatura:
 - Mark Thomson "Modern Particle Physics", University of Cambridge, 2013 [online resources](https://www.hep.phy.cam.ac.uk/~thomson/MPP/ModernParticlePhysics.html)
